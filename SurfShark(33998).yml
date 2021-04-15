@@ -6,7 +6,7 @@ external-controller: 127.0.0.1:9090
 
 proxies:
   - {name: BE 🇧🇪 Brussels 1, server: 194.110.115.83, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.171, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.155, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: BE 🇧🇪 Brussels 3, server: 91.90.123.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.187, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: FR 🇫🇷 Marseille 1, server: 185.166.84.33, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
@@ -29,9 +29,9 @@ proxies:
   - {name: DE 🇩🇪 Munich 2, server: 213.136.64.21, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: DE 🇩🇪 Munich 3, server: 79.143.191.231, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: DE 🇩🇪 Munich 4, server: 178.238.231.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: DE 🇩🇪 Berlin 1, server: 193.29.106.13, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: DE 🇩🇪 Berlin 2, server: 193.29.106.29, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: DE 🇩🇪 Berlin 3, server: 193.29.106.19, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: DE 🇩🇪 Berlin 1, server: 193.29.106.139, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: DE 🇩🇪 Berlin 2, server: 193.29.106.109, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: DE 🇩🇪 Berlin 3, server: 193.29.106.197, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: DE 🇩🇪 Berlin 4, server: 193.29.106.51, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 1, server: 185.102.219.48, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 2, server: 82.102.16.100, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
