@@ -57,10 +57,10 @@ proxies:
   - {name: CH 🇨🇭 Zurich 2, server: 37.120.213.7, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: CH 🇨🇭 Zurich 3, server: 37.120.213.5, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: CH 🇨🇭 Zurich 4, server: 37.120.213.3, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: GB 🇬🇧 London 1, server: 178.239.172.57, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: GB 🇬🇧 London 1, server: 195.206.169.203, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: GB 🇬🇧 London 2, server: 185.141.206.250, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: GB 🇬🇧 London 3, server: 81.19.214.63, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: GB 🇬🇧 London 4, server: 185.44.78.56, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: GB 🇬🇧 London 4, server: 89.34.99.83, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: GB 🇬🇧 Glasgow 1, server: 185.108.105.186, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: GB 🇬🇧 Glasgow 2, server: 185.108.105.55, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: GB 🇬🇧 Glasgow 3, server: 185.108.105.13, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
@@ -77,14 +77,14 @@ proxies:
   - {name: US 🇺🇸 Boston 2, server: 173.237.207.32, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: US 🇺🇸 Boston 3, server: 173.237.207.56, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: US 🇺🇸 Boston 4, server: 173.237.207.42, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 Buffalo 1, server: 172.93.146.82, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 Buffalo 2, server: 64.44.42.162, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 Buffalo 3, server: 64.44.42.196, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 Buffalo 4, server: 64.44.42.194, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 New York 1, server: 199.36.221.121, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 New York 2, server: 89.187.178.92, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 New York 3, server: 199.36.221.101, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: US 🇺🇸 New York 4, server: 89.187.177.122, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 Buffalo 1, server: 107.175.104.86, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 Buffalo 2, server: 172.93.153.150, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 Buffalo 3, server: 107.174.20.130, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 Buffalo 4, server: 172.93.146.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 New York 1, server: 84.17.35.88, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 New York 2, server: 172.98.75.35, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 New York 3, server: 98.142.220.37, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US 🇺🇸 New York 4, server: 84.17.35.116, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: US 🇺🇸 Seattle 1, server: 212.102.46.71, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: US 🇺🇸 Seattle 2, server: 84.17.41.73, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: US 🇺🇸 Seattle 3, server: 212.102.46.46, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
@@ -191,13 +191,13 @@ proxies:
   - {name: PT 🇵🇹 Loule, server: 176.61.146.97, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: PT 🇵🇹 Porto, server: 194.39.127.36, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: RO 🇷🇴 Bucharest, server: 185.102.217.159, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: RU 🇷🇺 Moscow, server: 188.92.78.200, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: RU 🇷🇺 Moscow, server: 92.38.138.53, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: RU 🇷🇺 St. Petersburg, server: 188.92.78.203, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: RS 🇷🇸 Belgrade, server: 152.89.160.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: SK 🇸🇰 Bratislava, server: 185.76.8.212, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: SI 🇸🇮 Ljubljana, server: 195.158.249.46, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: ES 🇪🇸 Barcelona, server: 185.188.61.25, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: ES 🇪🇸 Madrid, server: 188.208.141.98, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: ES 🇪🇸 Madrid, server: 37.120.148.229, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: ES 🇪🇸 Valencia, server: 185.153.150.50, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: SE 🇸🇪 Stockholm, server: 195.181.166.226, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: UA 🇺🇦 Kyiv, server: 45.9.238.47, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
