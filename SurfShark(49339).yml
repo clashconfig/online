@@ -8,7 +8,7 @@ proxies:
   - {name: BE 🇧🇪 Brussels 1, server: 91.90.123.189, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.155, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: BE 🇧🇪 Brussels 3, server: 194.110.115.85, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.187, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.163, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Marseille 1, server: 185.166.84.33, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Marseille 2, server: 185.166.84.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Marseille 3, server: 138.199.16.142, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
@@ -17,7 +17,7 @@ proxies:
   - {name: FR 🇫🇷 Paris 2, server: 143.244.57.68, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Paris 3, server: 143.244.56.230, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Paris 4, server: 185.108.106.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.100, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.180, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Bordeaux 2, server: 185.166.84.29, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Bordeaux 3, server: 185.166.84.95, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: FR 🇫🇷 Bordeaux 4, server: 185.166.84.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
@@ -29,17 +29,17 @@ proxies:
   - {name: DE 🇩🇪 Munich 2, server: 79.143.191.139, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: DE 🇩🇪 Munich 3, server: 79.143.191.231, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: DE 🇩🇪 Munich 4, server: 79.143.191.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: DE 🇩🇪 Berlin 1, server: 193.29.106.99, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: DE 🇩🇪 Berlin 2, server: 217.138.216.251, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: DE 🇩🇪 Berlin 3, server: 193.29.106.165, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: DE 🇩🇪 Berlin 4, server: 193.29.106.221, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: DE 🇩🇪 Berlin 1, server: 193.29.106.11, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: DE 🇩🇪 Berlin 2, server: 152.89.163.231, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: DE 🇩🇪 Berlin 3, server: 193.29.106.109, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: DE 🇩🇪 Berlin 4, server: 217.138.216.61, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 1, server: 156.146.33.67, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: DE 🇩🇪 Frankfurt am Main 2, server: 185.102.219.6, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: DE 🇩🇪 Frankfurt am Main 3, server: 138.199.19.149, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: DE 🇩🇪 Frankfurt am Main 4, server: 82.102.16.101, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: DE 🇩🇪 Frankfurt am Main 2, server: 156.146.33.69, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: DE 🇩🇪 Frankfurt am Main 3, server: 156.146.33.71, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: DE 🇩🇪 Frankfurt am Main 4, server: 156.146.33.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: IT 🇮🇹 Rome 1, server: 82.102.26.53, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: IT 🇮🇹 Rome 2, server: 82.102.26.51, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: IT 🇮🇹 Rome 3, server: 82.102.26.101, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: IT 🇮🇹 Rome 2, server: 82.102.26.61, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: IT 🇮🇹 Rome 3, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: IT 🇮🇹 Rome 4, server: 82.102.26.91, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: IT 🇮🇹 Milan 1, server: 84.17.58.148, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: IT 🇮🇹 Milan 2, server: 212.102.54.150, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
