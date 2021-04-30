@@ -44,7 +44,7 @@ proxies:
   - {name: IT 🇮🇹 Milan 1, server: 84.17.58.148, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: IT 🇮🇹 Milan 2, server: 212.102.54.150, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: IT 🇮🇹 Milan 3, server: 212.102.55.68, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: IT 🇮🇹 Milan 4, server: 212.102.54.170, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: IT 🇮🇹 Milan 4, server: 212.102.55.68, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: FI 🇫🇮 Helsinki 1, server: 196.244.191.165, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: FI 🇫🇮 Helsinki 2, server: 196.244.191.197, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: FI 🇫🇮 Helsinki 3, server: 196.244.191.93, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
@@ -52,7 +52,7 @@ proxies:
   - {name: NL 🇳🇱 Amsterdam 1, server: 81.19.209.59, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: NL 🇳🇱 Amsterdam 2, server: 212.102.35.211, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: NL 🇳🇱 Amsterdam 3, server: 212.102.35.204, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 4, server: 81.19.208.56, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 4, server: 178.239.173.51, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: CH 🇨🇭 Zurich 1, server: 45.12.222.243, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: CH 🇨🇭 Zurich 2, server: 37.120.213.7, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: CH 🇨🇭 Zurich 3, server: 37.120.213.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
