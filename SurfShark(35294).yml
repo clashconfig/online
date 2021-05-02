@@ -5,13 +5,13 @@ log-level: silent
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - {name: BE 🇧🇪 Brussels 1, server: 91.90.123.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: BE 🇧🇪 Brussels 1, server: 194.110.115.93, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.155, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: BE 🇧🇪 Brussels 3, server: 194.110.115.85, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: FR 🇫🇷 Marseille 1, server: 185.166.84.63, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: FR 🇫🇷 Marseille 2, server: 185.166.84.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: FR 🇫🇷 Marseille 3, server: 138.199.16.142, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: FR 🇫🇷 Marseille 3, server: 185.166.84.57, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: FR 🇫🇷 Marseille 4, server: 185.166.84.55, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: FR 🇫🇷 Paris 1, server: 143.244.57.103, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: FR 🇫🇷 Paris 2, server: 143.244.57.68, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
@@ -38,9 +38,9 @@ proxies:
   - {name: DE 🇩🇪 Frankfurt am Main 3, server: 156.146.33.71, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 4, server: 156.146.33.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: IT 🇮🇹 Rome 1, server: 82.102.26.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: IT 🇮🇹 Rome 2, server: 185.217.71.19, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: IT 🇮🇹 Rome 2, server: 37.120.207.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: IT 🇮🇹 Rome 3, server: 82.102.26.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: IT 🇮🇹 Rome 4, server: 185.217.71.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: IT 🇮🇹 Rome 4, server: 87.101.94.227, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: IT 🇮🇹 Milan 1, server: 84.17.58.148, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: IT 🇮🇹 Milan 2, server: 212.102.54.150, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: IT 🇮🇹 Milan 3, server: 212.102.55.68, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
@@ -50,9 +50,9 @@ proxies:
   - {name: FI 🇫🇮 Helsinki 3, server: 196.244.191.93, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: FI 🇫🇮 Helsinki 4, server: 196.244.191.43, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: NL 🇳🇱 Amsterdam 1, server: 81.19.209.59, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 2, server: 212.102.35.211, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 3, server: 212.102.35.204, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 4, server: 178.239.173.51, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 2, server: 81.19.208.78, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 3, server: 212.102.35.214, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 4, server: 212.102.35.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: CH 🇨🇭 Zurich 1, server: 45.12.222.243, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: CH 🇨🇭 Zurich 2, server: 37.120.213.7, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: CH 🇨🇭 Zurich 3, server: 37.120.213.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
