@@ -5,22 +5,22 @@ log-level: silent
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - {name: BE 🇧🇪 Brussels 1, server: 194.110.115.93, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: BE 🇧🇪 Brussels 1, server: 91.90.123.179, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.155, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: BE 🇧🇪 Brussels 3, server: 194.110.115.85, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.163, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: FR 🇫🇷 Marseille 1, server: 185.166.84.63, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: FR 🇫🇷 Marseille 2, server: 185.166.84.83, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: FR 🇫🇷 Marseille 3, server: 185.166.84.57, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: FR 🇫🇷 Marseille 1, server: 138.199.16.145, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: FR 🇫🇷 Marseille 2, server: 138.199.16.152, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: FR 🇫🇷 Marseille 3, server: 138.199.16.150, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: FR 🇫🇷 Marseille 4, server: 185.166.84.55, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: FR 🇫🇷 Paris 1, server: 143.244.57.103, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: FR 🇫🇷 Paris 2, server: 143.244.57.68, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: FR 🇫🇷 Paris 3, server: 143.244.57.117, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: FR 🇫🇷 Paris 4, server: 185.108.106.102, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: FR 🇫🇷 Paris 4, server: 143.244.57.91, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.180, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 2, server: 185.166.84.29, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 3, server: 185.166.84.95, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 4, server: 185.166.84.77, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 2, server: 185.108.106.152, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.89, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 4, server: 185.108.106.160, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: DE 🇩🇪 Nuernberg 1, server: 144.91.123.52, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: DE 🇩🇪 Nuernberg 2, server: 62.171.151.158, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: DE 🇩🇪 Nuernberg 3, server: 62.171.151.160, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
@@ -52,7 +52,7 @@ proxies:
   - {name: NL 🇳🇱 Amsterdam 1, server: 81.19.209.59, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: NL 🇳🇱 Amsterdam 2, server: 81.19.208.78, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: NL 🇳🇱 Amsterdam 3, server: 212.102.35.214, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 4, server: 212.102.35.206, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 4, server: 81.19.209.113, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: CH 🇨🇭 Zurich 1, server: 45.12.222.243, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: CH 🇨🇭 Zurich 2, server: 37.120.213.7, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
   - {name: CH 🇨🇭 Zurich 3, server: 37.120.213.5, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
