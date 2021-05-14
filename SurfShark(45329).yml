@@ -6,7 +6,7 @@ external-controller: 127.0.0.1:9090
 
 proxies:
   - {name: BE 🇧🇪 Brussels 1, server: 91.90.123.179, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.155, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: BE 🇧🇪 Brussels 2, server: 194.110.115.93, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: BE 🇧🇪 Brussels 3, server: 194.110.115.85, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.163, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: FR 🇫🇷 Marseille 1, server: 138.199.16.145, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
@@ -14,13 +14,13 @@ proxies:
   - {name: FR 🇫🇷 Marseille 3, server: 138.199.16.150, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: FR 🇫🇷 Marseille 4, server: 185.166.84.55, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: FR 🇫🇷 Paris 1, server: 143.244.57.103, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: FR 🇫🇷 Paris 2, server: 143.244.57.68, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: FR 🇫🇷 Paris 2, server: 143.244.57.108, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: FR 🇫🇷 Paris 3, server: 143.244.57.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: FR 🇫🇷 Paris 4, server: 143.244.57.91, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.180, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 2, server: 185.108.106.152, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.89, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 4, server: 185.108.106.160, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: FR 🇫🇷 Paris 4, server: 143.244.57.75, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.146, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 2, server: 185.108.106.182, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.156, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 4, server: 185.108.106.162, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Nuernberg 1, server: 144.91.123.52, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Nuernberg 2, server: 62.171.151.158, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Nuernberg 3, server: 62.171.151.160, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
@@ -29,18 +29,18 @@ proxies:
   - {name: DE 🇩🇪 Munich 2, server: 79.143.191.139, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Munich 3, server: 79.143.191.231, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Munich 4, server: 79.143.191.141, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: DE 🇩🇪 Berlin 1, server: 193.29.106.51, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: DE 🇩🇪 Berlin 2, server: 193.29.106.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: DE 🇩🇪 Berlin 3, server: 193.29.106.85, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: DE 🇩🇪 Berlin 4, server: 193.29.106.195, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: DE 🇩🇪 Berlin 1, server: 37.120.217.149, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: DE 🇩🇪 Berlin 2, server: 193.176.86.199, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: DE 🇩🇪 Berlin 3, server: 193.29.106.213, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: DE 🇩🇪 Berlin 4, server: 193.29.106.219, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 1, server: 156.146.33.67, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 2, server: 195.181.174.228, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 3, server: 156.146.33.71, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 4, server: 156.146.33.83, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: IT 🇮🇹 Rome 1, server: 82.102.26.53, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: IT 🇮🇹 Rome 2, server: 37.120.207.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: IT 🇮🇹 Rome 2, server: 185.217.71.253, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: IT 🇮🇹 Rome 3, server: 82.102.26.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: IT 🇮🇹 Rome 4, server: 87.101.94.227, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: IT 🇮🇹 Rome 4, server: 82.102.26.101, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: IT 🇮🇹 Milan 1, server: 84.17.58.148, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: IT 🇮🇹 Milan 2, server: 212.102.54.150, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: IT 🇮🇹 Milan 3, server: 212.102.55.68, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
@@ -49,45 +49,45 @@ proxies:
   - {name: FI 🇫🇮 Helsinki 2, server: 196.244.191.197, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: FI 🇫🇮 Helsinki 3, server: 196.244.191.93, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: FI 🇫🇮 Helsinki 4, server: 196.244.191.43, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 1, server: 81.19.209.59, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 2, server: 81.19.208.78, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 1, server: 185.59.222.92, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 2, server: 212.102.35.199, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: NL 🇳🇱 Amsterdam 3, server: 212.102.35.214, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 4, server: 81.19.209.113, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 4, server: 185.59.222.94, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: CH 🇨🇭 Zurich 1, server: 45.12.222.243, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: CH 🇨🇭 Zurich 2, server: 37.120.213.7, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: CH 🇨🇭 Zurich 3, server: 37.120.213.5, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: CH 🇨🇭 Zurich 4, server: 37.120.213.3, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: GB 🇬🇧 London 1, server: 195.206.169.203, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 London 2, server: 185.141.206.250, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 London 3, server: 81.19.214.63, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 London 2, server: 217.146.83.81, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 London 3, server: 5.226.139.149, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: GB 🇬🇧 London 4, server: 89.34.99.83, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: GB 🇬🇧 Glasgow 1, server: 185.108.105.186, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 Glasgow 2, server: 185.108.105.55, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 Glasgow 3, server: 185.108.105.13, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 Glasgow 4, server: 185.108.105.147, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 Glasgow 2, server: 185.108.105.243, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 Glasgow 3, server: 185.108.105.235, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 Glasgow 4, server: 185.108.105.182, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: GB 🇬🇧 Manchester 1, server: 194.37.98.219, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 Manchester 2, server: 84.39.114.86, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 Manchester 3, server: 194.37.98.37, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GB 🇬🇧 Manchester 4, server: 89.238.141.197, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 Manchester 2, server: 89.238.135.35, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 Manchester 3, server: 91.90.121.181, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GB 🇬🇧 Manchester 4, server: 89.238.143.101, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Latham 1, server: 154.16.169.3, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Latham 2, server: 45.43.19.74, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Latham 3, server: 45.43.19.68, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Latham 4, server: 45.43.19.84, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Boston 1, server: 173.237.207.38, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Boston 2, server: 173.237.207.32, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 Boston 3, server: 173.237.207.56, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 Boston 3, server: 173.237.207.36, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Boston 4, server: 173.237.207.42, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 Buffalo 1, server: 107.175.104.86, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 Buffalo 2, server: 64.44.42.194, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 Buffalo 3, server: 107.175.104.82, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 Buffalo 4, server: 172.93.153.146, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 Buffalo 1, server: 107.175.104.84, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 Buffalo 2, server: 64.44.42.196, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 Buffalo 3, server: 107.174.20.132, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 Buffalo 4, server: 172.93.146.84, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 New York 1, server: 138.199.40.179, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 New York 2, server: 172.98.75.35, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 New York 3, server: 89.187.177.122, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 New York 3, server: 84.17.35.118, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 New York 4, server: 98.142.220.37, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 Seattle 1, server: 104.200.129.245, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 Seattle 1, server: 84.17.41.73, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Seattle 2, server: 198.8.80.85, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: US 🇺🇸 Seattle 3, server: 84.17.41.81, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: US 🇺🇸 Seattle 3, server: 198.8.80.229, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Seattle 4, server: 212.102.46.65, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Chicago 1, server: 138.199.42.151, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: US 🇺🇸 Chicago 2, server: 138.199.42.161, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
@@ -168,30 +168,30 @@ proxies:
   - {name: TR 🇹🇷 Istanbul, server: 107.150.95.149, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: TR 🇹🇷 Bursa, server: 185.195.79.21, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: AL 🇦🇱 Tirana, server: 31.171.153.133, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: AT 🇦🇹 Vienna, server: 37.120.212.77, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: AT 🇦🇹 Vienna, server: 5.253.207.85, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: BA 🇧🇦 Sarajevo, server: 185.99.3.207, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: BG 🇧🇬 Sofia, server: 217.138.202.19, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: BG 🇧🇬 Sofia, server: 37.120.152.197, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: HR 🇭🇷 Zagreb, server: 176.222.34.121, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: CY 🇨🇾 Nicosia, server: 195.47.194.42, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: CZ 🇨🇿 Prague, server: 185.180.14.149, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: DK 🇩🇰 Copenhagen, server: 193.29.107.187, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: EE 🇪🇪 Tallinn, server: 185.174.159.59, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: GR 🇬🇷 Athens, server: 194.150.167.30, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: HU 🇭🇺 Budapest, server: 37.120.144.147, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: CY 🇨🇾 Nicosia, server: 195.47.194.79, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: CZ 🇨🇿 Prague, server: 217.138.220.163, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: DK 🇩🇰 Copenhagen, server: 37.120.194.165, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: EE 🇪🇪 Tallinn, server: 185.174.159.61, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: GR 🇬🇷 Athens, server: 194.150.167.28, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: HU 🇭🇺 Budapest, server: 37.120.144.243, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: IS 🇮🇸 Reykjavik, server: 45.133.193.221, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: IE 🇮🇪 Dublin, server: 23.92.127.91, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: LV 🇱🇻 Riga, server: 188.92.78.135, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: LU 🇱🇺 Luxembourg, server: 185.153.151.96, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: MD 🇲🇩 Chisinau, server: 178.175.128.235, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: LU 🇱🇺 Luxembourg, server: 185.153.151.78, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: MD 🇲🇩 Chisinau, server: 194.33.40.114, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: MK 🇲🇰 Skopje, server: 185.225.28.85, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: NO 🇳🇴 Oslo, server: 91.219.215.21, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: PL 🇵🇱 Warsaw, server: 84.17.55.132, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: PL 🇵🇱 Warsaw, server: 138.199.17.130, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: PL 🇵🇱 Gdansk, server: 178.255.44.69, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: PT 🇵🇹 Lisbon, server: 91.205.230.164, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: PT 🇵🇹 Loule, server: 176.61.146.97, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: PT 🇵🇹 Porto, server: 194.39.127.36, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: RO 🇷🇴 Bucharest, server: 185.102.217.159, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: RU 🇷🇺 Moscow, server: 92.38.138.53, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: RU 🇷🇺 Moscow, server: 92.38.138.112, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: RU 🇷🇺 St. Petersburg, server: 188.92.78.203, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: RS 🇷🇸 Belgrade, server: 152.89.160.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
   - {name: SK 🇸🇰 Bratislava, server: 185.76.8.212, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
