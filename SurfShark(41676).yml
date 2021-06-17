@@ -21,9 +21,9 @@ proxies:
   - {name: FR 🇫🇷 Bordeaux 2, server: 185.108.106.164, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
   - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.180, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
   - {name: FR 🇫🇷 Bordeaux 4, server: 185.108.106.171, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
-  - {name: DE 🇩🇪 Nuernberg 1, server: 144.91.123.52, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
+  - {name: DE 🇩🇪 Nuernberg 1, server: 95.111.253.65, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
   - {name: DE 🇩🇪 Nuernberg 2, server: 144.91.123.50, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
-  - {name: DE 🇩🇪 Nuernberg 3, server: 62.171.151.160, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
+  - {name: DE 🇩🇪 Nuernberg 3, server: 95.111.253.63, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
   - {name: DE 🇩🇪 Nuernberg 4, server: 144.91.123.52, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
   - {name: DE 🇩🇪 Munich 1, server: 178.238.231.51, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
   - {name: DE 🇩🇪 Munich 2, server: 178.238.231.53, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
