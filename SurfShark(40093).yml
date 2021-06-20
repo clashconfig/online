@@ -3,11 +3,21 @@ allow-lan: false
 mode: Global
 log-level: silent
 external-controller: 127.0.0.1:9090
-
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  fallback:
+    - 1.1.1.1
+    - 8.8.8.8
 proxies:
   - {name: BE 🇧🇪 Brussels 1, server: 185.210.217.109, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.171, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: BE 🇧🇪 Brussels 3, server: 91.90.123.147, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.123, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: BE 🇧🇪 Brussels 3, server: 194.110.115.251, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.139, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: FR 🇫🇷 Marseille 1, server: 138.199.16.130, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: FR 🇫🇷 Marseille 2, server: 138.199.16.152, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
@@ -17,7 +27,7 @@ proxies:
   - {name: FR 🇫🇷 Paris 2, server: 143.244.57.97, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: FR 🇫🇷 Paris 3, server: 143.244.57.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: FR 🇫🇷 Paris 4, server: 84.17.43.180, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.152, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.174, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: FR 🇫🇷 Bordeaux 2, server: 185.108.106.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.180, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: FR 🇫🇷 Bordeaux 4, server: 185.108.106.171, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
@@ -53,7 +63,7 @@ proxies:
   - {name: NL 🇳🇱 Amsterdam 2, server: 178.239.173.47, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: NL 🇳🇱 Amsterdam 3, server: 178.239.173.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: NL 🇳🇱 Amsterdam 4, server: 185.59.222.94, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: CH 🇨🇭 Zurich 1, server: 212.102.36.234, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: CH 🇨🇭 Zurich 1, server: 84.17.53.208, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: CH 🇨🇭 Zurich 2, server: 156.146.62.54, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: CH 🇨🇭 Zurich 3, server: 212.102.36.232, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: CH 🇨🇭 Zurich 4, server: 84.17.53.223, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
