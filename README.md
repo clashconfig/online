@@ -6,4 +6,6 @@ ClashForAndroid : https://github.com/Kr328/ClashForAndroid/releases
 
 SagerNet : https://github.com/SagerNet/SagerNet/releases
 
+AnXray : https://github.com/XTLS/AnXray/releases
+
 ClashDotNetFramework : https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases
