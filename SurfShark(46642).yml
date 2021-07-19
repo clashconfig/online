@@ -79,7 +79,7 @@ proxies:
   - {name: GB 🇬🇧 Manchester 2, server: 194.37.96.211, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
   - {name: GB 🇬🇧 Manchester 3, server: 89.238.130.235, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
   - {name: GB 🇬🇧 Manchester 4, server: 89.238.138.237, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
-  - {name: US 🇺🇸 Latham 1, server: 192.154.248.181, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: US 🇺🇸 Latham 1, server: 45.43.19.84, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
   - {name: US 🇺🇸 Latham 2, server: 45.43.19.74, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
   - {name: US 🇺🇸 Latham 3, server: 45.43.19.68, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
   - {name: US 🇺🇸 Latham 4, server: 192.154.248.181, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
