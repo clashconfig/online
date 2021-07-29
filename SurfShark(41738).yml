@@ -15,7 +15,7 @@ dns:
     - 1.1.1.1
     - 8.8.8.8
 proxies:
-  - {name: BE 🇧🇪 Brussels 1, server: 194.110.115.253, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: BE 🇧🇪 Brussels 1, server: 194.110.115.85, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: BE 🇧🇪 Brussels 2, server: 91.90.123.123, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: BE 🇧🇪 Brussels 3, server: 194.110.115.251, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: BE 🇧🇪 Brussels 4, server: 91.90.123.229, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -23,22 +23,14 @@ proxies:
   - {name: FR 🇫🇷 Marseille 2, server: 185.166.84.73, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Marseille 3, server: 185.166.84.79, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Marseille 4, server: 185.166.84.89, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: FR 🇫🇷 Paris 1, server: 84.17.60.235, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: FR 🇫🇷 Paris 1, server: 143.244.57.81, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Paris 2, server: 143.244.57.110, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Paris 3, server: 143.244.56.232, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Paris 4, server: 143.244.57.99, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.174, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Bordeaux 2, server: 185.108.106.89, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.106, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.104, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FR 🇫🇷 Bordeaux 4, server: 185.108.106.171, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Nuernberg 1, server: 95.111.253.65, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Nuernberg 2, server: 144.91.123.50, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Nuernberg 3, server: 95.111.253.63, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Nuernberg 4, server: 144.91.123.52, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Munich 1, server: 178.238.231.51, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Munich 2, server: 178.238.231.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Munich 3, server: 79.143.191.231, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DE 🇩🇪 Munich 4, server: 79.143.191.141, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: DE 🇩🇪 Berlin 1, server: 193.29.106.85, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: DE 🇩🇪 Berlin 2, server: 193.29.106.165, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: DE 🇩🇪 Berlin 3, server: 193.29.106.155, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -47,11 +39,23 @@ proxies:
   - {name: DE 🇩🇪 Frankfurt am Main 2, server: 138.199.19.137, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 3, server: 185.59.220.150, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: DE 🇩🇪 Frankfurt am Main 4, server: 185.102.219.48, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: IT 🇮🇹 Rome 1, server: 82.102.26.93, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: IT 🇮🇹 Rome 2, server: 82.102.26.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: AZ 🇦🇿 Baku 1, server: 62.212.239.67, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: AZ 🇦🇿 Baku 2, server: 62.212.239.45, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: AZ 🇦🇿 Baku 3, server: 62.212.239.69, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: AZ 🇦🇿 Baku 4, server: 62.212.239.51, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 1, server: 185.59.222.94, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 2, server: 81.19.209.113, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 3, server: 178.239.173.41, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: NL 🇳🇱 Amsterdam 4, server: 81.19.209.20, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: DK 🇩🇰 Copenhagen 1, server: 193.29.107.107, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: DK 🇩🇰 Copenhagen 2, server: 193.29.107.179, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: DK 🇩🇰 Copenhagen 3, server: 2.58.46.3, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: DK 🇩🇰 Copenhagen 4, server: 193.29.107.221, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: IT 🇮🇹 Rome 1, server: 82.102.26.101, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: IT 🇮🇹 Rome 2, server: 185.217.71.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Rome 3, server: 185.217.71.5, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Rome 4, server: 185.217.71.229, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: IT 🇮🇹 Milan 1, server: 185.128.27.35, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: IT 🇮🇹 Milan 1, server: 212.102.55.66, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Milan 2, server: 212.102.54.141, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Milan 3, server: 84.17.58.150, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Milan 4, server: 212.102.55.68, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -59,10 +63,6 @@ proxies:
   - {name: FI 🇫🇮 Helsinki 2, server: 196.244.191.179, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FI 🇫🇮 Helsinki 3, server: 196.244.191.93, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: FI 🇫🇮 Helsinki 4, server: 196.244.191.91, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 1, server: 185.59.222.94, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 2, server: 81.19.209.113, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 3, server: 178.239.173.41, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: NL 🇳🇱 Amsterdam 4, server: 81.19.209.20, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CH 🇨🇭 Zurich 1, server: 156.146.62.51, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CH 🇨🇭 Zurich 2, server: 212.102.36.232, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CH 🇨🇭 Zurich 3, server: 212.102.36.234, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -79,7 +79,7 @@ proxies:
   - {name: GB 🇬🇧 Manchester 2, server: 194.37.96.211, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: GB 🇬🇧 Manchester 3, server: 89.238.130.235, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: GB 🇬🇧 Manchester 4, server: 89.238.138.237, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Latham 1, server: 45.43.19.84, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Latham 1, server: 45.43.19.66, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Latham 2, server: 45.43.19.74, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Latham 3, server: 45.43.19.68, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Latham 4, server: 192.154.248.181, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -87,10 +87,10 @@ proxies:
   - {name: US 🇺🇸 Boston 2, server: 173.237.207.11, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Boston 3, server: 173.237.207.42, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Boston 4, server: 173.237.207.44, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Buffalo 1, server: 172.93.146.212, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Buffalo 2, server: 172.93.146.84, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Buffalo 3, server: 172.93.153.148, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Buffalo 4, server: 172.93.146.82, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Buffalo 1, server: 172.93.146.82, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Buffalo 2, server: 107.175.104.84, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Buffalo 3, server: 107.174.20.132, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Buffalo 4, server: 107.174.20.130, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 New York 1, server: 84.17.35.76, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 New York 2, server: 84.17.35.93, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 New York 3, server: 138.199.40.172, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -108,9 +108,9 @@ proxies:
   - {name: US 🇺🇸 Detroit 3, server: 104.244.210.139, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Detroit 4, server: 104.244.210.115, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Denver 1, server: 212.102.44.94, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Denver 2, server: 212.102.44.91, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Denver 3, server: 212.102.44.81, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Denver 4, server: 212.102.44.78, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Denver 2, server: 212.102.44.71, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Denver 3, server: 212.102.44.73, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Denver 4, server: 212.102.44.93, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Bend 1, server: 154.16.168.186, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Bend 2, server: 154.16.168.184, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Bend 3, server: 45.43.14.73, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -121,7 +121,7 @@ proxies:
   - {name: US 🇺🇸 Kansas City 4, server: 63.141.236.243, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Manassas 1, server: 23.105.160.134, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Manassas 2, server: 23.105.178.160, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Manassas 3, server: 23.105.163.109, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Manassas 3, server: 207.244.67.149, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Manassas 4, server: 162.210.199.217, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Salt Lake City 1, server: 104.200.131.167, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Salt Lake City 2, server: 104.200.131.245, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -130,13 +130,13 @@ proxies:
   - {name: US 🇺🇸 St. Louis 1, server: 148.72.171.180, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 St. Louis 2, server: 148.72.174.41, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 St. Louis 3, server: 148.72.171.178, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 St. Louis 4, server: 148.72.174.46, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 St. Louis 4, server: 148.72.174.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Tampa 1, server: 209.216.92.3, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Tampa 2, server: 209.216.92.202, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Tampa 3, server: 209.216.92.200, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Tampa 4, server: 209.216.92.212, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Miami 1, server: 91.219.214.11, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Miami 2, server: 89.38.227.165, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Miami 2, server: 89.38.227.163, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Miami 3, server: 89.38.227.173, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Miami 4, server: 45.87.214.253, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Charlotte 1, server: 154.16.171.215, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -145,38 +145,41 @@ proxies:
   - {name: US 🇺🇸 Charlotte 4, server: 192.154.254.135, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Dallas 1, server: 89.187.175.165, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Dallas 2, server: 89.187.175.167, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Dallas 3, server: 66.115.177.141, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Dallas 4, server: 212.102.40.83, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Dallas 3, server: 66.115.177.131, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Dallas 4, server: 66.115.177.146, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Phoenix 1, server: 199.58.187.5, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Phoenix 2, server: 23.81.207.110, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Phoenix 3, server: 199.58.187.23, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Phoenix 2, server: 199.58.187.8, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Phoenix 3, server: 199.58.187.3, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Phoenix 4, server: 184.170.240.179, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Atlanta 1, server: 66.115.154.131, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Atlanta 2, server: 138.199.2.130, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Atlanta 3, server: 66.115.166.149, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Atlanta 4, server: 66.115.166.147, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Orlando 1, server: 66.115.182.112, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Orlando 1, server: 198.147.22.85, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Orlando 2, server: 66.115.182.77, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Orlando 3, server: 198.147.22.147, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Orlando 3, server: 66.115.182.106, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Orlando 4, server: 66.115.182.74, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Las Vegas 1, server: 45.89.173.205, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Las Vegas 2, server: 79.110.54.125, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Las Vegas 3, server: 79.110.53.205, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Las Vegas 4, server: 79.110.54.123, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Los Angeles 1, server: 89.187.187.76, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 Los Angeles 2, server: 138.199.9.199, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Los Angeles 2, server: 138.199.9.204, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Los Angeles 3, server: 138.199.9.207, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Los Angeles 4, server: 89.187.187.68, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Houston 1, server: 199.10.64.85, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Houston 2, server: 199.10.64.117, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Houston 3, server: 199.10.64.163, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 Houston 4, server: 199.10.64.99, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 San Francisco 1, server: 23.81.181.9, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: US 🇺🇸 San Francisco 2, server: 23.81.178.221, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 San Francisco 1, server: 185.124.240.165, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 San Francisco 2, server: 185.124.240.151, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 San Francisco 3, server: 185.124.240.145, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: US 🇺🇸 San Francisco 4, server: 185.124.240.149, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Ashburn 1, server: 37.19.220.201, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Ashburn 2, server: 37.19.220.199, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Ashburn 3, server: 37.19.220.196, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: US 🇺🇸 Ashburn 4, server: 37.19.220.194, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: TR 🇹🇷 Istanbul, server: 107.150.94.13, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: TR 🇹🇷 Bursa, server: 185.195.79.21, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: AL 🇦🇱 Tirana, server: 31.171.154.219, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: AT 🇦🇹 Vienna, server: 89.187.168.44, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: BA 🇧🇦 Sarajevo, server: 185.99.3.108, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -184,12 +187,11 @@ proxies:
   - {name: HR 🇭🇷 Zagreb, server: 176.222.34.121, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CY 🇨🇾 Nicosia, server: 195.47.194.52, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CZ 🇨🇿 Prague, server: 217.138.220.189, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: DK 🇩🇰 Copenhagen, server: 193.29.107.107, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: EE 🇪🇪 Tallinn, server: 185.174.159.133, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: GR 🇬🇷 Athens, server: 194.150.167.52, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: EE 🇪🇪 Tallinn, server: 185.174.159.138, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: GR 🇬🇷 Athens, server: 91.240.243.17, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: HU 🇭🇺 Budapest, server: 185.252.223.83, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IS 🇮🇸 Reykjavik, server: 45.133.193.221, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: IE 🇮🇪 Dublin, server: 185.108.128.160, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: IE 🇮🇪 Dublin, server: 5.157.13.91, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: LV 🇱🇻 Riga, server: 188.92.78.150, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: LU 🇱🇺 Luxembourg, server: 185.153.151.78, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: MD 🇲🇩 Chisinau, server: 194.33.40.112, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -198,16 +200,14 @@ proxies:
   - {name: PL 🇵🇱 Warsaw, server: 185.246.208.182, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: PL 🇵🇱 Gdansk, server: 178.255.45.187, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: PT 🇵🇹 Lisbon, server: 91.205.230.133, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: PT 🇵🇹 Loule, server: 176.61.146.97, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: PT 🇵🇹 Porto, server: 194.39.127.163, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: RO 🇷🇴 Bucharest, server: 185.102.217.159, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: RU 🇷🇺 Moscow, server: 92.38.138.118, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: RU 🇷🇺 St. Petersburg, server: 188.92.78.203, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: RS 🇷🇸 Belgrade, server: 152.89.160.61, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: SK 🇸🇰 Bratislava, server: 185.76.8.217, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: SI 🇸🇮 Ljubljana, server: 195.158.249.59, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: ES 🇪🇸 Barcelona, server: 82.102.26.235, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: ES 🇪🇸 Madrid, server: 89.37.95.25, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: ES 🇪🇸 Madrid, server: 89.37.95.183, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: ES 🇪🇸 Valencia, server: 185.153.150.50, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: SE 🇸🇪 Stockholm, server: 45.83.91.147, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: UA 🇺🇦 Kyiv, server: 156.146.50.109, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -216,17 +216,14 @@ proxies:
   - {name: CA 🇨🇦 Montreal, server: 91.245.254.235, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CA 🇨🇦 Toronto, server: 37.19.211.117, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CA 🇨🇦 Vancouver, server: 208.78.41.201, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: CL 🇨🇱 Santiago, server: 31.169.121.5, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CO 🇨🇴 Bogota, server: 45.129.32.20, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: CR 🇨🇷 San Jose, server: 176.222.34.115, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: MX 🇲🇽 Mexico City, server: 194.41.112.9, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: PY 🇵🇾 Asunción, server: 181.40.18.47, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: AU 🇦🇺 Perth, server: 124.150.139.123, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: AU 🇦🇺 Adelaide, server: 45.248.79.21, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: AU 🇦🇺 Brisbane, server: 144.48.39.83, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: AU 🇦🇺 Melbourne, server: 103.192.80.229, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: AU 🇦🇺 Sydney, server: 45.125.247.45, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: AZ 🇦🇿 Baku, server: 62.212.239.67, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: HK 🇭🇰 Hong Kong, server: 84.17.37.158, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IN 🇮🇳 Indore, server: 103.73.189.61, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IN 🇮🇳 Mumbai, server: 103.156.51.35, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -243,13 +240,13 @@ proxies:
   - {name: TH 🇹🇭 Bangkok, server: 27.131.164.85, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: VN 🇻🇳 Ho Chi Minh City, server: 202.143.110.32, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IL 🇮🇱 Tel Aviv, server: 87.239.255.121, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: LY 🇱🇾 Tripoli, server: 41.208.72.157, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: NG 🇳🇬 Lagos, server: 102.165.23.42, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: ZA 🇿🇦 Johannesburg, server: 102.165.47.134, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: AE 🇦🇪 Dubai, server: 176.125.231.5, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: AE 🇦🇪 Dubai, server: 176.125.231.35, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: PA 🇵🇦 Panama, server: 185.244.139.9, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: PE 🇵🇪 Lima, server: 193.218.35.9, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: VE 🇻🇪 Caracas, server: 45.149.3.7, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: GE 🇬🇪 Tbilisi, server: 91.239.207.224, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   
 proxy-groups:
   - name: 🔥 Auto
@@ -271,14 +268,6 @@ proxy-groups:
       - FR 🇫🇷 Bordeaux 2
       - FR 🇫🇷 Bordeaux 3
       - FR 🇫🇷 Bordeaux 4
-      - DE 🇩🇪 Nuernberg 1
-      - DE 🇩🇪 Nuernberg 2
-      - DE 🇩🇪 Nuernberg 3
-      - DE 🇩🇪 Nuernberg 4
-      - DE 🇩🇪 Munich 1
-      - DE 🇩🇪 Munich 2
-      - DE 🇩🇪 Munich 3
-      - DE 🇩🇪 Munich 4
       - DE 🇩🇪 Berlin 1
       - DE 🇩🇪 Berlin 2
       - DE 🇩🇪 Berlin 3
@@ -287,6 +276,18 @@ proxy-groups:
       - DE 🇩🇪 Frankfurt am Main 2
       - DE 🇩🇪 Frankfurt am Main 3
       - DE 🇩🇪 Frankfurt am Main 4
+      - AZ 🇦🇿 Baku 1
+      - AZ 🇦🇿 Baku 2
+      - AZ 🇦🇿 Baku 3
+      - AZ 🇦🇿 Baku 4
+      - NL 🇳🇱 Amsterdam 1
+      - NL 🇳🇱 Amsterdam 2
+      - NL 🇳🇱 Amsterdam 3
+      - NL 🇳🇱 Amsterdam 4
+      - DK 🇩🇰 Copenhagen 1
+      - DK 🇩🇰 Copenhagen 2
+      - DK 🇩🇰 Copenhagen 3
+      - DK 🇩🇰 Copenhagen 4
       - IT 🇮🇹 Rome 1
       - IT 🇮🇹 Rome 2
       - IT 🇮🇹 Rome 3
@@ -299,10 +300,6 @@ proxy-groups:
       - FI 🇫🇮 Helsinki 2
       - FI 🇫🇮 Helsinki 3
       - FI 🇫🇮 Helsinki 4
-      - NL 🇳🇱 Amsterdam 1
-      - NL 🇳🇱 Amsterdam 2
-      - NL 🇳🇱 Amsterdam 3
-      - NL 🇳🇱 Amsterdam 4
       - CH 🇨🇭 Zurich 1
       - CH 🇨🇭 Zurich 2
       - CH 🇨🇭 Zurich 3
@@ -415,8 +412,11 @@ proxy-groups:
       - US 🇺🇸 San Francisco 2
       - US 🇺🇸 San Francisco 3
       - US 🇺🇸 San Francisco 4
+      - US 🇺🇸 Ashburn 1
+      - US 🇺🇸 Ashburn 2
+      - US 🇺🇸 Ashburn 3
+      - US 🇺🇸 Ashburn 4
       - TR 🇹🇷 Istanbul
-      - TR 🇹🇷 Bursa
       - AL 🇦🇱 Tirana
       - AT 🇦🇹 Vienna
       - BA 🇧🇦 Sarajevo
@@ -424,7 +424,6 @@ proxy-groups:
       - HR 🇭🇷 Zagreb
       - CY 🇨🇾 Nicosia
       - CZ 🇨🇿 Prague
-      - DK 🇩🇰 Copenhagen
       - EE 🇪🇪 Tallinn
       - GR 🇬🇷 Athens
       - HU 🇭🇺 Budapest
@@ -438,11 +437,9 @@ proxy-groups:
       - PL 🇵🇱 Warsaw
       - PL 🇵🇱 Gdansk
       - PT 🇵🇹 Lisbon
-      - PT 🇵🇹 Loule
       - PT 🇵🇹 Porto
       - RO 🇷🇴 Bucharest
       - RU 🇷🇺 Moscow
-      - RU 🇷🇺 St. Petersburg
       - RS 🇷🇸 Belgrade
       - SK 🇸🇰 Bratislava
       - SI 🇸🇮 Ljubljana
@@ -456,17 +453,14 @@ proxy-groups:
       - CA 🇨🇦 Montreal
       - CA 🇨🇦 Toronto
       - CA 🇨🇦 Vancouver
-      - CL 🇨🇱 Santiago
       - CO 🇨🇴 Bogota
       - CR 🇨🇷 San Jose
       - MX 🇲🇽 Mexico City
-      - PY 🇵🇾 Asunción
       - AU 🇦🇺 Perth
       - AU 🇦🇺 Adelaide
       - AU 🇦🇺 Brisbane
       - AU 🇦🇺 Melbourne
       - AU 🇦🇺 Sydney
-      - AZ 🇦🇿 Baku
       - HK 🇭🇰 Hong Kong
       - IN 🇮🇳 Indore
       - IN 🇮🇳 Mumbai
@@ -483,13 +477,13 @@ proxy-groups:
       - TH 🇹🇭 Bangkok
       - VN 🇻🇳 Ho Chi Minh City
       - IL 🇮🇱 Tel Aviv
-      - LY 🇱🇾 Tripoli
       - NG 🇳🇬 Lagos
       - ZA 🇿🇦 Johannesburg
       - AE 🇦🇪 Dubai  
       - PA 🇵🇦 Panama
       - PE 🇵🇪 Lima
       - VE 🇻🇪 Caracas
+      - GE 🇬🇪 Tbilisi
 
 
     url: 'http://www.gstatic.com/generate_204'
@@ -516,14 +510,6 @@ proxy-groups:
       - FR 🇫🇷 Bordeaux 2
       - FR 🇫🇷 Bordeaux 3
       - FR 🇫🇷 Bordeaux 4
-      - DE 🇩🇪 Nuernberg 1
-      - DE 🇩🇪 Nuernberg 2
-      - DE 🇩🇪 Nuernberg 3
-      - DE 🇩🇪 Nuernberg 4
-      - DE 🇩🇪 Munich 1
-      - DE 🇩🇪 Munich 2
-      - DE 🇩🇪 Munich 3
-      - DE 🇩🇪 Munich 4
       - DE 🇩🇪 Berlin 1
       - DE 🇩🇪 Berlin 2
       - DE 🇩🇪 Berlin 3
@@ -532,6 +518,18 @@ proxy-groups:
       - DE 🇩🇪 Frankfurt am Main 2
       - DE 🇩🇪 Frankfurt am Main 3
       - DE 🇩🇪 Frankfurt am Main 4
+      - AZ 🇦🇿 Baku 1
+      - AZ 🇦🇿 Baku 2
+      - AZ 🇦🇿 Baku 3
+      - AZ 🇦🇿 Baku 4
+      - NL 🇳🇱 Amsterdam 1
+      - NL 🇳🇱 Amsterdam 2
+      - NL 🇳🇱 Amsterdam 3
+      - NL 🇳🇱 Amsterdam 4
+      - DK 🇩🇰 Copenhagen 1
+      - DK 🇩🇰 Copenhagen 2
+      - DK 🇩🇰 Copenhagen 3
+      - DK 🇩🇰 Copenhagen 4
       - IT 🇮🇹 Rome 1
       - IT 🇮🇹 Rome 2
       - IT 🇮🇹 Rome 3
@@ -544,10 +542,6 @@ proxy-groups:
       - FI 🇫🇮 Helsinki 2
       - FI 🇫🇮 Helsinki 3
       - FI 🇫🇮 Helsinki 4
-      - NL 🇳🇱 Amsterdam 1
-      - NL 🇳🇱 Amsterdam 2
-      - NL 🇳🇱 Amsterdam 3
-      - NL 🇳🇱 Amsterdam 4
       - CH 🇨🇭 Zurich 1
       - CH 🇨🇭 Zurich 2
       - CH 🇨🇭 Zurich 3
@@ -660,8 +654,11 @@ proxy-groups:
       - US 🇺🇸 San Francisco 2
       - US 🇺🇸 San Francisco 3
       - US 🇺🇸 San Francisco 4
+      - US 🇺🇸 Ashburn 1
+      - US 🇺🇸 Ashburn 2
+      - US 🇺🇸 Ashburn 3
+      - US 🇺🇸 Ashburn 4
       - TR 🇹🇷 Istanbul
-      - TR 🇹🇷 Bursa
       - AL 🇦🇱 Tirana
       - AT 🇦🇹 Vienna
       - BA 🇧🇦 Sarajevo
@@ -669,7 +666,6 @@ proxy-groups:
       - HR 🇭🇷 Zagreb
       - CY 🇨🇾 Nicosia
       - CZ 🇨🇿 Prague
-      - DK 🇩🇰 Copenhagen
       - EE 🇪🇪 Tallinn
       - GR 🇬🇷 Athens
       - HU 🇭🇺 Budapest
@@ -683,11 +679,9 @@ proxy-groups:
       - PL 🇵🇱 Warsaw
       - PL 🇵🇱 Gdansk
       - PT 🇵🇹 Lisbon
-      - PT 🇵🇹 Loule
       - PT 🇵🇹 Porto
       - RO 🇷🇴 Bucharest
       - RU 🇷🇺 Moscow
-      - RU 🇷🇺 St. Petersburg
       - RS 🇷🇸 Belgrade
       - SK 🇸🇰 Bratislava
       - SI 🇸🇮 Ljubljana
@@ -701,17 +695,14 @@ proxy-groups:
       - CA 🇨🇦 Montreal
       - CA 🇨🇦 Toronto
       - CA 🇨🇦 Vancouver
-      - CL 🇨🇱 Santiago
       - CO 🇨🇴 Bogota
       - CR 🇨🇷 San Jose
       - MX 🇲🇽 Mexico City
-      - PY 🇵🇾 Asunción
       - AU 🇦🇺 Perth
       - AU 🇦🇺 Adelaide
       - AU 🇦🇺 Brisbane
       - AU 🇦🇺 Melbourne
       - AU 🇦🇺 Sydney
-      - AZ 🇦🇿 Baku
       - HK 🇭🇰 Hong Kong
       - IN 🇮🇳 Indore
       - IN 🇮🇳 Mumbai
@@ -728,13 +719,13 @@ proxy-groups:
       - TH 🇹🇭 Bangkok
       - VN 🇻🇳 Ho Chi Minh City
       - IL 🇮🇱 Tel Aviv
-      - LY 🇱🇾 Tripoli
       - NG 🇳🇬 Lagos
       - ZA 🇿🇦 Johannesburg
       - AE 🇦🇪 Dubai  
       - PA 🇵🇦 Panama
       - PE 🇵🇪 Lima
       - VE 🇻🇪 Caracas
+      - GE 🇬🇪 Tbilisi
 
 
   - name: ✅ Direct
