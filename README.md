@@ -9,3 +9,7 @@ SagerNet : https://github.com/SagerNet/SagerNet/releases
 AnXray : https://github.com/XTLS/AnXray/releases
 
 ClashDotNetFramework : https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases
+
+ClashX : https://github.com/yichengchen/clashX/releases
+
+ClashX Pro : https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public
