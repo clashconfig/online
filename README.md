@@ -2,13 +2,15 @@ clash config that can be used in the following tools:
 
 Clash for Windows : https://github.com/Fndroid/clash_for_windows_pkg/releases
 
-ClashForAndroid : https://github.com/Kr328/ClashForAndroid/releases
+Clashr-Auto-Desktop : https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases
 
-SagerNet : https://github.com/SagerNet/SagerNet/releases
+ClashDotNetFramework : https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases
+
+ClashForAndroid : https://github.com/Kr328/ClashForAndroid/releases
 
 AnXray : https://github.com/XTLS/AnXray/releases
 
-ClashDotNetFramework : https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases
+SagerNet : https://github.com/SagerNet/SagerNet/releases
 
 ClashX : https://github.com/yichengchen/clashX/releases
 
