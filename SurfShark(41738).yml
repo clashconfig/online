@@ -23,10 +23,10 @@ proxies:
   - {name: BE 🇧🇪 Antwerp 2, server: 188.95.55.120, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: BE 🇧🇪 Antwerp 3, server: 188.95.55.118, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: BE 🇧🇪 Antwerp 4, server: 188.95.55.119, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: LU 🇱🇺 Luxembourg 1, server: 185.153.151.148, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: LU 🇱🇺 Luxembourg 2, server: 185.153.151.82, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: LU 🇱🇺 Luxembourg 3, server: 185.153.151.134, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: LU 🇱🇺 Luxembourg 4, server: 185.153.151.142, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: LU 🇱🇺 Luxembourg 1, server: 185.153.151.195, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: LU 🇱🇺 Luxembourg 2, server: 185.153.151.185, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: LU 🇱🇺 Luxembourg 3, server: 95.85.66.38, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: LU 🇱🇺 Luxembourg 4, server: 185.153.151.171, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: NO 🇳🇴 Oslo 1, server: 91.219.215.35, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: NO 🇳🇴 Oslo 2, server: 91.219.215.36, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: NO 🇳🇴 Oslo 3, server: 91.219.215.38, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
@@ -73,7 +73,7 @@ proxies:
   - {name: DK 🇩🇰 Copenhagen 4, server: 193.29.107.197, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Rome 1, server: 82.102.26.99, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Rome 2, server: 82.102.26.62, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: IT 🇮🇹 Rome 3, server: 82.102.26.51, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: IT 🇮🇹 Rome 3, server: 82.102.26.102, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Rome 4, server: 82.102.26.101, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Milan 1, server: 84.17.58.136, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
   - {name: IT 🇮🇹 Milan 2, server: 84.17.58.197, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
