@@ -1,6 +1,6 @@
 mixed-port: 7890
 allow-lan: false
-mode: Global
+mode: Rule
 log-level: silent
 external-controller: 127.0.0.1:9090
 dns:
@@ -969,8 +969,16 @@ proxy-groups:
       - REJECT
       - DIRECT
 
-rules:
+rule-providers:
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/SamadiPour/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/iran.yaml
+    interval: 432000
 
+rules:
+  - RULE-SET,iran,✅ Direct
   - DOMAIN-SUFFIX,ad.com,🚫 Intercept
   - SRC-IP-CIDR,192.168.1.201/32,✅ Direct
   - IP-CIDR,127.0.0.0/8,✅ Direct
