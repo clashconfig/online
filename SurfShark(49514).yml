@@ -16,26 +16,26 @@ dns:
     - https://dns.adguard.com/dns-query
 proxies:
   - {name: BE 🇧🇪 Brussels 1, server: 194.110.115.83, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: BE 🇧🇪 Brussels 2, server: 37.120.236.147, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: BE 🇧🇪 Brussels 3, server: 37.120.218.253, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: BE 🇧🇪 Brussels 4, server: 185.232.21.53, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: BE 🇧🇪 Brussels 2, server: 194.110.115.84, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: BE 🇧🇪 Brussels 3, server: 82.102.19.181, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: BE 🇧🇪 Brussels 4, server: 194.110.115.86, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: BE 🇧🇪 Antwerp 1, server: 188.95.55.115, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: BE 🇧🇪 Antwerp 2, server: 188.95.55.125, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: BE 🇧🇪 Antwerp 3, server: 188.95.55.123, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: BE 🇧🇪 Antwerp 4, server: 188.95.55.108, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: LU 🇱🇺 Luxembourg 1, server: 185.153.151.164, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: LU 🇱🇺 Luxembourg 1, server: 185.153.151.167, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: LU 🇱🇺 Luxembourg 2, server: 185.153.151.160, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: LU 🇱🇺 Luxembourg 3, server: 185.153.151.187, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: LU 🇱🇺 Luxembourg 4, server: 185.153.151.179, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: NO 🇳🇴 Oslo 1, server: 91.219.215.67, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: NO 🇳🇴 Oslo 2, server: 91.219.215.36, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: NO 🇳🇴 Oslo 2, server: 91.219.215.53, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: NO 🇳🇴 Oslo 3, server: 91.219.215.38, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: NO 🇳🇴 Oslo 4, server: 91.219.215.83, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: PL 🇵🇱 Gdansk 1, server: 5.133.8.117, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: PL 🇵🇱 Gdansk 2, server: 5.187.49.148, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: NO 🇳🇴 Oslo 4, server: 45.12.223.211, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: PL 🇵🇱 Gdansk 1, server: 5.187.53.54, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: PL 🇵🇱 Gdansk 2, server: 5.187.53.53, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: PL 🇵🇱 Gdansk 3, server: 5.133.14.198, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: PL 🇵🇱 Gdansk 4, server: 5.187.49.147, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: PL 🇵🇱 Warsaw 1, server: 5.253.206.67, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: PL 🇵🇱 Gdansk 4, server: 37.28.156.115, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: PL 🇵🇱 Warsaw 1, server: 185.246.208.72, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: PL 🇵🇱 Warsaw 2, server: 185.246.208.106, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: PL 🇵🇱 Warsaw 3, server: 185.246.208.108, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: PL 🇵🇱 Warsaw 4, server: 138.199.17.130, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -47,7 +47,7 @@ proxies:
   - {name: FR 🇫🇷 Marseille 2, server: 185.166.84.73, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: FR 🇫🇷 Marseille 3, server: 138.199.16.142, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: FR 🇫🇷 Marseille 4, server: 138.199.16.130, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.171, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: FR 🇫🇷 Bordeaux 1, server: 185.108.106.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: FR 🇫🇷 Bordeaux 2, server: 185.108.106.175, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: FR 🇫🇷 Bordeaux 3, server: 185.108.106.174, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: FR 🇫🇷 Bordeaux 4, server: 185.108.106.172, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -55,28 +55,28 @@ proxies:
   - {name: DE 🇩🇪 Berlin 2, server: 156.146.33.66, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DE 🇩🇪 Berlin 3, server: 156.146.33.67, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DE 🇩🇪 Berlin 4, server: 156.146.33.68, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: DE 🇩🇪 Frankfurt am Main 1, server: 138.199.19.169, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: DE 🇩🇪 Frankfurt am Main 1, server: 82.102.16.102, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DE 🇩🇪 Frankfurt am Main 2, server: 82.102.16.101, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DE 🇩🇪 Frankfurt am Main 3, server: 82.102.16.99, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: DE 🇩🇪 Frankfurt am Main 4, server: 185.102.219.6, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: DE 🇩🇪 Frankfurt am Main 4, server: 82.102.16.103, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AZ 🇦🇿 Baku 1, server: 94.20.154.61, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: AZ 🇦🇿 Baku 2, server: 94.20.154.67, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: AZ 🇦🇿 Baku 2, server: 94.20.154.59, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AZ 🇦🇿 Baku 3, server: 62.212.239.45, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: AZ 🇦🇿 Baku 4, server: 62.212.239.67, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: NL 🇳🇱 Amsterdam 1, server: 143.244.42.90, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: AZ 🇦🇿 Baku 4, server: 62.212.239.53, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: NL 🇳🇱 Amsterdam 1, server: 213.152.165.104, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: NL 🇳🇱 Amsterdam 2, server: 212.102.35.204, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: NL 🇳🇱 Amsterdam 3, server: 143.244.42.76, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: NL 🇳🇱 Amsterdam 4, server: 143.244.42.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: DK 🇩🇰 Copenhagen 1, server: 193.29.107.219, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: DK 🇩🇰 Copenhagen 2, server: 193.29.107.195, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: DK 🇩🇰 Copenhagen 1, server: 193.29.107.179, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: DK 🇩🇰 Copenhagen 2, server: 193.29.107.125, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DK 🇩🇰 Copenhagen 3, server: 193.29.107.181, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DK 🇩🇰 Copenhagen 4, server: 89.45.7.53, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: IT 🇮🇹 Rome 1, server: 82.102.26.117, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: IT 🇮🇹 Rome 2, server: 82.102.26.62, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: IT 🇮🇹 Rome 3, server: 82.102.26.115, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: IT 🇮🇹 Rome 4, server: 37.120.207.117, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: IT 🇮🇹 Rome 1, server: 82.102.26.62, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: IT 🇮🇹 Rome 2, server: 82.102.26.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: IT 🇮🇹 Rome 3, server: 82.102.26.92, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: IT 🇮🇹 Rome 4, server: 82.102.26.93, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: IT 🇮🇹 Milan 1, server: 212.102.54.163, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: IT 🇮🇹 Milan 2, server: 212.102.54.162, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: IT 🇮🇹 Milan 2, server: 212.102.54.150, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: IT 🇮🇹 Milan 3, server: 212.102.54.161, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: IT 🇮🇹 Milan 4, server: 84.17.58.152, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: FI 🇫🇮 Helsinki 1, server: 196.196.203.101, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -85,15 +85,15 @@ proxies:
   - {name: FI 🇫🇮 Helsinki 4, server: 196.196.203.141, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CH 🇨🇭 Zurich 1, server: 156.146.62.36, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CH 🇨🇭 Zurich 2, server: 156.146.62.41, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: CH 🇨🇭 Zurich 3, server: 156.146.62.51, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: CH 🇨🇭 Zurich 3, server: 84.17.53.212, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CH 🇨🇭 Zurich 4, server: 156.146.62.46, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: TR 🇹🇷 Istanbul 1, server: 107.150.94.14, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: TR 🇹🇷 Istanbul 2, server: 107.150.94.12, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: TR 🇹🇷 Istanbul 3, server: 107.150.94.13, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: TR 🇹🇷 Istanbul 4, server: 107.150.94.11, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AL 🇦🇱 Tirana 1, server: 31.171.155.83, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: AL 🇦🇱 Tirana 2, server: 31.171.153.115, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: AL 🇦🇱 Tirana 3, server: 31.171.153.117, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: AL 🇦🇱 Tirana 2, server: 31.171.154.147, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: AL 🇦🇱 Tirana 3, server: 31.171.154.219, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AL 🇦🇱 Tirana 4, server: 31.171.154.219, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DZ 🇩🇿 Algiers 1, server: 62.197.144.3, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: DZ 🇩🇿 Algiers 2, server: 62.197.144.4, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -107,11 +107,11 @@ proxies:
   - {name: HR 🇭🇷 Zagreb 2, server: 89.164.99.109, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: HR 🇭🇷 Zagreb 3, server: 89.164.99.136, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: HR 🇭🇷 Zagreb 4, server: 89.164.99.111, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: CY 🇨🇾 Nicosia 1, server: 195.47.194.99, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: CY 🇨🇾 Nicosia 1, server: 195.47.194.64, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CY 🇨🇾 Nicosia 2, server: 195.47.194.98, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CY 🇨🇾 Nicosia 3, server: 195.47.194.97, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CY 🇨🇾 Nicosia 4, server: 195.47.194.96, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: EE 🇪🇪 Tallinn 1, server: 185.174.159.138, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: EE 🇪🇪 Tallinn 1, server: 185.174.159.61, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: EE 🇪🇪 Tallinn 2, server: 185.174.159.137, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: EE 🇪🇪 Tallinn 3, server: 185.174.159.136, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: EE 🇪🇪 Tallinn 4, server: 185.174.159.139, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -138,18 +138,18 @@ proxies:
   - {name: RU 🇷🇺 Moscow 1, server: 92.38.138.139, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: RU 🇷🇺 Moscow 2, server: 92.38.138.151, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: RU 🇷🇺 Moscow 3, server: 92.38.138.148, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: RU 🇷🇺 Moscow 4, server: 92.38.138.150, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: RU 🇷🇺 Moscow 4, server: 92.38.138.143, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: RS 🇷🇸 Belgrade 1, server: 152.89.160.147, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: RS 🇷🇸 Belgrade 2, server: 152.89.160.61, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: RS 🇷🇸 Belgrade 3, server: 152.89.160.148, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: RS 🇷🇸 Belgrade 4, server: 152.89.160.149, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: SK 🇸🇰 Bratislava 1, server: 185.76.8.210, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: SK 🇸🇰 Bratislava 2, server: 185.76.8.211, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: SK 🇸🇰 Bratislava 3, server: 185.76.8.217, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: SK 🇸🇰 Bratislava 3, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: SK 🇸🇰 Bratislava 4, server: 185.76.8.213, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: SI 🇸🇮 Ljubljana 1, server: 195.158.249.61, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: SI 🇸🇮 Ljubljana 2, server: 195.158.249.60, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: SI 🇸🇮 Ljubljana 3, server: 195.158.249.38, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: SI 🇸🇮 Ljubljana 3, server: 195.158.249.62, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: SI 🇸🇮 Ljubljana 4, server: 195.158.249.59, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Barcelona 1, server: 82.102.26.171, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Barcelona 2, server: 185.188.61.84, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -157,10 +157,10 @@ proxies:
   - {name: ES 🇪🇸 Barcelona 4, server: 185.188.61.86, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Madrid 1, server: 89.37.95.13, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Madrid 2, server: 89.37.95.14, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: ES 🇪🇸 Madrid 3, server: 89.37.95.15, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: ES 🇪🇸 Madrid 3, server: 89.37.95.16, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Madrid 4, server: 89.37.95.185, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Valencia 1, server: 185.153.150.70, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: ES 🇪🇸 Valencia 2, server: 185.153.150.76, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: ES 🇪🇸 Valencia 2, server: 185.153.150.86, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Valencia 3, server: 185.153.150.78, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: ES 🇪🇸 Valencia 4, server: 185.153.150.84, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: SE 🇸🇪 Stockholm 1, server: 195.181.166.228, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -288,7 +288,7 @@ proxies:
   - {name: MD 🇲🇩 Chisinau, server: 194.33.40.114, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: MK 🇲🇰 Skopje, server: 185.225.28.85, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: UA 🇺🇦 Kyiv, server: 156.146.50.102, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: AR 🇦🇷 Buenos Aires, server: 91.206.168.26, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: AR 🇦🇷 Buenos Aires, server: 91.206.168.70, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: BR 🇧🇷 Sao Paulo, server: 138.199.58.70, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CA 🇨🇦 Montreal, server: 91.245.254.131, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: CA 🇨🇦 Toronto, server: 37.19.211.114, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -297,7 +297,7 @@ proxies:
   - {name: CR 🇨🇷 San Jose, server: 176.227.241.35, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: MX 🇲🇽 Mexico City, server: 194.41.112.16, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AU 🇦🇺 Perth, server: 124.150.139.83, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: AU 🇦🇺 Adelaide, server: 45.248.79.37, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: AU 🇦🇺 Adelaide, server: 45.248.79.70, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AU 🇦🇺 Brisbane, server: 144.48.39.133, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AU 🇦🇺 Melbourne, server: 103.192.80.245, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: AU 🇦🇺 Sydney, server: 180.149.228.179, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
@@ -311,7 +311,7 @@ proxies:
   - {name: My 🇲🇾 Kuala Lumpur, server: 111.90.140.136, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: Nz 🇳🇿 Auckland, server: 180.149.231.117, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: PH 🇵🇭 Manila, server: 45.134.224.29, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: SG 🇸🇬 Singapore, server: 89.187.163.195, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: SG 🇸🇬 Singapore, server: 89.187.163.210, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: KR 🇰🇷 Seoul, server: 27.255.77.197, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: TW 🇹🇼 Taichung City, server: 103.152.151.85, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
   - {name: TH 🇹🇭 Bangkok, server: 27.131.138.174, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
