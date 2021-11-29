@@ -1,0 +1,1274 @@
+mixed-port: 7890
+allow-lan: false
+mode: Global
+log-level: silent
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - https://8.8.4.4/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
+proxies:
+  - {name: "UFO Australia 🇦🇺 Sydney", server: 66.203.112.53, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Belgium 🇧🇪 Brussels", server: 193.9.114.34, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Brazil 🇧🇷 SãoPaulo", server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Canada 🇨🇦 Montreal", server: 142.44.135.104, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO China 🇨🇳 Beijing", server: 72.140.224.196, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Gravelines", server: 46.105.73.221, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Paris 2", server: 163.172.65.156, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Paris 3", server: 35.180.88.172, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Paris 4", server: 51.159.30.61, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Paris 5 YT", server: 95.85.90.181, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Paris 6", server: 135.125.248.215, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Paris 7", server: 15.236.142.139, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO France 🇫🇷 Paris", server: 163.172.110.54, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 Berlin", server: 196.244.72.5, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 Düsseldorf 2", server: 85.114.138.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 Düsseldorf", server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 FrankfurtamMain 3", server: 18.185.63.41, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 FrankfurtamMain 2", server: 185.104.184.78, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 FrankfurtamMain", server: 3.126.91.132, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 LimburganderLahn 2", server: 135.125.248.209, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Germany 🇩🇪 LimburganderLahn", server: 135.125.253.250, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Hong Kong🇭🇰Central", server: 148.66.56.98, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO India 🇮🇳 Bengaluru", server: 134.209.155.247, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO India 🇮🇳 Mumbai 2", server: 15.206.125.20, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO India 🇮🇳 Mumbai 3", server: 35.154.201.59, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO India 🇮🇳 Mumbai", server: 13.233.237.144, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Ireland 🇮🇪 Dublin", server: 34.247.174.236, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Israel 🇮🇱 TelAviv", server: 63.250.61.77, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Italy 🇮🇹 Milan 2", server: 92.223.79.31, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Italy 🇮🇹 Milan 3", server: 95.141.32.210, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Italy 🇮🇹 Milan 4", server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Italy 🇮🇹 Milan", server: 92.223.93.225, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Japan 🇯🇵 Tokyo 2", server: 5.183.176.114, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Japan 🇯🇵 Tokyo 3", server: 103.140.136.200, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Japan 🇯🇵 Tokyo 4", server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Japan 🇯🇵 Tokyo 5", server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Japan 🇯🇵 Tokyo", server: 194.156.231.185, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Netherlands 🇳🇱 Naaldwijk", server: 178.132.3.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO New Zealand 🇳🇿 Auckland", server: 103.62.49.141, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Norway 🇳🇴 Lensvik", server: 185.101.35.172, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Philippines 🇵🇭 MakatiCity", server: 116.93.120.196, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Russia 🇷🇺 Moscow", server: 92.38.139.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Singapore 🇸🇬 QueenstownEstate 2", server: 81.90.189.152, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Singapore 🇸🇬 QueenstownEstate", server: 81.90.189.229, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Singapore 🇸🇬 Singapore 2", server: 51.79.178.64, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Singapore 🇸🇬 Singapore 3", server: 196.240.126.74, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Singapore 🇸🇬 Singapore", server: 139.99.62.219, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO South Korea 🇰🇷 Gangnam", server: 211.212.237.222, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Sweden 🇸🇪 Stockholm", server: 196.196.156.106, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Switzerland 🇨🇭 Zurich", server: 188.241.120.16, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Taiwan 🇹🇼 Chang-hua", server: 61.224.67.42, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO Turkey 🇹🇷 Bahçelievler", server: 185.17.113.234, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Arab Emirates 🇦🇪 Dubai", server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Arab Emirates 🇦🇪 Sharjah 2", server: 109.169.72.239, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Arab Emirates 🇦🇪 Sharjah", server: 109.169.72.249, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Kingdom 🇬🇧 Basingstoke", server: 78.129.253.9, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Kingdom 🇬🇧 London 2", server: 89.35.29.96, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Kingdom 🇬🇧 London 3", server: 35.177.29.114, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Kingdom 🇬🇧 London 4", server: 89.238.165.226, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Kingdom 🇬🇧 London", server: 89.34.96.73, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO United Kingdom 🇬🇧 London 5", server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Atlanta 2", server: 167.88.63.29, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Atlanta", server: 92.119.16.204, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Chicago 2", server: 38.64.138.103, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Chicago", server: 162.251.61.221, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Dallas 2", server: 38.68.134.135, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Dallas", server: 38.68.135.248, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Denver", server: 194.76.137.112, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 LasVegas", server: 37.120.147.230, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 LosAngeles 2", server: 185.153.180.238, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 LosAngeles 3", server: 172.245.218.162, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 LosAngeles 4", server: 193.239.87.134, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 LosAngeles", server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Miami 2", server: 193.37.252.210, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Miami", server: 38.91.107.225, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 NewYork 2", server: 45.83.27.130, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 NewYork 3", server: 5.181.234.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 NewYork", server: 45.144.112.162, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Phoenix", server: 37.120.219.218, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 SantaClara", server: 167.88.61.236, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Seattle 2", server: 38.143.66.125, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Seattle", server: 169.197.143.15, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "UFO USA 🇺🇸 Washington", server: 167.88.61.236, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "Aloha Argentina 🇦🇷 Buenos Aires", server: 131.255.4.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Australia 🇦🇺 Sydney", server: 194.14.208.110, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Austria 🇦🇹 Graz", server: 151.236.30.184, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Azerbaijan 🇦🇿 Baku", server: 94.20.154.26, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Belgium 🇧🇪 Oostkamp", server: 192.71.249.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik", server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Brazil 🇧🇷 Sao Paulo", server: 185.192.124.183, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Bulgaria 🇧🇬 Sofia", server: 194.68.225.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Canada 🇨🇦 Montreal", server: 192.71.227.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Chile 🇨🇱 Viña del Mar", server: 37.235.52.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Colombia 🇨🇴 Bogota", server: 181.119.30.61, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Croatia 🇭🇷 Zagreb", server: 46.183.184.12, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Cyprus 🇨🇾 Nicosia", server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Czechia 🇨🇿 Prague", server: 193.235.207.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Denmark 🇩🇰 Copenhagen", server: 192.36.27.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Estonia 🇪🇪 Tallinn", server: 37.252.5.234, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Finland 🇫🇮 Helsinki", server: 37.143.129.185, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha France 🇫🇷 Arcueil", server: 195.154.114.187, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Germany 🇩🇪 Düsseldorf", server: 178.18.255.190, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Germany 🇩🇪 Limburg an der Lahn", server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Germany 🇩🇪 Nuremberg", server: 213.136.80.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Greece 🇬🇷 Thessaloniki", server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Hong Kong 🇭🇰 Central", server: 91.245.255.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Hungary 🇭🇺 Budapest", server: 194.71.130.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Iceland 🇮🇸 Hafnarfjordur", server: 37.235.49.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha India 🇮🇳 Jaipur", server: 103.129.97.129, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Indonesia 🇮🇩 Jakarta", server: 103.84.192.228, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Ireland 🇮🇪 Tallaght", server: 185.108.129.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Isle of Man 🇮🇲 Douglas", server: 37.235.55.84, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Israel 🇮🇱 Tel Aviv", server: 31.133.102.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Italy 🇮🇹 Milan", server: 95.174.23.218, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Japan 🇯🇵 Tokyo", server: 176.97.70.125, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Latvia 🇱🇻 Riga", server: 192.36.41.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Luxembourg 🇱🇺 Luxembourg", server: 172.255.248.35, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Malaysia 🇲🇾 Bukit Bintang", server: 202.59.10.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Malta 🇲🇹 Qormi", server: 185.89.238.36, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Mexico 🇲🇽 Mexico City", server: 147.78.1.236, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Moldova 🇲🇩 Chisinau", server: 192.121.87.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Netherlands 🇳🇱 Amsterdam", server: 88.208.7.199, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Netherlands 🇳🇱 Haarlem", server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha North Macedonia 🇲🇰 Skopje", server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Poland 🇵🇱 Wroclaw", server: 54.37.136.249, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Portugal 🇵🇹 Lisbon", server: 185.113.143.189, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Romania 🇷🇴 Bucharest", server: 194.68.44.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Russia 🇷🇺 Moscow", server: 31.192.104.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Serbia 🇷🇸 Belgrade", server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Singapore 🇸🇬 Singapore", server: 194.233.65.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Slovakia 🇸🇰 Bratislava", server: 188.123.123.133, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Slovenia 🇸🇮 Ljubljana", server: 192.71.244.49, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha South Africa 🇿🇦 Pretoria", server: 197.189.202.25, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha South Korea 🇰🇷 Seoul", server: 158.247.213.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Spain 🇪🇸 Seville", server: 151.236.23.105, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Sweden 🇸🇪 Stockholm", server: 46.246.93.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Switzerland 🇨🇭 Zurich", server: 212.237.210.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Taiwan 🇹🇼 Taipei", server: 103.123.0.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Turkey 🇹🇷 Istanbul", server: 213.159.2.186, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Ukraine 🇺🇦 Kharkiv", server: 195.211.41.10, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha United Kingdom 🇬🇧 London", server: 176.10.80.6, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha United States 🇺🇸 Ashburn 1", server: 213.174.159.247, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha United States 🇺🇸 Ashburn 2", server: 213.174.130.130, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha United States 🇺🇸 Ashburn 3", server: 213.174.158.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha United States 🇺🇸 Ashburn 4", server: 213.174.130.130, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha United States 🇺🇸 Ashburn 5", server: 213.174.129.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Aloha Vietnam 🇻🇳 Ho Chi Minh City", server: 103.238.213.96, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "Speedy Quark Australia 🇦🇺 sydney", server: 139.99.135.133, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Azerbaijan 🇦🇿 Baku", server: 94.20.154.38, port: 50000, type: ss, cipher: aes-256-cfb, password: "3135771619"}
+  - {name: "Speedy Quark Canada 🇨🇦 Montreal", server: 51.222.142.94, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Denmark 🇩🇰 Copenhagen", server: 5.183.101.229, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark France 🇫🇷 Paris", server: 5.188.93.79, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Germany 🇩🇪 FrankfurtamMain", server: 193.108.118.154, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Germany 🇩🇪 LimburganderLahn", server: 135.125.236.229, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Greece 🇬🇷 Athens", server: 185.243.214.55, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Hungary 🇭🇺 Budapest", server: 194.71.130.194, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Iceland 🇮🇸 Hafnarfjordur", server: 3.249.52.148, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Ireland 🇮🇪 Dublin", server: 3.249.52.148, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Israel 🇮🇱 Haifa 1", server: 83.229.73.60, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Israel 🇮🇱 Haifa 2", server: 185.162.126.217, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Israel 🇮🇱 Haifa 3", server: 185.162.125.91, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Israel 🇮🇱 Haifa 4", server: 83.229.73.120, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Italy 🇮🇹 Milan 1", server: 91.193.5.198, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Italy 🇮🇹 Milan 2", server: 5.188.226.125, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Italy 🇮🇹 Milan 3", server: 92.223.93.140, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Japan 🇯🇵 Tokyo", server: 185.172.113.58, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Netherland 🇳🇱 Amsterdam", server: 92.119.179.62, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Norway 🇳🇴 Oslo", server: 5.183.100.87, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Poland 🇵🇱 Gdansk", server: 82.118.21.21, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Romania 🇷🇴 Iasi", server: 185.225.19.64, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Russia 🇷🇺 Moscow 1", server: 92.38.139.95, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Russia 🇷🇺 Moscow 2", server: 92.38.152.142, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Spain 🇪🇸 Madrid", server: 92.38.171.101, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Sweden 🇸🇪 Stockholm", server: 185.243.215.187, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Turkey 🇹🇷 Istanbul 1", server: 141.98.119.180, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Turkey 🇹🇷 Istanbul 2", server: 185.219.134.52, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Turkey 🇹🇷 Istanbul 3", server: 185.219.133.176, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Turkey 🇹🇷 Istanbul 4", server: 185.219.134.182, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Turkey 🇹🇷 Istanbul 5", server: 141.98.119.156, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Turkey 🇹🇷 Istanbul 6", server: 185.219.134.161, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark UK 🇬🇧 London 1", server: 103.105.48.199, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark UK 🇬🇧 London 2", server: 51.195.217.21, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark UK 🇬🇧 London 3", server: 51.89.138.162, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark UK 🇬🇧 London 4", server: 77.247.125.27, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark Ukraine 🇺🇦 Kyiv", server: 77.247.125.27, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 Los Angeles 1", server: 104.149.129.126, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 Los Angeles 2", server: 104.149.149.158, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 Los Angeles 3", server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 Los Angeles 4", server: 155.94.196.234, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 Los Angeles 5", server: 104.149.134.194, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 Los Angeles 6", server: 2.56.178.201, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 New Jersey 1", server: 212.103.61.167, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 New Jersey 2", server: 5.188.0.184, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 New Jersey 3", server: 5.188.0.138, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 New Memphis 1", server: 104.249.173.232, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 New Memphis 2", server: 104.249.173.240, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 San Jose", server: 103.138.73.118, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "Speedy Quark USA 🇺🇸 Santa Clara", server: 92.38.149.173, port: 50003, type: ss, cipher: aes-256-cfb, password: "8460400130"}
+  - {name: "XY VPN USA 🇺🇸 Dalas", server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN USA 🇺🇸 New York", server: 142.202.48.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN UK 🇬🇧 London", server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Canada 🇨🇦 Toronto", server: 134.195.196.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN India 🇮🇳 Mumbai", server: 192.46.208.153, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Canada 🇨🇦 Montreal", server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN France 🇫🇷 Roubaix", server: 151.80.27.161, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Germany 🇩🇪 frankfurtAMmain", server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Germany 🇩🇪 Dusseldorf 1", server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Germany 🇩🇪 Dusseldorf 2", server: 91.194.84.53, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Italy 🇮🇹 Milan 1", server: 185.213.21.5, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Italy 🇮🇹 Milan 2", server: 185.213.21.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Norway 🇳🇴 Kristiansad 1", server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Norway 🇳🇴 Kristiansad 2", server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Norway 🇳🇴 Kristiansad 3", server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Poland 🇳🇴 Warsaw 1", server: 194.15.196.66, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "XY VPN Poland 🇳🇴 Warsaw 2", server: 194.15.196.54, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "Private VPN USA 🇺🇸 New Jersey", server: 92.38.169.196, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: "Private VPN USA 🇺🇸 California", server: 5.188.111.182, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: "Private VPN France 🇫🇷 Paris", server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: "Private VPN Singapore 🇸🇬 Singapore", server: 81.90.188.167, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: "Private VPN UK 🇬🇧 London", server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: "Time VPN  🇸🇪 stockholm", server: 80.67.3.120, port: 40503, type: ss, cipher: aes-256-cfb, password: XS4DBE6}
+  - {name: "Time Netherlands 🇳🇱 Amsterdam", server: 5.45.69.49, port: 43670, type: ss, cipher: aes-256-cfb, password: R3Mq7nn}
+  - {name: "Time VPN Germany 🇩🇪 FrankfurtamMain", server: 37.1.192.129, port: 55605, type: ss, cipher: aes-256-cfb, password: ruEvBSp}
+  - {name: "Time VPN USA 🇺🇸 Chicago", server: 37.1.210.145, port: 13724, type: ss, cipher: aes-256-cfb, password: 5ewqSLt}
+  - {name: "Time VPN Russia 🇷🇺 Moscow", server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
+  - {name: WeVPN US 🇺🇸 Atlanta, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
+  - {name: WeVPN US 🇺🇸 Chicago, server: 69.39.239.57, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: WeVPN US 🇺🇸 Dallas, server: 194.110.112.74, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: WeVPN US 🇺🇸 Denver, server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: WeVPN US 🇺🇸 Los Angeles, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: WeVPN US 🇺🇸 Los Angeles-PF, server: 66.55.92.75, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: WeVPN US 🇺🇸 Miami, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: WeVPN US 🇺🇸 New Jersey, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: WeVPN US 🇺🇸 New York, server: 217.138.206.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
+  - {name: WeVPN US 🇺🇸 New York-PF, server: 188.241.179.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2SKtWLpv3tWyS97wqrxC}
+  - {name: WeVPN US 🇺🇸 Phoenix, server: 170.130.15.34, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q8gsJVLZ5eYXU3uhmnbH}
+  - {name: WeVPN US 🇺🇸 Salt Lake City, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: WeVPN US 🇺🇸 San Jose, server: 169.62.109.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 74cf7gsXJgd9Z4MAW42L}
+  - {name: WeVPN US 🇺🇸 Seattle, server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
+  - {name: WeVPN US 🇺🇸 Washington DC, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: WeVPN AR 🇦🇷 Buenos Aires, server: 131.255.4.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: UHu5NzfXjuur52h9}
+  - {name: WeVPN MX 🇲🇽 Mexico City, server: 169.57.35.85, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: WeVPN BR 🇧🇷 Sao Paulo, server: 177.54.152.89, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2GWsqE7Gr3nRMuuQZfFa}
+  - {name: WeVPN CA 🇨🇦 Montreal, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: WeVPN CA 🇨🇦 Toronto, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: WeVPN CA 🇨🇦 Vancouver, server: 71.19.249.109, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QBLw4rLXQ6ebxpWwSKDL}
+  - {name: WeVPN NL 🇳🇱 Amsterdam, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: WeVPN GR 🇬🇷 Athens, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: WeVPN RS 🇷🇸 Belgrade, server: 37.120.193.170, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Z3WEYrWQdmDZnLvJ94vE}
+  - {name: WeVPN BE 🇧🇪 Brussels, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: WeVPN RO 🇷🇴 Bucharest, server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
+  - {name: WeVPN HU 🇭🇺 Budapest, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
+  - {name: WeVPN DK 🇩🇰 Copenhagen, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: WeVPN IE 🇮🇪 Dublin, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: WeVPN DE 🇩🇪 Frankfurt, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: WeVPN FI 🇫🇮 Helsinki, server: 185.212.149.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: WeVPN FI 🇫🇮 Oulu, server: 188.126.89.174, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SkGJxCjsuc8DJsB2GtM4}
+  - {name: WeVPN UA 🇺🇦 Kyiv, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: WeVPN PT 🇵🇹 Lisbon, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: WeVPN GB 🇬🇧 London, server: 45.141.154.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: sHWJUzzQUXtQSR2P6HNJ}
+  - {name: WeVPN GB 🇬🇧 London-PF, server: 77.243.177.78, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
+  - {name: WeVPN GB 🇬🇧 Manchester, server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
+  - {name: WeVPN LU 🇱🇺 Luxembourg, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: WeVPN ES 🇪🇸 Madrid, server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: WeVPN IT 🇮🇹 Milan, server: 217.138.197.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: WeVPN NO 🇳🇴 Oslo, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: WeVPN FR 🇫🇷 Paris, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: WeVPN CZ 🇨🇿 Prague, server: 217.138.199.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: S4w7wHjBRxCVkxZLgTaN}
+  - {name: WeVPN BG 🇧🇬 Sofia, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: WeVPN SE 🇸🇪 Stockholm, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: WeVPN AT 🇦🇹 Vienna, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
+  - {name: WeVPN PL 🇵🇱 Warsaw, server: 217.138.209.122, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: CxgRTZRE5urVfbbnGSyr}
+  - {name: WeVPN CH 🇨🇭 Zurich, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: WeVPN NZ 🇳🇿 Auckland, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: WeVPN VN 🇻🇳 Hanoi, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: WeVPN HK 🇭🇰 Hong Kong, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: WeVPN ID 🇮🇩 Jakarta, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: WeVPN PH 🇵🇭 Manila, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: WeVPN AU 🇦🇺 Melbourne, server: 116.206.230.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8}
+  - {name: WeVPN AU 🇦🇺 Sydney, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: WeVPN RU 🇷🇺 Moscow, server: 80.93.181.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: BjnLULGTNTBUCvuSaW8f}
+  - {name: WeVPN RU 🇷🇺 St Petersburg, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: WeVPN KR 🇰🇷 Seoul, server: 169.56.83.206, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: V9eSCwLbC8xS97e3Brm3}
+  - {name: WeVPN My 🇲🇾 Sibu, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: WeVPN SG 🇸🇬 Singapore, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: WeVPN TW 🇹🇼 Taipei, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: WeVPN JP 🇯🇵 Tokyo, server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
+  - {name: WeVPN EG 🇪🇬 Cairo, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
+  - {name: WeVPN IN 🇮🇳 Chennai, server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: WeVPN TR 🇹🇷 Denizli, server: 95.173.161.240, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fmxeGazCbFkCtsBFhRZc}
+  - {name: WeVPN AE 🇦🇪 Dubai, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
+  - {name: WeVPN ZA 🇿🇦 Johannesburg, server: 102.165.20.38, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
+  - {name: WeVPN NG 🇳🇬 Lagos, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
+  - {name: WeVPN IL 🇮🇱 Tel Aviv, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+proxy-groups:
+  - name: 🔆 LIST
+    type: select
+    proxies:
+      - AUTO UFO ♻️
+      - AUTO WeVPN ♻️
+      - AUTO Aloha ♻️
+      - AUTO Speedy Quark ♻️
+      - AUTO XY VPN ♻️
+      - AUTO Private VPN ♻️
+      - AUTO Time VPN ♻️
+      - 🔰 Select
+  - name: 🔰 Select
+    type: select
+    proxies:
+      - "UFO Australia 🇦🇺 Sydney"
+      - "UFO Belgium 🇧🇪 Brussels"
+      - "UFO Brazil 🇧🇷 SãoPaulo"
+      - "UFO Canada 🇨🇦 Montreal"
+      - "UFO China 🇨🇳 Beijing"
+      - "UFO France 🇫🇷 Gravelines"
+      - "UFO France 🇫🇷 Paris 2"
+      - "UFO France 🇫🇷 Paris 3"
+      - "UFO France 🇫🇷 Paris 4"
+      - "UFO France 🇫🇷 Paris 5 YT"
+      - "UFO France 🇫🇷 Paris 6"
+      - "UFO France 🇫🇷 Paris 7"
+      - "UFO France 🇫🇷 Paris"
+      - "UFO Germany 🇩🇪 Berlin"
+      - "UFO Germany 🇩🇪 Düsseldorf 2"
+      - "UFO Germany 🇩🇪 Düsseldorf"
+      - "UFO Germany 🇩🇪 FrankfurtamMain 3"
+      - "UFO Germany 🇩🇪 FrankfurtamMain 2"
+      - "UFO Germany 🇩🇪 FrankfurtamMain"
+      - "UFO Germany 🇩🇪 LimburganderLahn 2"
+      - "UFO Germany 🇩🇪 LimburganderLahn"
+      - "UFO Hong Kong🇭🇰Central"
+      - "UFO India 🇮🇳 Bengaluru"
+      - "UFO India 🇮🇳 Mumbai 2"
+      - "UFO India 🇮🇳 Mumbai 3"
+      - "UFO India 🇮🇳 Mumbai"
+      - "UFO Ireland 🇮🇪 Dublin"
+      - "UFO Israel 🇮🇱 TelAviv"
+      - "UFO Italy 🇮🇹 Milan 2"
+      - "UFO Italy 🇮🇹 Milan 3"
+      - "UFO Italy 🇮🇹 Milan 4"
+      - "UFO Italy 🇮🇹 Milan"
+      - "UFO Japan 🇯🇵 Tokyo 2"
+      - "UFO Japan 🇯🇵 Tokyo 3"
+      - "UFO Japan 🇯🇵 Tokyo 4"
+      - "UFO Japan 🇯🇵 Tokyo 5"
+      - "UFO Japan 🇯🇵 Tokyo"
+      - "UFO Netherlands 🇳🇱 Naaldwijk"
+      - "UFO New Zealand 🇳🇿 Auckland"
+      - "UFO Norway 🇳🇴 Lensvik"
+      - "UFO Philippines 🇵🇭 MakatiCity"
+      - "UFO Russia 🇷🇺 Moscow"
+      - "UFO Singapore 🇸🇬 QueenstownEstate 2"
+      - "UFO Singapore 🇸🇬 QueenstownEstate"
+      - "UFO Singapore 🇸🇬 Singapore 2"
+      - "UFO Singapore 🇸🇬 Singapore 3"
+      - "UFO Singapore 🇸🇬 Singapore"
+      - "UFO South Korea 🇰🇷 Gangnam"
+      - "UFO Sweden 🇸🇪 Stockholm"
+      - "UFO Switzerland 🇨🇭 Zurich"
+      - "UFO Taiwan 🇹🇼 Chang-hua"
+      - "UFO Turkey 🇹🇷 Bahçelievler"
+      - "UFO United Arab Emirates 🇦🇪 Dubai"
+      - "UFO United Arab Emirates 🇦🇪 Sharjah 2"
+      - "UFO United Arab Emirates 🇦🇪 Sharjah"
+      - "UFO United Kingdom 🇬🇧 Basingstoke"
+      - "UFO United Kingdom 🇬🇧 London 2"
+      - "UFO United Kingdom 🇬🇧 London 3"
+      - "UFO United Kingdom 🇬🇧 London 4"
+      - "UFO United Kingdom 🇬🇧 London"
+      - "UFO United Kingdom 🇬🇧 London 5"
+      - "UFO USA 🇺🇸 Atlanta 2"
+      - "UFO USA 🇺🇸 Atlanta"
+      - "UFO USA 🇺🇸 Chicago 2"
+      - "UFO USA 🇺🇸 Chicago"
+      - "UFO USA 🇺🇸 Dallas 2"
+      - "UFO USA 🇺🇸 Dallas"
+      - "UFO USA 🇺🇸 Denver"
+      - "UFO USA 🇺🇸 LasVegas"
+      - "UFO USA 🇺🇸 LosAngeles 2"
+      - "UFO USA 🇺🇸 LosAngeles 3"
+      - "UFO USA 🇺🇸 LosAngeles 4"
+      - "UFO USA 🇺🇸 LosAngeles"
+      - "UFO USA 🇺🇸 Miami 2"
+      - "UFO USA 🇺🇸 Miami"
+      - "UFO USA 🇺🇸 NewYork 2"
+      - "UFO USA 🇺🇸 NewYork 3"
+      - "UFO USA 🇺🇸 NewYork"
+      - "UFO USA 🇺🇸 Phoenix"
+      - "UFO USA 🇺🇸 SantaClara"
+      - "UFO USA 🇺🇸 Seattle 2"
+      - "UFO USA 🇺🇸 Seattle"
+      - "UFO USA 🇺🇸 Washington"
+      - "Aloha Argentina 🇦🇷 Buenos Aires"
+      - "Aloha Australia 🇦🇺 Sydney"
+      - "Aloha Austria 🇦🇹 Graz"
+      - "Aloha Azerbaijan 🇦🇿 Baku"
+      - "Aloha Belgium 🇧🇪 Oostkamp"
+      - "Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik"
+      - "Aloha Brazil 🇧🇷 Sao Paulo"
+      - "Aloha Bulgaria 🇧🇬 Sofia"
+      - "Aloha Canada 🇨🇦 Montreal"
+      - "Aloha Chile 🇨🇱 Viña del Mar"
+      - "Aloha Colombia 🇨🇴 Bogota"
+      - "Aloha Croatia 🇭🇷 Zagreb"
+      - "Aloha Cyprus 🇨🇾 Nicosia"
+      - "Aloha Czechia 🇨🇿 Prague"
+      - "Aloha Denmark 🇩🇰 Copenhagen"
+      - "Aloha Estonia 🇪🇪 Tallinn"
+      - "Aloha Finland 🇫🇮 Helsinki"
+      - "Aloha France 🇫🇷 Arcueil"
+      - "Aloha Germany 🇩🇪 Düsseldorf"
+      - "Aloha Germany 🇩🇪 Limburg an der Lahn"
+      - "Aloha Germany 🇩🇪 Nuremberg"
+      - "Aloha Greece 🇬🇷 Thessaloniki"
+      - "Aloha Hong Kong 🇭🇰 Central"
+      - "Aloha Hungary 🇭🇺 Budapest"
+      - "Aloha Iceland 🇮🇸 Hafnarfjordur"
+      - "Aloha India 🇮🇳 Jaipur"
+      - "Aloha Indonesia 🇮🇩 Jakarta"
+      - "Aloha Ireland 🇮🇪 Tallaght"
+      - "Aloha Isle of Man 🇮🇲 Douglas"
+      - "Aloha Israel 🇮🇱 Tel Aviv"
+      - "Aloha Italy 🇮🇹 Milan"
+      - "Aloha Japan 🇯🇵 Tokyo"
+      - "Aloha Latvia 🇱🇻 Riga"
+      - "Aloha Luxembourg 🇱🇺 Luxembourg"
+      - "Aloha Malaysia 🇲🇾 Bukit Bintang"
+      - "Aloha Malta 🇲🇹 Qormi"
+      - "Aloha Mexico 🇲🇽 Mexico City"
+      - "Aloha Moldova 🇲🇩 Chisinau"
+      - "Aloha Netherlands 🇳🇱 Amsterdam"
+      - "Aloha Netherlands 🇳🇱 Haarlem"
+      - "Aloha North Macedonia 🇲🇰 Skopje"
+      - "Aloha Poland 🇵🇱 Wroclaw"
+      - "Aloha Portugal 🇵🇹 Lisbon"
+      - "Aloha Romania 🇷🇴 Bucharest"
+      - "Aloha Russia 🇷🇺 Moscow"
+      - "Aloha Serbia 🇷🇸 Belgrade"
+      - "Aloha Singapore 🇸🇬 Singapore"
+      - "Aloha Slovakia 🇸🇰 Bratislava"
+      - "Aloha Slovenia 🇸🇮 Ljubljana"
+      - "Aloha South Africa 🇿🇦 Pretoria"
+      - "Aloha South Korea 🇰🇷 Seoul"
+      - "Aloha Spain 🇪🇸 Seville"
+      - "Aloha Sweden 🇸🇪 Stockholm"
+      - "Aloha Switzerland 🇨🇭 Zurich"
+      - "Aloha Taiwan 🇹🇼 Taipei"
+      - "Aloha Turkey 🇹🇷 Istanbul"
+      - "Aloha Ukraine 🇺🇦 Kharkiv"
+      - "Aloha United Kingdom 🇬🇧 London"
+      - "Aloha United States 🇺🇸 Ashburn 1"
+      - "Aloha United States 🇺🇸 Ashburn 2"
+      - "Aloha United States 🇺🇸 Ashburn 3"
+      - "Aloha United States 🇺🇸 Ashburn 4"
+      - "Aloha United States 🇺🇸 Ashburn 5"
+      - "Aloha Vietnam 🇻🇳 Ho Chi Minh City"
+      - "Speedy Quark Australia 🇦🇺 sydney"
+      - "Speedy Quark Azerbaijan 🇦🇿 Baku"
+      - "Speedy Quark Canada 🇨🇦 Montreal"
+      - "Speedy Quark Denmark 🇩🇰 Copenhagen"
+      - "Speedy Quark France 🇫🇷 Paris"
+      - "Speedy Quark Germany 🇩🇪 FrankfurtamMain"
+      - "Speedy Quark Germany 🇩🇪 LimburganderLahn"
+      - "Speedy Quark Greece 🇬🇷 Athens"
+      - "Speedy Quark Hungary 🇭🇺 Budapest"
+      - "Speedy Quark Iceland 🇮🇸 Hafnarfjordur"
+      - "Speedy Quark Ireland 🇮🇪 Dublin"
+      - "Speedy Quark Israel 🇮🇱 Haifa 1"
+      - "Speedy Quark Israel 🇮🇱 Haifa 2"
+      - "Speedy Quark Israel 🇮🇱 Haifa 3"
+      - "Speedy Quark Israel 🇮🇱 Haifa 4"
+      - "Speedy Quark Italy 🇮🇹 Milan 1"
+      - "Speedy Quark Italy 🇮🇹 Milan 2"
+      - "Speedy Quark Italy 🇮🇹 Milan 3"
+      - "Speedy Quark Japan 🇯🇵 Tokyo"
+      - "Speedy Quark Netherland 🇳🇱 Amsterdam"
+      - "Speedy Quark Norway 🇳🇴 Oslo"
+      - "Speedy Quark Poland 🇵🇱 Gdansk"
+      - "Speedy Quark Romania 🇷🇴 Iasi"
+      - "Speedy Quark Russia 🇷🇺 Moscow 1"
+      - "Speedy Quark Russia 🇷🇺 Moscow 2"
+      - "Speedy Quark Spain 🇪🇸 Madrid"
+      - "Speedy Quark Sweden 🇸🇪 Stockholm"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 1"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 2"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 3"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 4"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 5"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 6"
+      - "Speedy Quark UK 🇬🇧 London 1"
+      - "Speedy Quark UK 🇬🇧 London 2"
+      - "Speedy Quark UK 🇬🇧 London 3"
+      - "Speedy Quark UK 🇬🇧 London 4"
+      - "Speedy Quark Ukraine 🇺🇦 Kyiv"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 1"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 2"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 3"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 4"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 5"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 6"
+      - "Speedy Quark USA 🇺🇸 New Jersey 1"
+      - "Speedy Quark USA 🇺🇸 New Jersey 2"
+      - "Speedy Quark USA 🇺🇸 New Jersey 3"
+      - "Speedy Quark USA 🇺🇸 New Memphis 1"
+      - "Speedy Quark USA 🇺🇸 New Memphis 2"
+      - "Speedy Quark USA 🇺🇸 San Jose"
+      - "Speedy Quark USA 🇺🇸 Santa Clara"
+      - "XY VPN USA 🇺🇸 Dalas"
+      - "XY VPN USA 🇺🇸 New York"
+      - "XY VPN UK 🇬🇧 London"
+      - "XY VPN Canada 🇨🇦 Toronto"
+      - "XY VPN India 🇮🇳 Mumbai"
+      - "XY VPN Canada 🇨🇦 Montreal"
+      - "XY VPN France 🇫🇷 Roubaix"
+      - "XY VPN Germany 🇩🇪 frankfurtAMmain"
+      - "XY VPN Germany 🇩🇪 Dusseldorf 1"
+      - "XY VPN Germany 🇩🇪 Dusseldorf 2"
+      - "XY VPN Italy 🇮🇹 Milan 1"
+      - "XY VPN Italy 🇮🇹 Milan 2"
+      - "XY VPN Norway 🇳🇴 Kristiansad 1"
+      - "XY VPN Norway 🇳🇴 Kristiansad 2"
+      - "XY VPN Norway 🇳🇴 Kristiansad 3"
+      - "XY VPN Poland 🇳🇴 Warsaw 1"
+      - "XY VPN Poland 🇳🇴 Warsaw 2"
+      - "Private VPN USA 🇺🇸 New Jersey"
+      - "Private VPN USA 🇺🇸 California"
+      - "Private VPN France 🇫🇷 Paris"
+      - "Private VPN Singapore 🇸🇬 Singapore"
+      - "Private VPN UK 🇬🇧 London"
+      - "Time VPN  🇸🇪 stockholm"
+      - "Time Netherlands 🇳🇱 Amsterdam"
+      - "Time VPN Germany 🇩🇪 FrankfurtamMain"
+      - "Time VPN USA 🇺🇸 Chicago"
+      - "Time VPN Russia 🇷🇺 Moscow"
+      - WeVPN US 🇺🇸 Atlanta
+      - WeVPN US 🇺🇸 Chicago
+      - WeVPN US 🇺🇸 Dallas
+      - WeVPN US 🇺🇸 Denver
+      - WeVPN US 🇺🇸 Los Angeles
+      - WeVPN US 🇺🇸 Los Angeles-PF
+      - WeVPN US 🇺🇸 Miami
+      - WeVPN US 🇺🇸 New Jersey
+      - WeVPN US 🇺🇸 New York
+      - WeVPN US 🇺🇸 New York-PF
+      - WeVPN US 🇺🇸 Phoenix
+      - WeVPN US 🇺🇸 Salt Lake City
+      - WeVPN US 🇺🇸 San Jose
+      - WeVPN US 🇺🇸 Seattle
+      - WeVPN US 🇺🇸 Washington DC
+      - WeVPN AR 🇦🇷 Buenos Aires
+      - WeVPN MX 🇲🇽 Mexico City
+      - WeVPN BR 🇧🇷 Sao Paulo
+      - WeVPN CA 🇨🇦 Montreal
+      - WeVPN CA 🇨🇦 Toronto
+      - WeVPN CA 🇨🇦 Vancouver
+      - WeVPN NL 🇳🇱 Amsterdam
+      - WeVPN GR 🇬🇷 Athens
+      - WeVPN RS 🇷🇸 Belgrade
+      - WeVPN BE 🇧🇪 Brussels
+      - WeVPN RO 🇷🇴 Bucharest
+      - WeVPN HU 🇭🇺 Budapest
+      - WeVPN DK 🇩🇰 Copenhagen
+      - WeVPN IE 🇮🇪 Dublin
+      - WeVPN DE 🇩🇪 Frankfurt
+      - WeVPN FI 🇫🇮 Helsinki
+      - WeVPN FI 🇫🇮 Oulu
+      - WeVPN UA 🇺🇦 Kyiv
+      - WeVPN PT 🇵🇹 Lisbon
+      - WeVPN GB 🇬🇧 London
+      - WeVPN GB 🇬🇧 London-PF
+      - WeVPN GB 🇬🇧 Manchester
+      - WeVPN LU 🇱🇺 Luxembourg
+      - WeVPN ES 🇪🇸 Madrid
+      - WeVPN IT 🇮🇹 Milan
+      - WeVPN NO 🇳🇴 Oslo
+      - WeVPN FR 🇫🇷 Paris
+      - WeVPN CZ 🇨🇿 Prague
+      - WeVPN BG 🇧🇬 Sofia
+      - WeVPN SE 🇸🇪 Stockholm
+      - WeVPN AT 🇦🇹 Vienna
+      - WeVPN PL 🇵🇱 Warsaw
+      - WeVPN CH 🇨🇭 Zurich
+      - WeVPN NZ 🇳🇿 Auckland
+      - WeVPN VN 🇻🇳 Hanoi
+      - WeVPN HK 🇭🇰 Hong Kong
+      - WeVPN ID 🇮🇩 Jakarta
+      - WeVPN PH 🇵🇭 Manila
+      - WeVPN AU 🇦🇺 Melbourne
+      - WeVPN AU 🇦🇺 Sydney
+      - WeVPN RU 🇷🇺 Moscow
+      - WeVPN RU 🇷🇺 St Petersburg
+      - WeVPN KR 🇰🇷 Seoul
+      - WeVPN My 🇲🇾 Sibu
+      - WeVPN SG 🇸🇬 Singapore
+      - WeVPN TW 🇹🇼 Taipei
+      - WeVPN JP 🇯🇵 Tokyo
+      - WeVPN EG 🇪🇬 Cairo
+      - WeVPN IN 🇮🇳 Chennai
+      - WeVPN TR 🇹🇷 Denizli
+      - WeVPN AE 🇦🇪 Dubai
+      - WeVPN ZA 🇿🇦 Johannesburg
+      - WeVPN NG 🇳🇬 Lagos
+      - WeVPN IL 🇮🇱 Tel Aviv
+      
+  - name: AUTO WeVPN ♻️
+    type: url-test
+    proxies:
+      - WeVPN US 🇺🇸 Atlanta
+      - WeVPN US 🇺🇸 Chicago
+      - WeVPN US 🇺🇸 Dallas
+      - WeVPN US 🇺🇸 Denver
+      - WeVPN US 🇺🇸 Los Angeles
+      - WeVPN US 🇺🇸 Los Angeles-PF
+      - WeVPN US 🇺🇸 Miami
+      - WeVPN US 🇺🇸 New Jersey
+      - WeVPN US 🇺🇸 New York
+      - WeVPN US 🇺🇸 New York-PF
+      - WeVPN US 🇺🇸 Phoenix
+      - WeVPN US 🇺🇸 Salt Lake City
+      - WeVPN US 🇺🇸 San Jose
+      - WeVPN US 🇺🇸 Seattle
+      - WeVPN US 🇺🇸 Washington DC
+      - WeVPN AR 🇦🇷 Buenos Aires
+      - WeVPN MX 🇲🇽 Mexico City
+      - WeVPN BR 🇧🇷 Sao Paulo
+      - WeVPN CA 🇨🇦 Montreal
+      - WeVPN CA 🇨🇦 Toronto
+      - WeVPN CA 🇨🇦 Vancouver
+      - WeVPN NL 🇳🇱 Amsterdam
+      - WeVPN GR 🇬🇷 Athens
+      - WeVPN RS 🇷🇸 Belgrade
+      - WeVPN BE 🇧🇪 Brussels
+      - WeVPN RO 🇷🇴 Bucharest
+      - WeVPN HU 🇭🇺 Budapest
+      - WeVPN DK 🇩🇰 Copenhagen
+      - WeVPN IE 🇮🇪 Dublin
+      - WeVPN DE 🇩🇪 Frankfurt
+      - WeVPN FI 🇫🇮 Helsinki
+      - WeVPN FI 🇫🇮 Oulu
+      - WeVPN UA 🇺🇦 Kyiv
+      - WeVPN PT 🇵🇹 Lisbon
+      - WeVPN GB 🇬🇧 London
+      - WeVPN GB 🇬🇧 London-PF
+      - WeVPN GB 🇬🇧 Manchester
+      - WeVPN LU 🇱🇺 Luxembourg
+      - WeVPN ES 🇪🇸 Madrid
+      - WeVPN IT 🇮🇹 Milan
+      - WeVPN NO 🇳🇴 Oslo
+      - WeVPN FR 🇫🇷 Paris
+      - WeVPN CZ 🇨🇿 Prague
+      - WeVPN BG 🇧🇬 Sofia
+      - WeVPN SE 🇸🇪 Stockholm
+      - WeVPN AT 🇦🇹 Vienna
+      - WeVPN PL 🇵🇱 Warsaw
+      - WeVPN CH 🇨🇭 Zurich
+      - WeVPN NZ 🇳🇿 Auckland
+      - WeVPN VN 🇻🇳 Hanoi
+      - WeVPN HK 🇭🇰 Hong Kong
+      - WeVPN ID 🇮🇩 Jakarta
+      - WeVPN PH 🇵🇭 Manila
+      - WeVPN AU 🇦🇺 Melbourne
+      - WeVPN AU 🇦🇺 Sydney
+      - WeVPN RU 🇷🇺 Moscow
+      - WeVPN RU 🇷🇺 St Petersburg
+      - WeVPN KR 🇰🇷 Seoul
+      - WeVPN My 🇲🇾 Sibu
+      - WeVPN SG 🇸🇬 Singapore
+      - WeVPN TW 🇹🇼 Taipei
+      - WeVPN JP 🇯🇵 Tokyo
+      - WeVPN EG 🇪🇬 Cairo
+      - WeVPN IN 🇮🇳 Chennai
+      - WeVPN TR 🇹🇷 Denizli
+      - WeVPN AE 🇦🇪 Dubai
+      - WeVPN ZA 🇿🇦 Johannesburg
+      - WeVPN NG 🇳🇬 Lagos
+      - WeVPN IL 🇮🇱 Tel Aviv
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    
+  - name: AUTO UFO ♻️
+    type: url-test
+    proxies:
+      - "UFO Australia 🇦🇺 Sydney"
+      - "UFO Belgium 🇧🇪 Brussels"
+      - "UFO Brazil 🇧🇷 SãoPaulo"
+      - "UFO Canada 🇨🇦 Montreal"
+      - "UFO China 🇨🇳 Beijing"
+      - "UFO France 🇫🇷 Gravelines"
+      - "UFO France 🇫🇷 Paris 2"
+      - "UFO France 🇫🇷 Paris 3"
+      - "UFO France 🇫🇷 Paris 4"
+      - "UFO France 🇫🇷 Paris 5 YT"
+      - "UFO France 🇫🇷 Paris 6"
+      - "UFO France 🇫🇷 Paris 7"
+      - "UFO France 🇫🇷 Paris"
+      - "UFO Germany 🇩🇪 Berlin"
+      - "UFO Germany 🇩🇪 Düsseldorf 2"
+      - "UFO Germany 🇩🇪 Düsseldorf"
+      - "UFO Germany 🇩🇪 FrankfurtamMain 3"
+      - "UFO Germany 🇩🇪 FrankfurtamMain 2"
+      - "UFO Germany 🇩🇪 FrankfurtamMain"
+      - "UFO Germany 🇩🇪 LimburganderLahn 2"
+      - "UFO Germany 🇩🇪 LimburganderLahn"
+      - "UFO Hong Kong🇭🇰Central"
+      - "UFO India 🇮🇳 Bengaluru"
+      - "UFO India 🇮🇳 Mumbai 2"
+      - "UFO India 🇮🇳 Mumbai 3"
+      - "UFO India 🇮🇳 Mumbai"
+      - "UFO Ireland 🇮🇪 Dublin"
+      - "UFO Israel 🇮🇱 TelAviv"
+      - "UFO Italy 🇮🇹 Milan 2"
+      - "UFO Italy 🇮🇹 Milan 3"
+      - "UFO Italy 🇮🇹 Milan 4"
+      - "UFO Italy 🇮🇹 Milan"
+      - "UFO Japan 🇯🇵 Tokyo 2"
+      - "UFO Japan 🇯🇵 Tokyo 3"
+      - "UFO Japan 🇯🇵 Tokyo 4"
+      - "UFO Japan 🇯🇵 Tokyo 5"
+      - "UFO Japan 🇯🇵 Tokyo"
+      - "UFO Netherlands 🇳🇱 Naaldwijk"
+      - "UFO New Zealand 🇳🇿 Auckland"
+      - "UFO Norway 🇳🇴 Lensvik"
+      - "UFO Philippines 🇵🇭 MakatiCity"
+      - "UFO Russia 🇷🇺 Moscow"
+      - "UFO Singapore 🇸🇬 QueenstownEstate 2"
+      - "UFO Singapore 🇸🇬 QueenstownEstate"
+      - "UFO Singapore 🇸🇬 Singapore 2"
+      - "UFO Singapore 🇸🇬 Singapore 3"
+      - "UFO Singapore 🇸🇬 Singapore"
+      - "UFO South Korea 🇰🇷 Gangnam"
+      - "UFO Sweden 🇸🇪 Stockholm"
+      - "UFO Switzerland 🇨🇭 Zurich"
+      - "UFO Taiwan 🇹🇼 Chang-hua"
+      - "UFO Turkey 🇹🇷 Bahçelievler"
+      - "UFO United Arab Emirates 🇦🇪 Dubai"
+      - "UFO United Arab Emirates 🇦🇪 Sharjah 2"
+      - "UFO United Arab Emirates 🇦🇪 Sharjah"
+      - "UFO United Kingdom 🇬🇧 Basingstoke"
+      - "UFO United Kingdom 🇬🇧 London 2"
+      - "UFO United Kingdom 🇬🇧 London 3"
+      - "UFO United Kingdom 🇬🇧 London 4"
+      - "UFO United Kingdom 🇬🇧 London"
+      - "UFO United Kingdom 🇬🇧 London 5"
+      - "UFO USA 🇺🇸 Atlanta 2"
+      - "UFO USA 🇺🇸 Atlanta"
+      - "UFO USA 🇺🇸 Chicago 2"
+      - "UFO USA 🇺🇸 Chicago"
+      - "UFO USA 🇺🇸 Dallas 2"
+      - "UFO USA 🇺🇸 Dallas"
+      - "UFO USA 🇺🇸 Denver"
+      - "UFO USA 🇺🇸 LasVegas"
+      - "UFO USA 🇺🇸 LosAngeles 2"
+      - "UFO USA 🇺🇸 LosAngeles 3"
+      - "UFO USA 🇺🇸 LosAngeles 4"
+      - "UFO USA 🇺🇸 LosAngeles"
+      - "UFO USA 🇺🇸 Miami 2"
+      - "UFO USA 🇺🇸 Miami"
+      - "UFO USA 🇺🇸 NewYork 2"
+      - "UFO USA 🇺🇸 NewYork 3"
+      - "UFO USA 🇺🇸 NewYork"
+      - "UFO USA 🇺🇸 Phoenix"
+      - "UFO USA 🇺🇸 SantaClara"
+      - "UFO USA 🇺🇸 Seattle 2"
+      - "UFO USA 🇺🇸 Seattle"
+      - "UFO USA 🇺🇸 Washington"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO Aloha ♻️
+    type: url-test
+    proxies:
+      - "Aloha Argentina 🇦🇷 Buenos Aires"
+      - "Aloha Australia 🇦🇺 Sydney"
+      - "Aloha Austria 🇦🇹 Graz"
+      - "Aloha Azerbaijan 🇦🇿 Baku"
+      - "Aloha Belgium 🇧🇪 Oostkamp"
+      - "Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik"
+      - "Aloha Brazil 🇧🇷 Sao Paulo"
+      - "Aloha Bulgaria 🇧🇬 Sofia"
+      - "Aloha Canada 🇨🇦 Montreal"
+      - "Aloha Chile 🇨🇱 Viña del Mar"
+      - "Aloha Colombia 🇨🇴 Bogota"
+      - "Aloha Croatia 🇭🇷 Zagreb"
+      - "Aloha Cyprus 🇨🇾 Nicosia"
+      - "Aloha Czechia 🇨🇿 Prague"
+      - "Aloha Denmark 🇩🇰 Copenhagen"
+      - "Aloha Estonia 🇪🇪 Tallinn"
+      - "Aloha Finland 🇫🇮 Helsinki"
+      - "Aloha France 🇫🇷 Arcueil"
+      - "Aloha Germany 🇩🇪 Düsseldorf"
+      - "Aloha Germany 🇩🇪 Limburg an der Lahn"
+      - "Aloha Germany 🇩🇪 Nuremberg"
+      - "Aloha Greece 🇬🇷 Thessaloniki"
+      - "Aloha Hong Kong 🇭🇰 Central"
+      - "Aloha Hungary 🇭🇺 Budapest"
+      - "Aloha Iceland 🇮🇸 Hafnarfjordur"
+      - "Aloha India 🇮🇳 Jaipur"
+      - "Aloha Indonesia 🇮🇩 Jakarta"
+      - "Aloha Ireland 🇮🇪 Tallaght"
+      - "Aloha Isle of Man 🇮🇲 Douglas"
+      - "Aloha Israel 🇮🇱 Tel Aviv"
+      - "Aloha Italy 🇮🇹 Milan"
+      - "Aloha Japan 🇯🇵 Tokyo"
+      - "Aloha Latvia 🇱🇻 Riga"
+      - "Aloha Luxembourg 🇱🇺 Luxembourg"
+      - "Aloha Malaysia 🇲🇾 Bukit Bintang"
+      - "Aloha Malta 🇲🇹 Qormi"
+      - "Aloha Mexico 🇲🇽 Mexico City"
+      - "Aloha Moldova 🇲🇩 Chisinau"
+      - "Aloha Netherlands 🇳🇱 Amsterdam"
+      - "Aloha Netherlands 🇳🇱 Haarlem"
+      - "Aloha North Macedonia 🇲🇰 Skopje"
+      - "Aloha Poland 🇵🇱 Wroclaw"
+      - "Aloha Portugal 🇵🇹 Lisbon"
+      - "Aloha Romania 🇷🇴 Bucharest"
+      - "Aloha Russia 🇷🇺 Moscow"
+      - "Aloha Serbia 🇷🇸 Belgrade"
+      - "Aloha Singapore 🇸🇬 Singapore"
+      - "Aloha Slovakia 🇸🇰 Bratislava"
+      - "Aloha Slovenia 🇸🇮 Ljubljana"
+      - "Aloha South Africa 🇿🇦 Pretoria"
+      - "Aloha South Korea 🇰🇷 Seoul"
+      - "Aloha Spain 🇪🇸 Seville"
+      - "Aloha Sweden 🇸🇪 Stockholm"
+      - "Aloha Switzerland 🇨🇭 Zurich"
+      - "Aloha Taiwan 🇹🇼 Taipei"
+      - "Aloha Turkey 🇹🇷 Istanbul"
+      - "Aloha Ukraine 🇺🇦 Kharkiv"
+      - "Aloha United Kingdom 🇬🇧 London"
+      - "Aloha United States 🇺🇸 Ashburn 1"
+      - "Aloha United States 🇺🇸 Ashburn 2"
+      - "Aloha United States 🇺🇸 Ashburn 3"
+      - "Aloha United States 🇺🇸 Ashburn 4"
+      - "Aloha United States 🇺🇸 Ashburn 5"
+      - "Aloha Vietnam 🇻🇳 Ho Chi Minh City"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO Speedy Quark ♻️
+    type: url-test
+    proxies:
+      - "Speedy Quark Australia 🇦🇺 sydney"
+      - "Speedy Quark Azerbaijan 🇦🇿 Baku"
+      - "Speedy Quark Canada 🇨🇦 Montreal"
+      - "Speedy Quark Denmark 🇩🇰 Copenhagen"
+      - "Speedy Quark France 🇫🇷 Paris"
+      - "Speedy Quark Germany 🇩🇪 FrankfurtamMain"
+      - "Speedy Quark Germany 🇩🇪 LimburganderLahn"
+      - "Speedy Quark Greece 🇬🇷 Athens"
+      - "Speedy Quark Hungary 🇭🇺 Budapest"
+      - "Speedy Quark Iceland 🇮🇸 Hafnarfjordur"
+      - "Speedy Quark Ireland 🇮🇪 Dublin"
+      - "Speedy Quark Israel 🇮🇱 Haifa 1"
+      - "Speedy Quark Israel 🇮🇱 Haifa 2"
+      - "Speedy Quark Israel 🇮🇱 Haifa 3"
+      - "Speedy Quark Israel 🇮🇱 Haifa 4"
+      - "Speedy Quark Italy 🇮🇹 Milan 1"
+      - "Speedy Quark Italy 🇮🇹 Milan 2"
+      - "Speedy Quark Italy 🇮🇹 Milan 3"
+      - "Speedy Quark Japan 🇯🇵 Tokyo"
+      - "Speedy Quark Netherland 🇳🇱 Amsterdam"
+      - "Speedy Quark Norway 🇳🇴 Oslo"
+      - "Speedy Quark Poland 🇵🇱 Gdansk"
+      - "Speedy Quark Romania 🇷🇴 Iasi"
+      - "Speedy Quark Russia 🇷🇺 Moscow 1"
+      - "Speedy Quark Russia 🇷🇺 Moscow 2"
+      - "Speedy Quark Spain 🇪🇸 Madrid"
+      - "Speedy Quark Sweden 🇸🇪 Stockholm"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 1"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 2"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 3"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 4"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 5"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 6"
+      - "Speedy Quark UK 🇬🇧 London 1"
+      - "Speedy Quark UK 🇬🇧 London 2"
+      - "Speedy Quark UK 🇬🇧 London 3"
+      - "Speedy Quark UK 🇬🇧 London 4"
+      - "Speedy Quark Ukraine 🇺🇦 Kyiv"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 1"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 2"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 3"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 4"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 5"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 6"
+      - "Speedy Quark USA 🇺🇸 New Jersey 1"
+      - "Speedy Quark USA 🇺🇸 New Jersey 2"
+      - "Speedy Quark USA 🇺🇸 New Jersey 3"
+      - "Speedy Quark USA 🇺🇸 New Memphis 1"
+      - "Speedy Quark USA 🇺🇸 New Memphis 2"
+      - "Speedy Quark USA 🇺🇸 San Jose"
+      - "Speedy Quark USA 🇺🇸 Santa Clara"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO XY VPN ♻️
+    type: url-test
+    proxies:
+      - "XY VPN USA 🇺🇸 Dalas"
+      - "XY VPN USA 🇺🇸 New York"
+      - "XY VPN UK 🇬🇧 London"
+      - "XY VPN Canada 🇨🇦 Toronto"
+      - "XY VPN India 🇮🇳 Mumbai"
+      - "XY VPN Canada 🇨🇦 Montreal"
+      - "XY VPN France 🇫🇷 Roubaix"
+      - "XY VPN Germany 🇩🇪 frankfurtAMmain"
+      - "XY VPN Germany 🇩🇪 Dusseldorf 1"
+      - "XY VPN Germany 🇩🇪 Dusseldorf 2"
+      - "XY VPN Italy 🇮🇹 Milan 1"
+      - "XY VPN Italy 🇮🇹 Milan 2"
+      - "XY VPN Norway 🇳🇴 Kristiansad 1"
+      - "XY VPN Norway 🇳🇴 Kristiansad 2"
+      - "XY VPN Norway 🇳🇴 Kristiansad 3"
+      - "XY VPN Poland 🇳🇴 Warsaw 1"
+      - "XY VPN Poland 🇳🇴 Warsaw 2"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO Private VPN ♻️
+    type: url-test
+    proxies:
+      - "Private VPN USA 🇺🇸 New Jersey"
+      - "Private VPN USA 🇺🇸 California"
+      - "Private VPN France 🇫🇷 Paris"
+      - "Private VPN Singapore 🇸🇬 Singapore"
+      - "Private VPN UK 🇬🇧 London"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO Time VPN ♻️
+    type: url-test
+    proxies:
+      - "Time VPN  🇸🇪 stockholm"
+      - "Time Netherlands 🇳🇱 Amsterdam"
+      - "Time VPN Germany 🇩🇪 FrankfurtamMain"
+      - "Time VPN USA 🇺🇸 Chicago"
+      - "Time VPN Russia 🇷🇺 Moscow"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: "Auto-Fallback"
+    type: fallback
+    proxies:
+      - "UFO Australia 🇦🇺 Sydney"
+      - "UFO Belgium 🇧🇪 Brussels"
+      - "UFO Brazil 🇧🇷 SãoPaulo"
+      - "UFO Canada 🇨🇦 Montreal"
+      - "UFO China 🇨🇳 Beijing"
+      - "UFO France 🇫🇷 Gravelines"
+      - "UFO France 🇫🇷 Paris 2"
+      - "UFO France 🇫🇷 Paris 3"
+      - "UFO France 🇫🇷 Paris 4"
+      - "UFO France 🇫🇷 Paris 5 YT"
+      - "UFO France 🇫🇷 Paris 6"
+      - "UFO France 🇫🇷 Paris 7"
+      - "UFO France 🇫🇷 Paris"
+      - "UFO Germany 🇩🇪 Berlin"
+      - "UFO Germany 🇩🇪 Düsseldorf 2"
+      - "UFO Germany 🇩🇪 Düsseldorf"
+      - "UFO Germany 🇩🇪 FrankfurtamMain 3"
+      - "UFO Germany 🇩🇪 FrankfurtamMain 2"
+      - "UFO Germany 🇩🇪 FrankfurtamMain"
+      - "UFO Germany 🇩🇪 LimburganderLahn 2"
+      - "UFO Germany 🇩🇪 LimburganderLahn"
+      - "UFO Hong Kong🇭🇰Central"
+      - "UFO India 🇮🇳 Bengaluru"
+      - "UFO India 🇮🇳 Mumbai 2"
+      - "UFO India 🇮🇳 Mumbai 3"
+      - "UFO India 🇮🇳 Mumbai"
+      - "UFO Ireland 🇮🇪 Dublin"
+      - "UFO Israel 🇮🇱 TelAviv"
+      - "UFO Italy 🇮🇹 Milan 2"
+      - "UFO Italy 🇮🇹 Milan 3"
+      - "UFO Italy 🇮🇹 Milan 4"
+      - "UFO Italy 🇮🇹 Milan"
+      - "UFO Japan 🇯🇵 Tokyo 2"
+      - "UFO Japan 🇯🇵 Tokyo 3"
+      - "UFO Japan 🇯🇵 Tokyo 4"
+      - "UFO Japan 🇯🇵 Tokyo 5"
+      - "UFO Japan 🇯🇵 Tokyo"
+      - "UFO Netherlands 🇳🇱 Naaldwijk"
+      - "UFO New Zealand 🇳🇿 Auckland"
+      - "UFO Norway 🇳🇴 Lensvik"
+      - "UFO Philippines 🇵🇭 MakatiCity"
+      - "UFO Russia 🇷🇺 Moscow"
+      - "UFO Singapore 🇸🇬 QueenstownEstate 2"
+      - "UFO Singapore 🇸🇬 QueenstownEstate"
+      - "UFO Singapore 🇸🇬 Singapore 2"
+      - "UFO Singapore 🇸🇬 Singapore 3"
+      - "UFO Singapore 🇸🇬 Singapore"
+      - "UFO South Korea 🇰🇷 Gangnam"
+      - "UFO Sweden 🇸🇪 Stockholm"
+      - "UFO Switzerland 🇨🇭 Zurich"
+      - "UFO Taiwan 🇹🇼 Chang-hua"
+      - "UFO Turkey 🇹🇷 Bahçelievler"
+      - "UFO United Arab Emirates 🇦🇪 Dubai"
+      - "UFO United Arab Emirates 🇦🇪 Sharjah 2"
+      - "UFO United Arab Emirates 🇦🇪 Sharjah"
+      - "UFO United Kingdom 🇬🇧 Basingstoke"
+      - "UFO United Kingdom 🇬🇧 London 2"
+      - "UFO United Kingdom 🇬🇧 London 3"
+      - "UFO United Kingdom 🇬🇧 London 4"
+      - "UFO United Kingdom 🇬🇧 London"
+      - "UFO United Kingdom 🇬🇧 London 5"
+      - "UFO USA 🇺🇸 Atlanta 2"
+      - "UFO USA 🇺🇸 Atlanta"
+      - "UFO USA 🇺🇸 Chicago 2"
+      - "UFO USA 🇺🇸 Chicago"
+      - "UFO USA 🇺🇸 Dallas 2"
+      - "UFO USA 🇺🇸 Dallas"
+      - "UFO USA 🇺🇸 Denver"
+      - "UFO USA 🇺🇸 LasVegas"
+      - "UFO USA 🇺🇸 LosAngeles 2"
+      - "UFO USA 🇺🇸 LosAngeles 3"
+      - "UFO USA 🇺🇸 LosAngeles 4"
+      - "UFO USA 🇺🇸 LosAngeles"
+      - "UFO USA 🇺🇸 Miami 2"
+      - "UFO USA 🇺🇸 Miami"
+      - "UFO USA 🇺🇸 NewYork 2"
+      - "UFO USA 🇺🇸 NewYork 3"
+      - "UFO USA 🇺🇸 NewYork"
+      - "UFO USA 🇺🇸 Phoenix"
+      - "UFO USA 🇺🇸 SantaClara"
+      - "UFO USA 🇺🇸 Seattle 2"
+      - "UFO USA 🇺🇸 Seattle"
+      - "UFO USA 🇺🇸 Washington"
+      - "Aloha Argentina 🇦🇷 Buenos Aires"
+      - "Aloha Australia 🇦🇺 Sydney"
+      - "Aloha Austria 🇦🇹 Graz"
+      - "Aloha Azerbaijan 🇦🇿 Baku"
+      - "Aloha Belgium 🇧🇪 Oostkamp"
+      - "Aloha Bosnia and Herzegovina 🇧🇦 Novi Travnik"
+      - "Aloha Brazil 🇧🇷 Sao Paulo"
+      - "Aloha Bulgaria 🇧🇬 Sofia"
+      - "Aloha Canada 🇨🇦 Montreal"
+      - "Aloha Chile 🇨🇱 Viña del Mar"
+      - "Aloha Colombia 🇨🇴 Bogota"
+      - "Aloha Croatia 🇭🇷 Zagreb"
+      - "Aloha Cyprus 🇨🇾 Nicosia"
+      - "Aloha Czechia 🇨🇿 Prague"
+      - "Aloha Denmark 🇩🇰 Copenhagen"
+      - "Aloha Estonia 🇪🇪 Tallinn"
+      - "Aloha Finland 🇫🇮 Helsinki"
+      - "Aloha France 🇫🇷 Arcueil"
+      - "Aloha Germany 🇩🇪 Düsseldorf"
+      - "Aloha Germany 🇩🇪 Limburg an der Lahn"
+      - "Aloha Germany 🇩🇪 Nuremberg"
+      - "Aloha Greece 🇬🇷 Thessaloniki"
+      - "Aloha Hong Kong 🇭🇰 Central"
+      - "Aloha Hungary 🇭🇺 Budapest"
+      - "Aloha Iceland 🇮🇸 Hafnarfjordur"
+      - "Aloha India 🇮🇳 Jaipur"
+      - "Aloha Indonesia 🇮🇩 Jakarta"
+      - "Aloha Ireland 🇮🇪 Tallaght"
+      - "Aloha Isle of Man 🇮🇲 Douglas"
+      - "Aloha Israel 🇮🇱 Tel Aviv"
+      - "Aloha Italy 🇮🇹 Milan"
+      - "Aloha Japan 🇯🇵 Tokyo"
+      - "Aloha Latvia 🇱🇻 Riga"
+      - "Aloha Luxembourg 🇱🇺 Luxembourg"
+      - "Aloha Malaysia 🇲🇾 Bukit Bintang"
+      - "Aloha Malta 🇲🇹 Qormi"
+      - "Aloha Mexico 🇲🇽 Mexico City"
+      - "Aloha Moldova 🇲🇩 Chisinau"
+      - "Aloha Netherlands 🇳🇱 Amsterdam"
+      - "Aloha Netherlands 🇳🇱 Haarlem"
+      - "Aloha North Macedonia 🇲🇰 Skopje"
+      - "Aloha Poland 🇵🇱 Wroclaw"
+      - "Aloha Portugal 🇵🇹 Lisbon"
+      - "Aloha Romania 🇷🇴 Bucharest"
+      - "Aloha Russia 🇷🇺 Moscow"
+      - "Aloha Serbia 🇷🇸 Belgrade"
+      - "Aloha Singapore 🇸🇬 Singapore"
+      - "Aloha Slovakia 🇸🇰 Bratislava"
+      - "Aloha Slovenia 🇸🇮 Ljubljana"
+      - "Aloha South Africa 🇿🇦 Pretoria"
+      - "Aloha South Korea 🇰🇷 Seoul"
+      - "Aloha Spain 🇪🇸 Seville"
+      - "Aloha Sweden 🇸🇪 Stockholm"
+      - "Aloha Switzerland 🇨🇭 Zurich"
+      - "Aloha Taiwan 🇹🇼 Taipei"
+      - "Aloha Turkey 🇹🇷 Istanbul"
+      - "Aloha Ukraine 🇺🇦 Kharkiv"
+      - "Aloha United Kingdom 🇬🇧 London"
+      - "Aloha United States 🇺🇸 Ashburn 1"
+      - "Aloha United States 🇺🇸 Ashburn 2"
+      - "Aloha United States 🇺🇸 Ashburn 3"
+      - "Aloha United States 🇺🇸 Ashburn 4"
+      - "Aloha United States 🇺🇸 Ashburn 5"
+      - "Aloha Vietnam 🇻🇳 Ho Chi Minh City"
+      - "Speedy Quark Australia 🇦🇺 sydney"
+      - "Speedy Quark Azerbaijan 🇦🇿 Baku"
+      - "Speedy Quark Canada 🇨🇦 Montreal"
+      - "Speedy Quark Denmark 🇩🇰 Copenhagen"
+      - "Speedy Quark France 🇫🇷 Paris"
+      - "Speedy Quark Germany 🇩🇪 FrankfurtamMain"
+      - "Speedy Quark Germany 🇩🇪 LimburganderLahn"
+      - "Speedy Quark Greece 🇬🇷 Athens"
+      - "Speedy Quark Hungary 🇭🇺 Budapest"
+      - "Speedy Quark Iceland 🇮🇸 Hafnarfjordur"
+      - "Speedy Quark Ireland 🇮🇪 Dublin"
+      - "Speedy Quark Israel 🇮🇱 Haifa 1"
+      - "Speedy Quark Israel 🇮🇱 Haifa 2"
+      - "Speedy Quark Israel 🇮🇱 Haifa 3"
+      - "Speedy Quark Israel 🇮🇱 Haifa 4"
+      - "Speedy Quark Italy 🇮🇹 Milan 1"
+      - "Speedy Quark Italy 🇮🇹 Milan 2"
+      - "Speedy Quark Italy 🇮🇹 Milan 3"
+      - "Speedy Quark Japan 🇯🇵 Tokyo"
+      - "Speedy Quark Netherland 🇳🇱 Amsterdam"
+      - "Speedy Quark Norway 🇳🇴 Oslo"
+      - "Speedy Quark Poland 🇵🇱 Gdansk"
+      - "Speedy Quark Romania 🇷🇴 Iasi"
+      - "Speedy Quark Russia 🇷🇺 Moscow 1"
+      - "Speedy Quark Russia 🇷🇺 Moscow 2"
+      - "Speedy Quark Spain 🇪🇸 Madrid"
+      - "Speedy Quark Sweden 🇸🇪 Stockholm"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 1"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 2"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 3"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 4"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 5"
+      - "Speedy Quark Turkey 🇹🇷 Istanbul 6"
+      - "Speedy Quark UK 🇬🇧 London 1"
+      - "Speedy Quark UK 🇬🇧 London 2"
+      - "Speedy Quark UK 🇬🇧 London 3"
+      - "Speedy Quark UK 🇬🇧 London 4"
+      - "Speedy Quark Ukraine 🇺🇦 Kyiv"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 1"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 2"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 3"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 4"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 5"
+      - "Speedy Quark USA 🇺🇸 Los Angeles 6"
+      - "Speedy Quark USA 🇺🇸 New Jersey 1"
+      - "Speedy Quark USA 🇺🇸 New Jersey 2"
+      - "Speedy Quark USA 🇺🇸 New Jersey 3"
+      - "Speedy Quark USA 🇺🇸 New Memphis 1"
+      - "Speedy Quark USA 🇺🇸 New Memphis 2"
+      - "Speedy Quark USA 🇺🇸 San Jose"
+      - "Speedy Quark USA 🇺🇸 Santa Clara"
+      - "XY VPN USA 🇺🇸 Dalas"
+      - "XY VPN USA 🇺🇸 New York"
+      - "XY VPN UK 🇬🇧 London"
+      - "XY VPN Canada 🇨🇦 Toronto"
+      - "XY VPN India 🇮🇳 Mumbai"
+      - "XY VPN Canada 🇨🇦 Montreal"
+      - "XY VPN France 🇫🇷 Roubaix"
+      - "XY VPN Germany 🇩🇪 frankfurtAMmain"
+      - "XY VPN Germany 🇩🇪 Dusseldorf 1"
+      - "XY VPN Germany 🇩🇪 Dusseldorf 2"
+      - "XY VPN Italy 🇮🇹 Milan 1"
+      - "XY VPN Italy 🇮🇹 Milan 2"
+      - "XY VPN Norway 🇳🇴 Kristiansad 1"
+      - "XY VPN Norway 🇳🇴 Kristiansad 2"
+      - "XY VPN Norway 🇳🇴 Kristiansad 3"
+      - "XY VPN Poland 🇳🇴 Warsaw 1"
+      - "XY VPN Poland 🇳🇴 Warsaw 2"
+      - "Private VPN USA 🇺🇸 New Jersey"
+      - "Private VPN USA 🇺🇸 California"
+      - "Private VPN France 🇫🇷 Paris"
+      - "Private VPN Singapore 🇸🇬 Singapore"
+      - "Private VPN UK 🇬🇧 London"
+      - "Time VPN  🇸🇪 stockholm"
+      - "Time Netherlands 🇳🇱 Amsterdam"
+      - "Time VPN Germany 🇩🇪 FrankfurtamMain"
+      - "Time VPN USA 🇺🇸 Chicago"
+      - "Time VPN Russia 🇷🇺 Moscow"
+      - WeVPN US 🇺🇸 Atlanta
+      - WeVPN US 🇺🇸 Chicago
+      - WeVPN US 🇺🇸 Dallas
+      - WeVPN US 🇺🇸 Denver
+      - WeVPN US 🇺🇸 Los Angeles
+      - WeVPN US 🇺🇸 Los Angeles-PF
+      - WeVPN US 🇺🇸 Miami
+      - WeVPN US 🇺🇸 New Jersey
+      - WeVPN US 🇺🇸 New York
+      - WeVPN US 🇺🇸 New York-PF
+      - WeVPN US 🇺🇸 Phoenix
+      - WeVPN US 🇺🇸 Salt Lake City
+      - WeVPN US 🇺🇸 San Jose
+      - WeVPN US 🇺🇸 Seattle
+      - WeVPN US 🇺🇸 Washington DC
+      - WeVPN AR 🇦🇷 Buenos Aires
+      - WeVPN MX 🇲🇽 Mexico City
+      - WeVPN BR 🇧🇷 Sao Paulo
+      - WeVPN CA 🇨🇦 Montreal
+      - WeVPN CA 🇨🇦 Toronto
+      - WeVPN CA 🇨🇦 Vancouver
+      - WeVPN NL 🇳🇱 Amsterdam
+      - WeVPN GR 🇬🇷 Athens
+      - WeVPN RS 🇷🇸 Belgrade
+      - WeVPN BE 🇧🇪 Brussels
+      - WeVPN RO 🇷🇴 Bucharest
+      - WeVPN HU 🇭🇺 Budapest
+      - WeVPN DK 🇩🇰 Copenhagen
+      - WeVPN IE 🇮🇪 Dublin
+      - WeVPN DE 🇩🇪 Frankfurt
+      - WeVPN FI 🇫🇮 Helsinki
+      - WeVPN FI 🇫🇮 Oulu
+      - WeVPN UA 🇺🇦 Kyiv
+      - WeVPN PT 🇵🇹 Lisbon
+      - WeVPN GB 🇬🇧 London
+      - WeVPN GB 🇬🇧 London-PF
+      - WeVPN GB 🇬🇧 Manchester
+      - WeVPN LU 🇱🇺 Luxembourg
+      - WeVPN ES 🇪🇸 Madrid
+      - WeVPN IT 🇮🇹 Milan
+      - WeVPN NO 🇳🇴 Oslo
+      - WeVPN FR 🇫🇷 Paris
+      - WeVPN CZ 🇨🇿 Prague
+      - WeVPN BG 🇧🇬 Sofia
+      - WeVPN SE 🇸🇪 Stockholm
+      - WeVPN AT 🇦🇹 Vienna
+      - WeVPN PL 🇵🇱 Warsaw
+      - WeVPN CH 🇨🇭 Zurich
+      - WeVPN NZ 🇳🇿 Auckland
+      - WeVPN VN 🇻🇳 Hanoi
+      - WeVPN HK 🇭🇰 Hong Kong
+      - WeVPN ID 🇮🇩 Jakarta
+      - WeVPN PH 🇵🇭 Manila
+      - WeVPN AU 🇦🇺 Melbourne
+      - WeVPN AU 🇦🇺 Sydney
+      - WeVPN RU 🇷🇺 Moscow
+      - WeVPN RU 🇷🇺 St Petersburg
+      - WeVPN KR 🇰🇷 Seoul
+      - WeVPN My 🇲🇾 Sibu
+      - WeVPN SG 🇸🇬 Singapore
+      - WeVPN TW 🇹🇼 Taipei
+      - WeVPN JP 🇯🇵 Tokyo
+      - WeVPN EG 🇪🇬 Cairo
+      - WeVPN IN 🇮🇳 Chennai
+      - WeVPN TR 🇹🇷 Denizli
+      - WeVPN AE 🇦🇪 Dubai
+      - WeVPN ZA 🇿🇦 Johannesburg
+      - WeVPN NG 🇳🇬 Lagos
+      - WeVPN IL 🇮🇱 Tel Aviv
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+rule-providers:
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/SamadiPour/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/iran.yaml
+    interval: 432000
+
+rules:
+  - RULE-SET,iran,DIRECT
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - MATCH,🔆 LIST
+  - IP-CIDR,8.8.8.8/32,🔆 LIST
+  - IP-CIDR,8.8.4.4/32,🔆 LIST
+  - IP-CIDR,1.1.1.1/32,🔆 LIST
+  - IP-CIDR,1.0.0.1/32,🔆 LIST
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
