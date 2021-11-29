@@ -315,6 +315,7 @@ proxy-groups:
   - name: 🔆 LIST
     type: select
     proxies:
+      - AUTO All ♻️
       - AUTO UFO ♻️
       - AUTO WeVPN ♻️
       - AUTO Aloha ♻️
@@ -951,8 +952,8 @@ proxy-groups:
       - "Time VPN Russia 🇷🇺 Moscow"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-  - name: "Auto-Fallback"
-    type: fallback
+  - name: AUTO All ♻️
+    type: url-test
     proxies:
       - "UFO Australia 🇦🇺 Sydney"
       - "UFO Belgium 🇧🇪 Brussels"
