@@ -1,0 +1,350 @@
+mixed-port: 7890
+allow-lan: false
+mode: Global
+log-level: silent
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - https://8.8.4.4/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
+proxies:
+  - {name: US 🇺🇸 Atlanta, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
+  - {name: US 🇺🇸 Chicago, server: 69.39.239.57, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: US 🇺🇸 Dallas, server: 194.110.112.74, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: US 🇺🇸 Denver, server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: US 🇺🇸 Los Angeles, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: US 🇺🇸 Los Angeles-PF, server: 66.55.92.75, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: US 🇺🇸 Miami, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: US 🇺🇸 New Jersey, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: US 🇺🇸 New York, server: 217.138.206.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
+  - {name: US 🇺🇸 New York-PF, server: 188.241.179.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2SKtWLpv3tWyS97wqrxC}
+  - {name: US 🇺🇸 Phoenix, server: 170.130.15.34, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q8gsJVLZ5eYXU3uhmnbH}
+  - {name: US 🇺🇸 Salt Lake City, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: US 🇺🇸 San Jose, server: 169.62.109.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 74cf7gsXJgd9Z4MAW42L}
+  - {name: US 🇺🇸 Seattle, server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
+  - {name: US 🇺🇸 Washington DC, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: AR 🇦🇷 Buenos Aires, server: 131.255.4.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: UHu5NzfXjuur52h9}
+  - {name: MX 🇲🇽 Mexico City, server: 169.57.35.85, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: BR 🇧🇷 Sao Paulo, server: 177.54.152.89, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2GWsqE7Gr3nRMuuQZfFa}
+  - {name: CA 🇨🇦 Montreal, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: CA 🇨🇦 Toronto, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: CA 🇨🇦 Vancouver, server: 71.19.249.109, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QBLw4rLXQ6ebxpWwSKDL}
+  - {name: NL 🇳🇱 Amsterdam, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: GR 🇬🇷 Athens, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: RS 🇷🇸 Belgrade, server: 37.120.193.170, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Z3WEYrWQdmDZnLvJ94vE}
+  - {name: BE 🇧🇪 Brussels, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: RO 🇷🇴 Bucharest, server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
+  - {name: HU 🇭🇺 Budapest, server: 185.128.26.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
+  - {name: DK 🇩🇰 Copenhagen, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: IE 🇮🇪 Dublin, server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: DE 🇩🇪 Frankfurt, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: FI 🇫🇮 Helsinki, server: 185.212.149.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: FI 🇫🇮 Oulu, server: 188.126.89.174, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SkGJxCjsuc8DJsB2GtM4}
+  - {name: UA 🇺🇦 Kyiv, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: PT 🇵🇹 Lisbon, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: GB 🇬🇧 London, server: 45.141.154.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: sHWJUzzQUXtQSR2P6HNJ}
+  - {name: GB 🇬🇧 London-PF, server: 77.243.177.78, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Qu9b6jbYLF5Dtha3n7W2}
+  - {name: GB 🇬🇧 Manchester, server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
+  - {name: LU 🇱🇺 Luxembourg, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: ES 🇪🇸 Madrid, server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: IT 🇮🇹 Milan, server: 217.138.197.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: NO 🇳🇴 Oslo, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: FR 🇫🇷 Paris, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: CZ 🇨🇿 Prague, server: 217.138.199.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: S4w7wHjBRxCVkxZLgTaN}
+  - {name: BG 🇧🇬 Sofia, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: SE 🇸🇪 Stockholm, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: AT 🇦🇹 Vienna, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL}
+  - {name: PL 🇵🇱 Warsaw, server: 217.138.209.122, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: CxgRTZRE5urVfbbnGSyr}
+  - {name: CH 🇨🇭 Zurich, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: NZ 🇳🇿 Auckland, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: VN 🇻🇳 Hanoi, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: HK 🇭🇰 Hong Kong, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: ID 🇮🇩 Jakarta, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: PH 🇵🇭 Manila, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: AU 🇦🇺 Melbourne, server: 116.206.230.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8}
+  - {name: AU 🇦🇺 Sydney, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: RU 🇷🇺 Moscow, server: 80.93.181.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: BjnLULGTNTBUCvuSaW8f}
+  - {name: RU 🇷🇺 St Petersburg, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: KR 🇰🇷 Seoul, server: 169.56.83.206, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: V9eSCwLbC8xS97e3Brm3}
+  - {name: My 🇲🇾 Sibu, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: SG 🇸🇬 Singapore, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: TW 🇹🇼 Taipei, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: JP 🇯🇵 Tokyo, server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
+  - {name: EG 🇪🇬 Cairo, server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
+  - {name: IN 🇮🇳 Chennai, server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: TR 🇹🇷 Denizli, server: 95.173.161.240, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fmxeGazCbFkCtsBFhRZc}
+  - {name: AE 🇦🇪 Dubai, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc}
+  - {name: ZA 🇿🇦 Johannesburg, server: 102.165.20.38, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
+  - {name: NG 🇳🇬 Lagos, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
+  - {name: IL 🇮🇱 Tel Aviv, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+    
+proxy-groups:
+  - name: 🔆 LIST
+    type: select
+    proxies:
+      - AUTO AMERICAS ♻️
+      - AUTO EUROPE ♻️
+      - AUTO ASIA PACIFIC ♻️
+      - AUTO OTHERS ♻️
+      - 🔰 Select
+  - name: 🔰 Select
+    type: select
+    proxies:
+      - US 🇺🇸 Atlanta
+      - US 🇺🇸 Chicago
+      - US 🇺🇸 Dallas
+      - US 🇺🇸 Denver
+      - US 🇺🇸 Los Angeles
+      - US 🇺🇸 Los Angeles-PF
+      - US 🇺🇸 Miami
+      - US 🇺🇸 New Jersey
+      - US 🇺🇸 New York
+      - US 🇺🇸 New York-PF
+      - US 🇺🇸 Phoenix
+      - US 🇺🇸 Salt Lake City
+      - US 🇺🇸 San Jose
+      - US 🇺🇸 Seattle
+      - US 🇺🇸 Washington DC
+      - AR 🇦🇷 Buenos Aires
+      - MX 🇲🇽 Mexico City
+      - BR 🇧🇷 Sao Paulo
+      - CA 🇨🇦 Montreal
+      - CA 🇨🇦 Toronto
+      - CA 🇨🇦 Vancouver
+      - NL 🇳🇱 Amsterdam
+      - GR 🇬🇷 Athens
+      - RS 🇷🇸 Belgrade
+      - BE 🇧🇪 Brussels
+      - RO 🇷🇴 Bucharest
+      - HU 🇭🇺 Budapest
+      - DK 🇩🇰 Copenhagen
+      - IE 🇮🇪 Dublin
+      - DE 🇩🇪 Frankfurt
+      - FI 🇫🇮 Helsinki
+      - FI 🇫🇮 Oulu
+      - UA 🇺🇦 Kyiv
+      - PT 🇵🇹 Lisbon
+      - GB 🇬🇧 London
+      - GB 🇬🇧 London-PF
+      - GB 🇬🇧 Manchester
+      - LU 🇱🇺 Luxembourg
+      - ES 🇪🇸 Madrid
+      - IT 🇮🇹 Milan
+      - NO 🇳🇴 Oslo
+      - FR 🇫🇷 Paris
+      - CZ 🇨🇿 Prague
+      - BG 🇧🇬 Sofia
+      - SE 🇸🇪 Stockholm
+      - AT 🇦🇹 Vienna
+      - PL 🇵🇱 Warsaw
+      - CH 🇨🇭 Zurich
+      - NZ 🇳🇿 Auckland
+      - VN 🇻🇳 Hanoi
+      - HK 🇭🇰 Hong Kong
+      - ID 🇮🇩 Jakarta
+      - PH 🇵🇭 Manila
+      - AU 🇦🇺 Melbourne
+      - AU 🇦🇺 Sydney
+      - RU 🇷🇺 Moscow
+      - RU 🇷🇺 St Petersburg
+      - KR 🇰🇷 Seoul
+      - My 🇲🇾 Sibu
+      - SG 🇸🇬 Singapore
+      - TW 🇹🇼 Taipei
+      - JP 🇯🇵 Tokyo
+      - EG 🇪🇬 Cairo
+      - IN 🇮🇳 Chennai
+      - TR 🇹🇷 Denizli
+      - AE 🇦🇪 Dubai
+      - ZA 🇿🇦 Johannesburg
+      - NG 🇳🇬 Lagos
+      - IL 🇮🇱 Tel Aviv
+    
+  
+  - name: AUTO AMERICAS ♻️
+    type: url-test
+    proxies:
+      - US 🇺🇸 Atlanta
+      - US 🇺🇸 Chicago
+      - US 🇺🇸 Dallas
+      - US 🇺🇸 Denver
+      - US 🇺🇸 Los Angeles
+      - US 🇺🇸 Los Angeles-PF
+      - US 🇺🇸 Miami
+      - US 🇺🇸 New Jersey
+      - US 🇺🇸 New York
+      - US 🇺🇸 New York-PF
+      - US 🇺🇸 Phoenix
+      - US 🇺🇸 Salt Lake City
+      - US 🇺🇸 San Jose
+      - US 🇺🇸 Seattle
+      - US 🇺🇸 Washington DC
+      - AR 🇦🇷 Buenos Aires
+      - MX 🇲🇽 Mexico City
+      - BR 🇧🇷 Sao Paulo
+      - CA 🇨🇦 Montreal
+      - CA 🇨🇦 Toronto
+      - CA 🇨🇦 Vancouver
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO EUROPE ♻️
+    type: url-test
+    proxies:
+      - NL 🇳🇱 Amsterdam
+      - GR 🇬🇷 Athens
+      - RS 🇷🇸 Belgrade
+      - BE 🇧🇪 Brussels
+      - RO 🇷🇴 Bucharest
+      - HU 🇭🇺 Budapest
+      - DK 🇩🇰 Copenhagen
+      - IE 🇮🇪 Dublin
+      - DE 🇩🇪 Frankfurt
+      - FI 🇫🇮 Helsinki
+      - FI 🇫🇮 Oulu
+      - UA 🇺🇦 Kyiv
+      - PT 🇵🇹 Lisbon
+      - GB 🇬🇧 London
+      - GB 🇬🇧 London-PF
+      - GB 🇬🇧 Manchester
+      - LU 🇱🇺 Luxembourg
+      - ES 🇪🇸 Madrid
+      - IT 🇮🇹 Milan
+      - NO 🇳🇴 Oslo
+      - FR 🇫🇷 Paris
+      - CZ 🇨🇿 Prague
+      - BG 🇧🇬 Sofia
+      - SE 🇸🇪 Stockholm
+      - AT 🇦🇹 Vienna
+      - PL 🇵🇱 Warsaw
+      - CH 🇨🇭 Zurich
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO ASIA PACIFIC ♻️
+    type: url-test
+    proxies:
+      - NZ 🇳🇿 Auckland
+      - VN 🇻🇳 Hanoi
+      - HK 🇭🇰 Hong Kong
+      - ID 🇮🇩 Jakarta
+      - PH 🇵🇭 Manila
+      - AU 🇦🇺 Melbourne
+      - AU 🇦🇺 Sydney
+      - RU 🇷🇺 Moscow
+      - RU 🇷🇺 St Petersburg
+      - KR 🇰🇷 Seoul
+      - My 🇲🇾 Sibu
+      - SG 🇸🇬 Singapore
+      - TW 🇹🇼 Taipei
+      - JP 🇯🇵 Tokyo
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO OTHERS ♻️
+    type: url-test
+    proxies:
+      - EG 🇪🇬 Cairo
+      - IN 🇮🇳 Chennai
+      - TR 🇹🇷 Denizli
+      - AE 🇦🇪 Dubai
+      - ZA 🇿🇦 Johannesburg
+      - NG 🇳🇬 Lagos
+      - IL 🇮🇱 Tel Aviv
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+ 
+  - name: "Auto-Fallback"
+    type: fallback
+    proxies:
+      - US 🇺🇸 Atlanta
+      - US 🇺🇸 Chicago
+      - US 🇺🇸 Dallas
+      - US 🇺🇸 Denver
+      - US 🇺🇸 Los Angeles
+      - US 🇺🇸 Los Angeles-PF
+      - US 🇺🇸 Miami
+      - US 🇺🇸 New Jersey
+      - US 🇺🇸 New York
+      - US 🇺🇸 New York-PF
+      - US 🇺🇸 Phoenix
+      - US 🇺🇸 Salt Lake City
+      - US 🇺🇸 San Jose
+      - US 🇺🇸 Seattle
+      - US 🇺🇸 Washington DC
+      - AR 🇦🇷 Buenos Aires
+      - MX 🇲🇽 Mexico City
+      - BR 🇧🇷 Sao Paulo
+      - CA 🇨🇦 Montreal
+      - CA 🇨🇦 Toronto
+      - CA 🇨🇦 Vancouver
+      - NL 🇳🇱 Amsterdam
+      - GR 🇬🇷 Athens
+      - RS 🇷🇸 Belgrade
+      - BE 🇧🇪 Brussels
+      - RO 🇷🇴 Bucharest
+      - HU 🇭🇺 Budapest
+      - DK 🇩🇰 Copenhagen
+      - IE 🇮🇪 Dublin
+      - DE 🇩🇪 Frankfurt
+      - FI 🇫🇮 Helsinki
+      - FI 🇫🇮 Oulu
+      - UA 🇺🇦 Kyiv
+      - PT 🇵🇹 Lisbon
+      - GB 🇬🇧 London
+      - GB 🇬🇧 London-PF
+      - GB 🇬🇧 Manchester
+      - LU 🇱🇺 Luxembourg
+      - ES 🇪🇸 Madrid
+      - IT 🇮🇹 Milan
+      - NO 🇳🇴 Oslo
+      - FR 🇫🇷 Paris
+      - CZ 🇨🇿 Prague
+      - BG 🇧🇬 Sofia
+      - SE 🇸🇪 Stockholm
+      - AT 🇦🇹 Vienna
+      - PL 🇵🇱 Warsaw
+      - CH 🇨🇭 Zurich
+      - NZ 🇳🇿 Auckland
+      - VN 🇻🇳 Hanoi
+      - HK 🇭🇰 Hong Kong
+      - ID 🇮🇩 Jakarta
+      - PH 🇵🇭 Manila
+      - AU 🇦🇺 Melbourne
+      - AU 🇦🇺 Sydney
+      - RU 🇷🇺 Moscow
+      - RU 🇷🇺 St Petersburg
+      - KR 🇰🇷 Seoul
+      - My 🇲🇾 Sibu
+      - SG 🇸🇬 Singapore
+      - TW 🇹🇼 Taipei
+      - JP 🇯🇵 Tokyo
+      - EG 🇪🇬 Cairo
+      - IN 🇮🇳 Chennai
+      - TR 🇹🇷 Denizli
+      - AE 🇦🇪 Dubai
+      - ZA 🇿🇦 Johannesburg
+      - NG 🇳🇬 Lagos
+      - IL 🇮🇱 Tel Aviv
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+rules:
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - GEOIP,IR,DIRECT
+  - MATCH,🔆 LIST
+  - IP-CIDR,8.8.8.8/32,🔆 LIST
+  - IP-CIDR,8.8.4.4/32,🔆 LIST
+  - IP-CIDR,1.1.1.1/32,🔆 LIST
+  - IP-CIDR,1.0.0.1/32,🔆 LIST
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
