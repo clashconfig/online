@@ -311,6 +311,411 @@ proxies:
   - {name: WeVPN ZA 🇿🇦 Johannesburg, server: 102.165.20.38, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
   - {name: WeVPN NG 🇳🇬 Lagos, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
   - {name: WeVPN IL 🇮🇱 Tel Aviv, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: Norway, server: 46.29.218.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Norway 2, server: 46.29.218.170, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 3, server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Norway 4, server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Norway 5, server: 46.29.218.170, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 6, server: 46.29.218.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Norway 7, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Norway 8, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Norway 9, server: 46.29.218.146, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 10, server: 46.29.218.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway 11, server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Norway 12, server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Norway 13, server: 46.29.218.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Norway 14, server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway 15, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Norway 16, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 17, server: 46.29.219.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Norway 18, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway 19, server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 20, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 21, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Norway 22, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 23, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Norway 24, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway 25, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Norway 26, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway 27, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇩🇪 Germany, server: 217.79.181.65, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇩🇪 Germany 2, server: 139.162.135.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇩🇪 Germany 3, server: 91.194.84.53, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇩🇪 Germany 4, server: 91.194.84.53, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 Germany 5, server: 89.163.224.82, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 Hong Kong, server: 118.107.244.111, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 Hong Kong 2, server: 118.107.244.111, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇭🇰 Hong Kong 3, server: 118.107.244.111, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇭🇰 Hong Kong 4, server: 118.107.244.111, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇭🇰 Hong Kong 5, server: 118.107.244.113, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 Hong Kong 6, server: 118.107.244.113, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇭🇰 Hong Kong 7, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 Hong Kong 8, server: 118.107.244.113, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 Hong Kong 9, server: 118.107.244.113, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇭🇰 Hong Kong 10, server: 118.107.244.113, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 Hong Kong 11, server: 118.107.244.109, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 Hong Kong 12, server: 118.107.244.109, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇭🇰 Hong Kong 13, server: 118.107.244.109, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇭🇰 Hong Kong 14, server: 118.107.244.109, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇮🇳 India, server: 192.46.209.17, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇮🇳 India 2, server: 192.46.208.123, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇮🇳 India 3, server: 192.46.208.123, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇮🇳 India 4, server: 192.46.208.123, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇮🇳 India 5, server: 192.46.208.123, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇳 India 6, server: 192.46.211.249, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇮🇳 India 7, server: 192.46.210.73, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇮🇳 India 8, server: 192.46.210.73, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇮🇳 India 9, server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇮🇳 India 10, server: 192.46.209.215, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇮🇳 India 11, server: 172.105.34.179, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇮🇳 India 12, server: 172.105.38.177, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇮🇳 India 13, server: 192.46.209.120, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇯🇵 Japan, server: 85.208.110.178, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇯🇵 Japan 2, server: 85.208.110.178, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇯🇵 Japan 3, server: 85.208.110.178, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 Japan 4, server: 85.208.110.178, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 Japan 5, server: 85.208.110.178, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇯🇵 Japan 6, server: 85.208.110.178, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇯🇵 Japan 7, server: 5.180.76.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 Japan 8, server: 5.180.76.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇯🇵 Japan 9, server: 5.180.76.74, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇯🇵 Japan 10, server: 5.180.76.74, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇯🇵 Japan 11, server: 5.180.76.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇯🇵 Japan 12, server: 85.208.108.134, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇯🇵 Japan 13, server: 85.208.108.134, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇯🇵 Japan 14, server: 85.208.108.134, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 Japan 15, server: 85.208.108.134, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 Japan 16, server: 85.208.108.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇯🇵 Japan 17, server: 85.208.108.134, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇯🇵 Japan 18, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇯🇵 Japan 19, server: 85.208.108.66, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇯🇵 Japan 20, server: 85.208.108.66, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇯🇵 Japan 21, server: 85.208.108.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇯🇵 Japan 22, server: 85.208.108.66, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇯🇵 Japan 23, server: 85.208.108.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇯🇵 Japan 24, server: 85.208.108.66, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇯🇵 Japan 25, server: 85.208.108.234, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇯🇵 Japan 26, server: 85.208.108.234, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇯🇵 Japan 27, server: 85.208.108.234, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇯🇵 Japan 28, server: 85.208.108.234, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇯🇵 Japan 29, server: 85.208.108.234, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 Japan 30, server: 85.208.108.106, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 Japan 31, server: 85.208.110.2, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇯🇵 Japan 32, server: 85.208.110.2, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇯🇵 Japan 33, server: 85.208.110.2, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇯🇵 Japan 34, server: 85.208.110.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵 Japan 35, server: 85.208.110.2, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇯🇵 Japan 36, server: 85.208.110.2, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 Japan 37, server: 85.208.110.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇯🇵 Japan 38, server: 85.208.108.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇰🇷 Korea, Republic of", server: 141.164.47.208, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "🇰🇷 Korea, Republic of 2", server: 141.164.47.208, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 3", server: 141.164.47.208, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "🇰🇷 Korea, Republic of 4", server: 141.164.47.208, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇰🇷 Korea, Republic of 5", server: 141.164.47.208, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: "🇰🇷 Korea, Republic of 6", server: 141.164.47.208, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇰🇷 Korea, Republic of 7", server: 141.164.47.208, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇰🇷 Korea, Republic of 8", server: 158.247.200.56, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇰🇷 Korea, Republic of 9", server: 158.247.200.56, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇰🇷 Korea, Republic of 10", server: 158.247.200.56, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 11", server: 158.247.219.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇰🇷 Korea, Republic of 12", server: 158.247.219.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇰🇷 Korea, Republic of 13", server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 14", server: 158.247.219.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "🇰🇷 Korea, Republic of 15", server: 158.247.223.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "🇰🇷 Korea, Republic of 16", server: 158.247.223.116, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 17", server: 158.247.223.116, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 18", server: 158.247.223.116, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇰🇷 Korea, Republic of 19", server: 158.247.223.116, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇰🇷 Korea, Republic of 20", server: 158.247.223.116, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 21", server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "🇰🇷 Korea, Republic of 22", server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "🇰🇷 Korea, Republic of 23", server: 141.164.35.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇰🇷 Korea, Republic of 24", server: 141.164.35.41, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 25", server: 141.164.35.41, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "🇰🇷 Korea, Republic of 26", server: 141.164.35.41, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "🇰🇷 Korea, Republic of 27", server: 141.164.56.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇰🇷 Korea, Republic of 28", server: 141.164.56.250, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "🇰🇷 Korea, Republic of 29", server: 141.164.56.250, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 30", server: 141.164.56.250, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "🇰🇷 Korea, Republic of 31", server: 141.164.56.250, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "🇰🇷 Korea, Republic of 32", server: 141.164.56.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇰🇷 Korea, Republic of 33", server: 141.164.56.250, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 34", server: 158.247.227.123, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 35", server: 158.247.227.123, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "🇰🇷 Korea, Republic of 36", server: 158.247.227.123, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "🇰🇷 Korea, Republic of 37", server: 158.247.227.123, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "🇰🇷 Korea, Republic of 38", server: 158.247.227.123, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 39", server: 158.247.224.123, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇰🇷 Korea, Republic of 40", server: 158.247.224.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 41", server: 158.247.224.123, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "🇰🇷 Korea, Republic of 42", server: 158.247.224.123, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇰🇷 Korea, Republic of 43", server: 158.247.224.123, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇰🇷 Korea, Republic of 44", server: 158.247.224.123, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇰🇷 Korea, Republic of 45", server: 158.247.224.123, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "🇰🇷 Korea, Republic of 46", server: 158.247.201.207, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "🇰🇷 Korea, Republic of 47", server: 158.247.201.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇰🇷 Korea, Republic of 48", server: 158.247.201.207, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇰🇷 Korea, Republic of 49", server: 141.164.38.135, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "🇰🇷 Korea, Republic of 50", server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "🇰🇷 Korea, Republic of 51", server: 141.164.38.135, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇰🇷 Korea, Republic of 52", server: 158.247.213.165, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: "🇰🇷 Korea, Republic of 53", server: 158.247.213.165, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "🇰🇷 Korea, Republic of 54", server: 158.247.213.165, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "🇰🇷 Korea, Republic of 55", server: 158.247.213.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 56", server: 158.247.209.92, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 57", server: 158.247.209.92, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 58", server: 158.247.209.92, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 59", server: 141.164.49.240, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 60", server: 141.164.49.240, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 61", server: 141.164.49.240, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "🇰🇷 Korea, Republic of 62", server: 158.247.226.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "🇰🇷 Korea, Republic of 63", server: 158.247.226.61, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇰🇷 Korea, Republic of 64", server: 158.247.226.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇰🇷 Korea, Republic of 65", server: 141.164.56.110, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 66", server: 141.164.56.110, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇰🇷 Korea, Republic of 67", server: 141.164.56.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇰🇷 Korea, Republic of 68", server: 141.164.46.233, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇰🇷 Korea, Republic of 69", server: 141.164.46.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇰🇷 Korea, Republic of 70", server: 141.164.46.233, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇮🇹 Italy, server: 185.213.21.5, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇮🇹 Italy 2, server: 185.213.21.5, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇮🇹 Italy 3, server: 185.213.21.5, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇮🇹 Italy 4, server: 185.213.21.5, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇮🇹 Italy 5, server: 185.213.21.5, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇮🇹 Italy 6, server: 185.213.21.5, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇮🇹 Italy 7, server: 185.213.21.5, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 France, server: 195.154.200.150, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 France 2, server: 51.255.66.185, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 France 3, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 France 4, server: 62.210.206.236, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 France 5, server: 62.210.206.236, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 France 6, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 France 7, server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 France 8, server: 62.210.177.189, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 France 9, server: 62.210.38.178, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇫🇷 France 10, server: 62.210.222.195, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇦🇺 Australia, server: 192.53.169.18, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇦🇺 Australia 2, server: 192.53.169.18, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇦🇺 Australia 3, server: 192.53.169.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇦🇺 Australia 4, server: 192.53.169.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇦🇺 Australia 5, server: 192.53.169.18, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇦🇺 Australia 6, server: 192.53.169.18, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇦🇺 Australia 7, server: 192.53.169.116, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇦🇺 Australia 8, server: 172.105.162.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇦🇺 Australia 9, server: 172.105.176.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇦🇺 Australia 10, server: 172.105.191.42, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇦🇺 Australia 11, server: 172.105.184.113, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 Singapore, server: 139.99.68.127, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇸🇬 Singapore 2, server: 139.99.68.127, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇸🇬 Singapore 3, server: 139.99.123.156, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇸🇬 Singapore 4, server: 51.79.178.41, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 Singapore 5, server: 51.79.178.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 Singapore 6, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇬🇧 United Kingdom, server: 172.99.190.235, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 2, server: 172.99.190.235, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 3, server: 172.99.190.235, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 4, server: 172.99.190.235, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 United Kingdom 5, server: 172.99.190.235, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇬🇧 United Kingdom 6, server: 172.99.190.235, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇬🇧 United Kingdom 7, server: 172.99.190.246, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 United Kingdom 8, server: 172.99.190.246, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 United Kingdom 9, server: 172.99.190.246, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇬🇧 United Kingdom 10, server: 82.145.41.125, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇬🇧 United Kingdom 11, server: 82.145.41.125, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 United Kingdom 12, server: 82.145.41.125, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇬🇧 United Kingdom 13, server: 82.145.41.125, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 United Kingdom 14, server: 82.145.41.125, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 United Kingdom 15, server: 172.99.190.232, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 16, server: 172.99.190.232, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 United Kingdom 17, server: 149.7.16.10, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 United Kingdom 18, server: 149.7.16.10, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇬🇧 United Kingdom 19, server: 149.7.16.10, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇬🇧 United Kingdom 20, server: 172.99.190.230, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 21, server: 172.99.190.230, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 United Kingdom 22, server: 172.99.190.230, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 United Kingdom 23, server: 172.99.190.230, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 24, server: 172.99.190.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 United Kingdom 25, server: 172.99.190.230, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇬🇧 United Kingdom 26, server: 212.38.189.174, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 27, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 28, server: 212.38.189.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 United Kingdom 29, server: 212.38.189.174, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇬🇧 United Kingdom 30, server: 212.38.189.174, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 United Kingdom 31, server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 United Kingdom 32, server: 212.38.189.174, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 United Kingdom 33, server: 172.99.190.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 United Kingdom 34, server: 172.99.190.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇬🇧 United Kingdom 35, server: 172.99.190.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 United Kingdom 36, server: 172.99.190.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 37, server: 172.99.190.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇬🇧 United Kingdom 38, server: 172.99.190.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 United Kingdom 39, server: 172.99.190.188, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇬🇧 United Kingdom 40, server: 172.99.190.57, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 United Kingdom 41, server: 172.99.190.57, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 United Kingdom 42, server: 172.99.190.57, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 United Kingdom 43, server: 172.99.190.57, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 United Kingdom 44, server: 172.99.190.57, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 United Kingdom 45, server: 172.99.190.192, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 United Kingdom 46, server: 172.99.190.192, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 47, server: 172.99.190.192, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 United Kingdom 48, server: 172.99.190.84, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 United Kingdom 49, server: 172.99.190.7, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 United Kingdom 50, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 United Kingdom 51, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 United Kingdom 52, server: 54.38.72.170, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Poland, server: 194.15.196.78, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Poland 2, server: 194.15.196.78, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Poland 3, server: 54.38.195.160, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Poland 4, server: 51.75.60.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Poland 5, server: 51.75.60.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Poland 6, server: 51.77.52.74, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States, server: 172.99.188.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 United States 2, server: 172.99.188.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 United States 3, server: 172.99.188.99, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 United States 4, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 5, server: 172.99.188.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 United States 6, server: 172.99.188.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 United States 7, server: 172.99.188.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 8, server: 142.202.48.114, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 United States 9, server: 142.202.48.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 United States 10, server: 142.202.48.114, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 United States 11, server: 142.202.48.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 United States 12, server: 142.202.48.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 United States 13, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 United States 14, server: 142.202.48.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 United States 15, server: 142.202.48.34, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 United States 16, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 United States 17, server: 142.202.48.34, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 United States 18, server: 142.202.48.45, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 United States 19, server: 142.202.48.45, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 20, server: 142.202.48.45, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 United States 21, server: 142.202.48.45, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 22, server: 142.202.48.45, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 United States 23, server: 142.202.48.45, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 United States 24, server: 142.202.48.45, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 United States 25, server: 38.91.100.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 26, server: 142.202.48.74, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 United States 27, server: 142.202.48.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 United States 28, server: 142.202.48.74, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 United States 29, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 United States 30, server: 167.88.63.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 United States 31, server: 167.88.63.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 United States 32, server: 167.88.63.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 United States 33, server: 167.88.63.61, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 34, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 United States 35, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 United States 36, server: 38.68.134.62, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 37, server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 United States 38, server: 167.88.62.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 United States 39, server: 167.88.62.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 United States 40, server: 167.88.62.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 United States 41, server: 167.88.62.24, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 United States 42, server: 167.88.62.24, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 43, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 United States 44, server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 United States 45, server: 38.121.43.142, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 United States 46, server: 169.197.143.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 United States 47, server: 169.197.143.52, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 United States 48, server: 169.197.143.52, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 United States 49, server: 169.197.143.52, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 United States 50, server: 169.197.143.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 United States 51, server: 169.197.143.52, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 52, server: 169.197.142.47, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 United States 53, server: 169.197.142.47, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 United States 54, server: 169.197.142.47, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 United States 55, server: 169.197.142.47, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 United States 56, server: 169.197.142.47, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 57, server: 169.197.142.47, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 United States 58, server: 167.88.61.240, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 United States 59, server: 167.88.61.213, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 United States 60, server: 167.88.61.213, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 United States 61, server: 167.88.61.213, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 United States 62, server: 167.88.61.110, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 63, server: 38.75.137.9, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 64, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 United States 65, server: 167.88.63.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 United States 66, server: 167.88.63.99, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 United States 67, server: 169.197.143.192, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 United States 68, server: 169.197.143.192, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 United States 69, server: 169.197.143.192, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 Canada, server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 Canada 2, server: 134.195.196.217, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 3, server: 134.195.196.217, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 Canada 4, server: 134.195.196.230, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 Canada 5, server: 134.195.196.230, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 Canada 6, server: 134.195.196.230, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 Canada 7, server: 134.195.196.230, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 Canada 8, server: 134.195.196.230, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 Canada 9, server: 134.195.196.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 Canada 10, server: 134.195.196.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 11, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 Canada 12, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 Canada 13, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 Canada 14, server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 Canada 15, server: 134.195.196.56, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 16, server: 134.195.196.56, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 Canada 17, server: 134.195.196.56, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 Canada 18, server: 134.195.196.36, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 Canada 19, server: 134.195.196.36, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 20, server: 134.195.196.36, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 21, server: 134.195.196.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 22, server: 134.195.196.219, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 Canada 23, server: 134.195.196.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 Canada 24, server: 134.195.196.219, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 25, server: 134.195.196.219, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 Canada 26, server: 134.195.196.219, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 27, server: 134.195.196.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 Canada 28, server: 134.195.196.219, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 29, server: 134.195.196.64, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 Canada 30, server: 134.195.196.64, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 Canada 31, server: 134.195.196.107, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 Canada 32, server: 134.195.196.107, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 Canada 33, server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 Canada 34, server: 134.195.196.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 Canada 35, server: 134.195.196.184, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 Canada 36, server: 134.195.196.184, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 Canada 37, server: 134.195.196.184, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 Canada 38, server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 Canada 39, server: 134.195.196.184, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 40, server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 41, server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 Canada 42, server: 134.195.196.44, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 43, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 Canada 44, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 45, server: 134.195.196.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 Canada 46, server: 134.195.196.24, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 47, server: 134.195.196.24, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 Canada 48, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 49, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 Canada 50, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 Canada 51, server: 134.195.196.199, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 Canada 52, server: 134.195.196.199, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 53, server: 134.195.196.199, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 54, server: 134.195.196.130, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 Canada 55, server: 134.195.196.130, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 Canada 56, server: 134.195.196.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 57, server: 134.195.196.12, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 Canada 58, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 Canada 59, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 Canada 60, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 Canada 61, server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 Canada 62, server: 134.195.196.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 Canada 63, server: 134.195.196.214, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 Canada 64, server: 134.195.196.214, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 Canada 65, server: 134.195.196.214, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 Canada 66, server: 134.195.196.214, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 Canada 67, server: 134.195.196.214, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 68, server: 134.195.196.110, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 Canada 69, server: 134.195.196.110, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 Canada 70, server: 134.195.196.231, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 Canada 71, server: 134.195.196.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 Canada 72, server: 198.57.27.49, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 Canada 73, server: 198.57.27.229, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 74, server: 198.57.27.229, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 Canada 75, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 76, server: 198.57.27.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Canada 77, server: 198.57.27.151, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔆 LIST
     type: select
@@ -323,6 +728,7 @@ proxy-groups:
       - AUTO XY VPN ♻️
       - AUTO Private VPN ♻️
       - AUTO Time VPN ♻️
+      - AUTO Others ♻️
       - 🔰 Select
   - name: 🔰 Select
     type: select
@@ -621,6 +1027,411 @@ proxy-groups:
       - WeVPN ZA 🇿🇦 Johannesburg
       - WeVPN NG 🇳🇬 Lagos
       - WeVPN IL 🇮🇱 Tel Aviv
+      - Norway
+      - Norway 2
+      - Norway 3
+      - Norway 4
+      - Norway 5
+      - Norway 6
+      - Norway 7
+      - Norway 8
+      - Norway 9
+      - Norway 10
+      - Norway 11
+      - Norway 12
+      - Norway 13
+      - Norway 14
+      - Norway 15
+      - Norway 16
+      - Norway 17
+      - Norway 18
+      - Norway 19
+      - Norway 20
+      - Norway 21
+      - Norway 22
+      - Norway 23
+      - Norway 24
+      - Norway 25
+      - Norway 26
+      - Norway 27
+      - 🇩🇪 Germany
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 🇩🇪 Germany 4
+      - 🇩🇪 Germany 5
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 Hong Kong 2
+      - 🇭🇰 Hong Kong 3
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 5
+      - 🇭🇰 Hong Kong 6
+      - 🇭🇰 Hong Kong 7
+      - 🇭🇰 Hong Kong 8
+      - 🇭🇰 Hong Kong 9
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇮🇳 India
+      - 🇮🇳 India 2
+      - 🇮🇳 India 3
+      - 🇮🇳 India 4
+      - 🇮🇳 India 5
+      - 🇮🇳 India 6
+      - 🇮🇳 India 7
+      - 🇮🇳 India 8
+      - 🇮🇳 India 9
+      - 🇮🇳 India 10
+      - 🇮🇳 India 11
+      - 🇮🇳 India 12
+      - 🇮🇳 India 13
+      - 🇯🇵 Japan
+      - 🇯🇵 Japan 2
+      - 🇯🇵 Japan 3
+      - 🇯🇵 Japan 4
+      - 🇯🇵 Japan 5
+      - 🇯🇵 Japan 6
+      - 🇯🇵 Japan 7
+      - 🇯🇵 Japan 8
+      - 🇯🇵 Japan 9
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 11
+      - 🇯🇵 Japan 12
+      - 🇯🇵 Japan 13
+      - 🇯🇵 Japan 14
+      - 🇯🇵 Japan 15
+      - 🇯🇵 Japan 16
+      - 🇯🇵 Japan 17
+      - 🇯🇵 Japan 18
+      - 🇯🇵 Japan 19
+      - 🇯🇵 Japan 20
+      - 🇯🇵 Japan 21
+      - 🇯🇵 Japan 22
+      - 🇯🇵 Japan 23
+      - 🇯🇵 Japan 24
+      - 🇯🇵 Japan 25
+      - 🇯🇵 Japan 26
+      - 🇯🇵 Japan 27
+      - 🇯🇵 Japan 28
+      - 🇯🇵 Japan 29
+      - 🇯🇵 Japan 30
+      - 🇯🇵 Japan 31
+      - 🇯🇵 Japan 32
+      - 🇯🇵 Japan 33
+      - 🇯🇵 Japan 34
+      - 🇯🇵 Japan 35
+      - 🇯🇵 Japan 36
+      - 🇯🇵 Japan 37
+      - 🇯🇵 Japan 38
+      - 🇰🇷 Korea, Republic of
+      - 🇰🇷 Korea, Republic of 2
+      - 🇰🇷 Korea, Republic of 3
+      - 🇰🇷 Korea, Republic of 4
+      - 🇰🇷 Korea, Republic of 5
+      - 🇰🇷 Korea, Republic of 6
+      - 🇰🇷 Korea, Republic of 7
+      - 🇰🇷 Korea, Republic of 8
+      - 🇰🇷 Korea, Republic of 9
+      - 🇰🇷 Korea, Republic of 10
+      - 🇰🇷 Korea, Republic of 11
+      - 🇰🇷 Korea, Republic of 12
+      - 🇰🇷 Korea, Republic of 13
+      - 🇰🇷 Korea, Republic of 14
+      - 🇰🇷 Korea, Republic of 15
+      - 🇰🇷 Korea, Republic of 16
+      - 🇰🇷 Korea, Republic of 17
+      - 🇰🇷 Korea, Republic of 18
+      - 🇰🇷 Korea, Republic of 19
+      - 🇰🇷 Korea, Republic of 20
+      - 🇰🇷 Korea, Republic of 21
+      - 🇰🇷 Korea, Republic of 22
+      - 🇰🇷 Korea, Republic of 23
+      - 🇰🇷 Korea, Republic of 24
+      - 🇰🇷 Korea, Republic of 25
+      - 🇰🇷 Korea, Republic of 26
+      - 🇰🇷 Korea, Republic of 27
+      - 🇰🇷 Korea, Republic of 28
+      - 🇰🇷 Korea, Republic of 29
+      - 🇰🇷 Korea, Republic of 30
+      - 🇰🇷 Korea, Republic of 31
+      - 🇰🇷 Korea, Republic of 32
+      - 🇰🇷 Korea, Republic of 33
+      - 🇰🇷 Korea, Republic of 34
+      - 🇰🇷 Korea, Republic of 35
+      - 🇰🇷 Korea, Republic of 36
+      - 🇰🇷 Korea, Republic of 37
+      - 🇰🇷 Korea, Republic of 38
+      - 🇰🇷 Korea, Republic of 39
+      - 🇰🇷 Korea, Republic of 40
+      - 🇰🇷 Korea, Republic of 41
+      - 🇰🇷 Korea, Republic of 42
+      - 🇰🇷 Korea, Republic of 43
+      - 🇰🇷 Korea, Republic of 44
+      - 🇰🇷 Korea, Republic of 45
+      - 🇰🇷 Korea, Republic of 46
+      - 🇰🇷 Korea, Republic of 47
+      - 🇰🇷 Korea, Republic of 48
+      - 🇰🇷 Korea, Republic of 49
+      - 🇰🇷 Korea, Republic of 50
+      - 🇰🇷 Korea, Republic of 51
+      - 🇰🇷 Korea, Republic of 52
+      - 🇰🇷 Korea, Republic of 53
+      - 🇰🇷 Korea, Republic of 54
+      - 🇰🇷 Korea, Republic of 55
+      - 🇰🇷 Korea, Republic of 56
+      - 🇰🇷 Korea, Republic of 57
+      - 🇰🇷 Korea, Republic of 58
+      - 🇰🇷 Korea, Republic of 59
+      - 🇰🇷 Korea, Republic of 60
+      - 🇰🇷 Korea, Republic of 61
+      - 🇰🇷 Korea, Republic of 62
+      - 🇰🇷 Korea, Republic of 63
+      - 🇰🇷 Korea, Republic of 64
+      - 🇰🇷 Korea, Republic of 65
+      - 🇰🇷 Korea, Republic of 66
+      - 🇰🇷 Korea, Republic of 67
+      - 🇰🇷 Korea, Republic of 68
+      - 🇰🇷 Korea, Republic of 69
+      - 🇰🇷 Korea, Republic of 70
+      - 🇮🇹 Italy
+      - 🇮🇹 Italy 2
+      - 🇮🇹 Italy 3
+      - 🇮🇹 Italy 4
+      - 🇮🇹 Italy 5
+      - 🇮🇹 Italy 6
+      - 🇮🇹 Italy 7
+      - 🇫🇷 France
+      - 🇫🇷 France 2
+      - 🇫🇷 France 3
+      - 🇫🇷 France 4
+      - 🇫🇷 France 5
+      - 🇫🇷 France 6
+      - 🇫🇷 France 7
+      - 🇫🇷 France 8
+      - 🇫🇷 France 9
+      - 🇫🇷 France 10
+      - 🇦🇺 Australia
+      - 🇦🇺 Australia 2
+      - 🇦🇺 Australia 3
+      - 🇦🇺 Australia 4
+      - 🇦🇺 Australia 5
+      - 🇦🇺 Australia 6
+      - 🇦🇺 Australia 7
+      - 🇦🇺 Australia 8
+      - 🇦🇺 Australia 9
+      - 🇦🇺 Australia 10
+      - 🇦🇺 Australia 11
+      - 🇸🇬 Singapore
+      - 🇸🇬 Singapore 2
+      - 🇸🇬 Singapore 3
+      - 🇸🇬 Singapore 4
+      - 🇸🇬 Singapore 5
+      - 🇸🇬 Singapore 6
+      - 🇬🇧 United Kingdom
+      - 🇬🇧 United Kingdom 2
+      - 🇬🇧 United Kingdom 3
+      - 🇬🇧 United Kingdom 4
+      - 🇬🇧 United Kingdom 5
+      - 🇬🇧 United Kingdom 6
+      - 🇬🇧 United Kingdom 7
+      - 🇬🇧 United Kingdom 8
+      - 🇬🇧 United Kingdom 9
+      - 🇬🇧 United Kingdom 10
+      - 🇬🇧 United Kingdom 11
+      - 🇬🇧 United Kingdom 12
+      - 🇬🇧 United Kingdom 13
+      - 🇬🇧 United Kingdom 14
+      - 🇬🇧 United Kingdom 15
+      - 🇬🇧 United Kingdom 16
+      - 🇬🇧 United Kingdom 17
+      - 🇬🇧 United Kingdom 18
+      - 🇬🇧 United Kingdom 19
+      - 🇬🇧 United Kingdom 20
+      - 🇬🇧 United Kingdom 21
+      - 🇬🇧 United Kingdom 22
+      - 🇬🇧 United Kingdom 23
+      - 🇬🇧 United Kingdom 24
+      - 🇬🇧 United Kingdom 25
+      - 🇬🇧 United Kingdom 26
+      - 🇬🇧 United Kingdom 27
+      - 🇬🇧 United Kingdom 28
+      - 🇬🇧 United Kingdom 29
+      - 🇬🇧 United Kingdom 30
+      - 🇬🇧 United Kingdom 31
+      - 🇬🇧 United Kingdom 32
+      - 🇬🇧 United Kingdom 33
+      - 🇬🇧 United Kingdom 34
+      - 🇬🇧 United Kingdom 35
+      - 🇬🇧 United Kingdom 36
+      - 🇬🇧 United Kingdom 37
+      - 🇬🇧 United Kingdom 38
+      - 🇬🇧 United Kingdom 39
+      - 🇬🇧 United Kingdom 40
+      - 🇬🇧 United Kingdom 41
+      - 🇬🇧 United Kingdom 42
+      - 🇬🇧 United Kingdom 43
+      - 🇬🇧 United Kingdom 44
+      - 🇬🇧 United Kingdom 45
+      - 🇬🇧 United Kingdom 46
+      - 🇬🇧 United Kingdom 47
+      - 🇬🇧 United Kingdom 48
+      - 🇬🇧 United Kingdom 49
+      - 🇬🇧 United Kingdom 50
+      - 🇬🇧 United Kingdom 51
+      - 🇬🇧 United Kingdom 52
+      - Poland
+      - Poland 2
+      - Poland 3
+      - Poland 4
+      - Poland 5
+      - Poland 6
+      - 🇺🇸 United States
+      - 🇺🇸 United States 2
+      - 🇺🇸 United States 3
+      - 🇺🇸 United States 4
+      - 🇺🇸 United States 5
+      - 🇺🇸 United States 6
+      - 🇺🇸 United States 7
+      - 🇺🇸 United States 8
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 10
+      - 🇺🇸 United States 11
+      - 🇺🇸 United States 12
+      - 🇺🇸 United States 13
+      - 🇺🇸 United States 14
+      - 🇺🇸 United States 15
+      - 🇺🇸 United States 16
+      - 🇺🇸 United States 17
+      - 🇺🇸 United States 18
+      - 🇺🇸 United States 19
+      - 🇺🇸 United States 20
+      - 🇺🇸 United States 21
+      - 🇺🇸 United States 22
+      - 🇺🇸 United States 23
+      - 🇺🇸 United States 24
+      - 🇺🇸 United States 25
+      - 🇺🇸 United States 26
+      - 🇺🇸 United States 27
+      - 🇺🇸 United States 28
+      - 🇺🇸 United States 29
+      - 🇺🇸 United States 30
+      - 🇺🇸 United States 31
+      - 🇺🇸 United States 32
+      - 🇺🇸 United States 33
+      - 🇺🇸 United States 34
+      - 🇺🇸 United States 35
+      - 🇺🇸 United States 36
+      - 🇺🇸 United States 37
+      - 🇺🇸 United States 38
+      - 🇺🇸 United States 39
+      - 🇺🇸 United States 40
+      - 🇺🇸 United States 41
+      - 🇺🇸 United States 42
+      - 🇺🇸 United States 43
+      - 🇺🇸 United States 44
+      - 🇺🇸 United States 45
+      - 🇺🇸 United States 46
+      - 🇺🇸 United States 47
+      - 🇺🇸 United States 48
+      - 🇺🇸 United States 49
+      - 🇺🇸 United States 50
+      - 🇺🇸 United States 51
+      - 🇺🇸 United States 52
+      - 🇺🇸 United States 53
+      - 🇺🇸 United States 54
+      - 🇺🇸 United States 55
+      - 🇺🇸 United States 56
+      - 🇺🇸 United States 57
+      - 🇺🇸 United States 58
+      - 🇺🇸 United States 59
+      - 🇺🇸 United States 60
+      - 🇺🇸 United States 61
+      - 🇺🇸 United States 62
+      - 🇺🇸 United States 63
+      - 🇺🇸 United States 64
+      - 🇺🇸 United States 65
+      - 🇺🇸 United States 66
+      - 🇺🇸 United States 67
+      - 🇺🇸 United States 68
+      - 🇺🇸 United States 69
+      - 🇨🇦 Canada
+      - 🇨🇦 Canada 2
+      - 🇨🇦 Canada 3
+      - 🇨🇦 Canada 4
+      - 🇨🇦 Canada 5
+      - 🇨🇦 Canada 6
+      - 🇨🇦 Canada 7
+      - 🇨🇦 Canada 8
+      - 🇨🇦 Canada 9
+      - 🇨🇦 Canada 10
+      - 🇨🇦 Canada 11
+      - 🇨🇦 Canada 12
+      - 🇨🇦 Canada 13
+      - 🇨🇦 Canada 14
+      - 🇨🇦 Canada 15
+      - 🇨🇦 Canada 16
+      - 🇨🇦 Canada 17
+      - 🇨🇦 Canada 18
+      - 🇨🇦 Canada 19
+      - 🇨🇦 Canada 20
+      - 🇨🇦 Canada 21
+      - 🇨🇦 Canada 22
+      - 🇨🇦 Canada 23
+      - 🇨🇦 Canada 24
+      - 🇨🇦 Canada 25
+      - 🇨🇦 Canada 26
+      - 🇨🇦 Canada 27
+      - 🇨🇦 Canada 28
+      - 🇨🇦 Canada 29
+      - 🇨🇦 Canada 30
+      - 🇨🇦 Canada 31
+      - 🇨🇦 Canada 32
+      - 🇨🇦 Canada 33
+      - 🇨🇦 Canada 34
+      - 🇨🇦 Canada 35
+      - 🇨🇦 Canada 36
+      - 🇨🇦 Canada 37
+      - 🇨🇦 Canada 38
+      - 🇨🇦 Canada 39
+      - 🇨🇦 Canada 40
+      - 🇨🇦 Canada 41
+      - 🇨🇦 Canada 42
+      - 🇨🇦 Canada 43
+      - 🇨🇦 Canada 44
+      - 🇨🇦 Canada 45
+      - 🇨🇦 Canada 46
+      - 🇨🇦 Canada 47
+      - 🇨🇦 Canada 48
+      - 🇨🇦 Canada 49
+      - 🇨🇦 Canada 50
+      - 🇨🇦 Canada 51
+      - 🇨🇦 Canada 52
+      - 🇨🇦 Canada 53
+      - 🇨🇦 Canada 54
+      - 🇨🇦 Canada 55
+      - 🇨🇦 Canada 56
+      - 🇨🇦 Canada 57
+      - 🇨🇦 Canada 58
+      - 🇨🇦 Canada 59
+      - 🇨🇦 Canada 60
+      - 🇨🇦 Canada 61
+      - 🇨🇦 Canada 62
+      - 🇨🇦 Canada 63
+      - 🇨🇦 Canada 64
+      - 🇨🇦 Canada 65
+      - 🇨🇦 Canada 66
+      - 🇨🇦 Canada 67
+      - 🇨🇦 Canada 68
+      - 🇨🇦 Canada 69
+      - 🇨🇦 Canada 70
+      - 🇨🇦 Canada 71
+      - 🇨🇦 Canada 72
+      - 🇨🇦 Canada 73
+      - 🇨🇦 Canada 74
+      - 🇨🇦 Canada 75
+      - 🇨🇦 Canada 76
+      - 🇨🇦 Canada 77
       
   - name: AUTO WeVPN ♻️
     type: url-test
@@ -952,6 +1763,416 @@ proxy-groups:
       - "Time VPN Russia 🇷🇺 Moscow"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
+  - name: AUTO Others ♻️
+    type: url-test
+    proxies:
+      - Norway
+      - Norway 2
+      - Norway 3
+      - Norway 4
+      - Norway 5
+      - Norway 6
+      - Norway 7
+      - Norway 8
+      - Norway 9
+      - Norway 10
+      - Norway 11
+      - Norway 12
+      - Norway 13
+      - Norway 14
+      - Norway 15
+      - Norway 16
+      - Norway 17
+      - Norway 18
+      - Norway 19
+      - Norway 20
+      - Norway 21
+      - Norway 22
+      - Norway 23
+      - Norway 24
+      - Norway 25
+      - Norway 26
+      - Norway 27
+      - 🇩🇪 Germany
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 🇩🇪 Germany 4
+      - 🇩🇪 Germany 5
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 Hong Kong 2
+      - 🇭🇰 Hong Kong 3
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 5
+      - 🇭🇰 Hong Kong 6
+      - 🇭🇰 Hong Kong 7
+      - 🇭🇰 Hong Kong 8
+      - 🇭🇰 Hong Kong 9
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇮🇳 India
+      - 🇮🇳 India 2
+      - 🇮🇳 India 3
+      - 🇮🇳 India 4
+      - 🇮🇳 India 5
+      - 🇮🇳 India 6
+      - 🇮🇳 India 7
+      - 🇮🇳 India 8
+      - 🇮🇳 India 9
+      - 🇮🇳 India 10
+      - 🇮🇳 India 11
+      - 🇮🇳 India 12
+      - 🇮🇳 India 13
+      - 🇯🇵 Japan
+      - 🇯🇵 Japan 2
+      - 🇯🇵 Japan 3
+      - 🇯🇵 Japan 4
+      - 🇯🇵 Japan 5
+      - 🇯🇵 Japan 6
+      - 🇯🇵 Japan 7
+      - 🇯🇵 Japan 8
+      - 🇯🇵 Japan 9
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 11
+      - 🇯🇵 Japan 12
+      - 🇯🇵 Japan 13
+      - 🇯🇵 Japan 14
+      - 🇯🇵 Japan 15
+      - 🇯🇵 Japan 16
+      - 🇯🇵 Japan 17
+      - 🇯🇵 Japan 18
+      - 🇯🇵 Japan 19
+      - 🇯🇵 Japan 20
+      - 🇯🇵 Japan 21
+      - 🇯🇵 Japan 22
+      - 🇯🇵 Japan 23
+      - 🇯🇵 Japan 24
+      - 🇯🇵 Japan 25
+      - 🇯🇵 Japan 26
+      - 🇯🇵 Japan 27
+      - 🇯🇵 Japan 28
+      - 🇯🇵 Japan 29
+      - 🇯🇵 Japan 30
+      - 🇯🇵 Japan 31
+      - 🇯🇵 Japan 32
+      - 🇯🇵 Japan 33
+      - 🇯🇵 Japan 34
+      - 🇯🇵 Japan 35
+      - 🇯🇵 Japan 36
+      - 🇯🇵 Japan 37
+      - 🇯🇵 Japan 38
+      - 🇰🇷 Korea, Republic of
+      - 🇰🇷 Korea, Republic of 2
+      - 🇰🇷 Korea, Republic of 3
+      - 🇰🇷 Korea, Republic of 4
+      - 🇰🇷 Korea, Republic of 5
+      - 🇰🇷 Korea, Republic of 6
+      - 🇰🇷 Korea, Republic of 7
+      - 🇰🇷 Korea, Republic of 8
+      - 🇰🇷 Korea, Republic of 9
+      - 🇰🇷 Korea, Republic of 10
+      - 🇰🇷 Korea, Republic of 11
+      - 🇰🇷 Korea, Republic of 12
+      - 🇰🇷 Korea, Republic of 13
+      - 🇰🇷 Korea, Republic of 14
+      - 🇰🇷 Korea, Republic of 15
+      - 🇰🇷 Korea, Republic of 16
+      - 🇰🇷 Korea, Republic of 17
+      - 🇰🇷 Korea, Republic of 18
+      - 🇰🇷 Korea, Republic of 19
+      - 🇰🇷 Korea, Republic of 20
+      - 🇰🇷 Korea, Republic of 21
+      - 🇰🇷 Korea, Republic of 22
+      - 🇰🇷 Korea, Republic of 23
+      - 🇰🇷 Korea, Republic of 24
+      - 🇰🇷 Korea, Republic of 25
+      - 🇰🇷 Korea, Republic of 26
+      - 🇰🇷 Korea, Republic of 27
+      - 🇰🇷 Korea, Republic of 28
+      - 🇰🇷 Korea, Republic of 29
+      - 🇰🇷 Korea, Republic of 30
+      - 🇰🇷 Korea, Republic of 31
+      - 🇰🇷 Korea, Republic of 32
+      - 🇰🇷 Korea, Republic of 33
+      - 🇰🇷 Korea, Republic of 34
+      - 🇰🇷 Korea, Republic of 35
+      - 🇰🇷 Korea, Republic of 36
+      - 🇰🇷 Korea, Republic of 37
+      - 🇰🇷 Korea, Republic of 38
+      - 🇰🇷 Korea, Republic of 39
+      - 🇰🇷 Korea, Republic of 40
+      - 🇰🇷 Korea, Republic of 41
+      - 🇰🇷 Korea, Republic of 42
+      - 🇰🇷 Korea, Republic of 43
+      - 🇰🇷 Korea, Republic of 44
+      - 🇰🇷 Korea, Republic of 45
+      - 🇰🇷 Korea, Republic of 46
+      - 🇰🇷 Korea, Republic of 47
+      - 🇰🇷 Korea, Republic of 48
+      - 🇰🇷 Korea, Republic of 49
+      - 🇰🇷 Korea, Republic of 50
+      - 🇰🇷 Korea, Republic of 51
+      - 🇰🇷 Korea, Republic of 52
+      - 🇰🇷 Korea, Republic of 53
+      - 🇰🇷 Korea, Republic of 54
+      - 🇰🇷 Korea, Republic of 55
+      - 🇰🇷 Korea, Republic of 56
+      - 🇰🇷 Korea, Republic of 57
+      - 🇰🇷 Korea, Republic of 58
+      - 🇰🇷 Korea, Republic of 59
+      - 🇰🇷 Korea, Republic of 60
+      - 🇰🇷 Korea, Republic of 61
+      - 🇰🇷 Korea, Republic of 62
+      - 🇰🇷 Korea, Republic of 63
+      - 🇰🇷 Korea, Republic of 64
+      - 🇰🇷 Korea, Republic of 65
+      - 🇰🇷 Korea, Republic of 66
+      - 🇰🇷 Korea, Republic of 67
+      - 🇰🇷 Korea, Republic of 68
+      - 🇰🇷 Korea, Republic of 69
+      - 🇰🇷 Korea, Republic of 70
+      - 🇮🇹 Italy
+      - 🇮🇹 Italy 2
+      - 🇮🇹 Italy 3
+      - 🇮🇹 Italy 4
+      - 🇮🇹 Italy 5
+      - 🇮🇹 Italy 6
+      - 🇮🇹 Italy 7
+      - 🇫🇷 France
+      - 🇫🇷 France 2
+      - 🇫🇷 France 3
+      - 🇫🇷 France 4
+      - 🇫🇷 France 5
+      - 🇫🇷 France 6
+      - 🇫🇷 France 7
+      - 🇫🇷 France 8
+      - 🇫🇷 France 9
+      - 🇫🇷 France 10
+      - 🇦🇺 Australia
+      - 🇦🇺 Australia 2
+      - 🇦🇺 Australia 3
+      - 🇦🇺 Australia 4
+      - 🇦🇺 Australia 5
+      - 🇦🇺 Australia 6
+      - 🇦🇺 Australia 7
+      - 🇦🇺 Australia 8
+      - 🇦🇺 Australia 9
+      - 🇦🇺 Australia 10
+      - 🇦🇺 Australia 11
+      - 🇸🇬 Singapore
+      - 🇸🇬 Singapore 2
+      - 🇸🇬 Singapore 3
+      - 🇸🇬 Singapore 4
+      - 🇸🇬 Singapore 5
+      - 🇸🇬 Singapore 6
+      - 🇬🇧 United Kingdom
+      - 🇬🇧 United Kingdom 2
+      - 🇬🇧 United Kingdom 3
+      - 🇬🇧 United Kingdom 4
+      - 🇬🇧 United Kingdom 5
+      - 🇬🇧 United Kingdom 6
+      - 🇬🇧 United Kingdom 7
+      - 🇬🇧 United Kingdom 8
+      - 🇬🇧 United Kingdom 9
+      - 🇬🇧 United Kingdom 10
+      - 🇬🇧 United Kingdom 11
+      - 🇬🇧 United Kingdom 12
+      - 🇬🇧 United Kingdom 13
+      - 🇬🇧 United Kingdom 14
+      - 🇬🇧 United Kingdom 15
+      - 🇬🇧 United Kingdom 16
+      - 🇬🇧 United Kingdom 17
+      - 🇬🇧 United Kingdom 18
+      - 🇬🇧 United Kingdom 19
+      - 🇬🇧 United Kingdom 20
+      - 🇬🇧 United Kingdom 21
+      - 🇬🇧 United Kingdom 22
+      - 🇬🇧 United Kingdom 23
+      - 🇬🇧 United Kingdom 24
+      - 🇬🇧 United Kingdom 25
+      - 🇬🇧 United Kingdom 26
+      - 🇬🇧 United Kingdom 27
+      - 🇬🇧 United Kingdom 28
+      - 🇬🇧 United Kingdom 29
+      - 🇬🇧 United Kingdom 30
+      - 🇬🇧 United Kingdom 31
+      - 🇬🇧 United Kingdom 32
+      - 🇬🇧 United Kingdom 33
+      - 🇬🇧 United Kingdom 34
+      - 🇬🇧 United Kingdom 35
+      - 🇬🇧 United Kingdom 36
+      - 🇬🇧 United Kingdom 37
+      - 🇬🇧 United Kingdom 38
+      - 🇬🇧 United Kingdom 39
+      - 🇬🇧 United Kingdom 40
+      - 🇬🇧 United Kingdom 41
+      - 🇬🇧 United Kingdom 42
+      - 🇬🇧 United Kingdom 43
+      - 🇬🇧 United Kingdom 44
+      - 🇬🇧 United Kingdom 45
+      - 🇬🇧 United Kingdom 46
+      - 🇬🇧 United Kingdom 47
+      - 🇬🇧 United Kingdom 48
+      - 🇬🇧 United Kingdom 49
+      - 🇬🇧 United Kingdom 50
+      - 🇬🇧 United Kingdom 51
+      - 🇬🇧 United Kingdom 52
+      - Poland
+      - Poland 2
+      - Poland 3
+      - Poland 4
+      - Poland 5
+      - Poland 6
+      - 🇺🇸 United States
+      - 🇺🇸 United States 2
+      - 🇺🇸 United States 3
+      - 🇺🇸 United States 4
+      - 🇺🇸 United States 5
+      - 🇺🇸 United States 6
+      - 🇺🇸 United States 7
+      - 🇺🇸 United States 8
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 10
+      - 🇺🇸 United States 11
+      - 🇺🇸 United States 12
+      - 🇺🇸 United States 13
+      - 🇺🇸 United States 14
+      - 🇺🇸 United States 15
+      - 🇺🇸 United States 16
+      - 🇺🇸 United States 17
+      - 🇺🇸 United States 18
+      - 🇺🇸 United States 19
+      - 🇺🇸 United States 20
+      - 🇺🇸 United States 21
+      - 🇺🇸 United States 22
+      - 🇺🇸 United States 23
+      - 🇺🇸 United States 24
+      - 🇺🇸 United States 25
+      - 🇺🇸 United States 26
+      - 🇺🇸 United States 27
+      - 🇺🇸 United States 28
+      - 🇺🇸 United States 29
+      - 🇺🇸 United States 30
+      - 🇺🇸 United States 31
+      - 🇺🇸 United States 32
+      - 🇺🇸 United States 33
+      - 🇺🇸 United States 34
+      - 🇺🇸 United States 35
+      - 🇺🇸 United States 36
+      - 🇺🇸 United States 37
+      - 🇺🇸 United States 38
+      - 🇺🇸 United States 39
+      - 🇺🇸 United States 40
+      - 🇺🇸 United States 41
+      - 🇺🇸 United States 42
+      - 🇺🇸 United States 43
+      - 🇺🇸 United States 44
+      - 🇺🇸 United States 45
+      - 🇺🇸 United States 46
+      - 🇺🇸 United States 47
+      - 🇺🇸 United States 48
+      - 🇺🇸 United States 49
+      - 🇺🇸 United States 50
+      - 🇺🇸 United States 51
+      - 🇺🇸 United States 52
+      - 🇺🇸 United States 53
+      - 🇺🇸 United States 54
+      - 🇺🇸 United States 55
+      - 🇺🇸 United States 56
+      - 🇺🇸 United States 57
+      - 🇺🇸 United States 58
+      - 🇺🇸 United States 59
+      - 🇺🇸 United States 60
+      - 🇺🇸 United States 61
+      - 🇺🇸 United States 62
+      - 🇺🇸 United States 63
+      - 🇺🇸 United States 64
+      - 🇺🇸 United States 65
+      - 🇺🇸 United States 66
+      - 🇺🇸 United States 67
+      - 🇺🇸 United States 68
+      - 🇺🇸 United States 69
+      - 🇨🇦 Canada
+      - 🇨🇦 Canada 2
+      - 🇨🇦 Canada 3
+      - 🇨🇦 Canada 4
+      - 🇨🇦 Canada 5
+      - 🇨🇦 Canada 6
+      - 🇨🇦 Canada 7
+      - 🇨🇦 Canada 8
+      - 🇨🇦 Canada 9
+      - 🇨🇦 Canada 10
+      - 🇨🇦 Canada 11
+      - 🇨🇦 Canada 12
+      - 🇨🇦 Canada 13
+      - 🇨🇦 Canada 14
+      - 🇨🇦 Canada 15
+      - 🇨🇦 Canada 16
+      - 🇨🇦 Canada 17
+      - 🇨🇦 Canada 18
+      - 🇨🇦 Canada 19
+      - 🇨🇦 Canada 20
+      - 🇨🇦 Canada 21
+      - 🇨🇦 Canada 22
+      - 🇨🇦 Canada 23
+      - 🇨🇦 Canada 24
+      - 🇨🇦 Canada 25
+      - 🇨🇦 Canada 26
+      - 🇨🇦 Canada 27
+      - 🇨🇦 Canada 28
+      - 🇨🇦 Canada 29
+      - 🇨🇦 Canada 30
+      - 🇨🇦 Canada 31
+      - 🇨🇦 Canada 32
+      - 🇨🇦 Canada 33
+      - 🇨🇦 Canada 34
+      - 🇨🇦 Canada 35
+      - 🇨🇦 Canada 36
+      - 🇨🇦 Canada 37
+      - 🇨🇦 Canada 38
+      - 🇨🇦 Canada 39
+      - 🇨🇦 Canada 40
+      - 🇨🇦 Canada 41
+      - 🇨🇦 Canada 42
+      - 🇨🇦 Canada 43
+      - 🇨🇦 Canada 44
+      - 🇨🇦 Canada 45
+      - 🇨🇦 Canada 46
+      - 🇨🇦 Canada 47
+      - 🇨🇦 Canada 48
+      - 🇨🇦 Canada 49
+      - 🇨🇦 Canada 50
+      - 🇨🇦 Canada 51
+      - 🇨🇦 Canada 52
+      - 🇨🇦 Canada 53
+      - 🇨🇦 Canada 54
+      - 🇨🇦 Canada 55
+      - 🇨🇦 Canada 56
+      - 🇨🇦 Canada 57
+      - 🇨🇦 Canada 58
+      - 🇨🇦 Canada 59
+      - 🇨🇦 Canada 60
+      - 🇨🇦 Canada 61
+      - 🇨🇦 Canada 62
+      - 🇨🇦 Canada 63
+      - 🇨🇦 Canada 64
+      - 🇨🇦 Canada 65
+      - 🇨🇦 Canada 66
+      - 🇨🇦 Canada 67
+      - 🇨🇦 Canada 68
+      - 🇨🇦 Canada 69
+      - 🇨🇦 Canada 70
+      - 🇨🇦 Canada 71
+      - 🇨🇦 Canada 72
+      - 🇨🇦 Canada 73
+      - 🇨🇦 Canada 74
+      - 🇨🇦 Canada 75
+      - 🇨🇦 Canada 76
+      - 🇨🇦 Canada 77
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
   - name: AUTO All ♻️
     type: url-test
     proxies:
@@ -1249,6 +2470,411 @@ proxy-groups:
       - WeVPN ZA 🇿🇦 Johannesburg
       - WeVPN NG 🇳🇬 Lagos
       - WeVPN IL 🇮🇱 Tel Aviv
+      - Norway
+      - Norway 2
+      - Norway 3
+      - Norway 4
+      - Norway 5
+      - Norway 6
+      - Norway 7
+      - Norway 8
+      - Norway 9
+      - Norway 10
+      - Norway 11
+      - Norway 12
+      - Norway 13
+      - Norway 14
+      - Norway 15
+      - Norway 16
+      - Norway 17
+      - Norway 18
+      - Norway 19
+      - Norway 20
+      - Norway 21
+      - Norway 22
+      - Norway 23
+      - Norway 24
+      - Norway 25
+      - Norway 26
+      - Norway 27
+      - 🇩🇪 Germany
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 🇩🇪 Germany 4
+      - 🇩🇪 Germany 5
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 Hong Kong 2
+      - 🇭🇰 Hong Kong 3
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 5
+      - 🇭🇰 Hong Kong 6
+      - 🇭🇰 Hong Kong 7
+      - 🇭🇰 Hong Kong 8
+      - 🇭🇰 Hong Kong 9
+      - 🇭🇰 Hong Kong 10
+      - 🇭🇰 Hong Kong 11
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 Hong Kong 13
+      - 🇭🇰 Hong Kong 14
+      - 🇮🇳 India
+      - 🇮🇳 India 2
+      - 🇮🇳 India 3
+      - 🇮🇳 India 4
+      - 🇮🇳 India 5
+      - 🇮🇳 India 6
+      - 🇮🇳 India 7
+      - 🇮🇳 India 8
+      - 🇮🇳 India 9
+      - 🇮🇳 India 10
+      - 🇮🇳 India 11
+      - 🇮🇳 India 12
+      - 🇮🇳 India 13
+      - 🇯🇵 Japan
+      - 🇯🇵 Japan 2
+      - 🇯🇵 Japan 3
+      - 🇯🇵 Japan 4
+      - 🇯🇵 Japan 5
+      - 🇯🇵 Japan 6
+      - 🇯🇵 Japan 7
+      - 🇯🇵 Japan 8
+      - 🇯🇵 Japan 9
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 11
+      - 🇯🇵 Japan 12
+      - 🇯🇵 Japan 13
+      - 🇯🇵 Japan 14
+      - 🇯🇵 Japan 15
+      - 🇯🇵 Japan 16
+      - 🇯🇵 Japan 17
+      - 🇯🇵 Japan 18
+      - 🇯🇵 Japan 19
+      - 🇯🇵 Japan 20
+      - 🇯🇵 Japan 21
+      - 🇯🇵 Japan 22
+      - 🇯🇵 Japan 23
+      - 🇯🇵 Japan 24
+      - 🇯🇵 Japan 25
+      - 🇯🇵 Japan 26
+      - 🇯🇵 Japan 27
+      - 🇯🇵 Japan 28
+      - 🇯🇵 Japan 29
+      - 🇯🇵 Japan 30
+      - 🇯🇵 Japan 31
+      - 🇯🇵 Japan 32
+      - 🇯🇵 Japan 33
+      - 🇯🇵 Japan 34
+      - 🇯🇵 Japan 35
+      - 🇯🇵 Japan 36
+      - 🇯🇵 Japan 37
+      - 🇯🇵 Japan 38
+      - 🇰🇷 Korea, Republic of
+      - 🇰🇷 Korea, Republic of 2
+      - 🇰🇷 Korea, Republic of 3
+      - 🇰🇷 Korea, Republic of 4
+      - 🇰🇷 Korea, Republic of 5
+      - 🇰🇷 Korea, Republic of 6
+      - 🇰🇷 Korea, Republic of 7
+      - 🇰🇷 Korea, Republic of 8
+      - 🇰🇷 Korea, Republic of 9
+      - 🇰🇷 Korea, Republic of 10
+      - 🇰🇷 Korea, Republic of 11
+      - 🇰🇷 Korea, Republic of 12
+      - 🇰🇷 Korea, Republic of 13
+      - 🇰🇷 Korea, Republic of 14
+      - 🇰🇷 Korea, Republic of 15
+      - 🇰🇷 Korea, Republic of 16
+      - 🇰🇷 Korea, Republic of 17
+      - 🇰🇷 Korea, Republic of 18
+      - 🇰🇷 Korea, Republic of 19
+      - 🇰🇷 Korea, Republic of 20
+      - 🇰🇷 Korea, Republic of 21
+      - 🇰🇷 Korea, Republic of 22
+      - 🇰🇷 Korea, Republic of 23
+      - 🇰🇷 Korea, Republic of 24
+      - 🇰🇷 Korea, Republic of 25
+      - 🇰🇷 Korea, Republic of 26
+      - 🇰🇷 Korea, Republic of 27
+      - 🇰🇷 Korea, Republic of 28
+      - 🇰🇷 Korea, Republic of 29
+      - 🇰🇷 Korea, Republic of 30
+      - 🇰🇷 Korea, Republic of 31
+      - 🇰🇷 Korea, Republic of 32
+      - 🇰🇷 Korea, Republic of 33
+      - 🇰🇷 Korea, Republic of 34
+      - 🇰🇷 Korea, Republic of 35
+      - 🇰🇷 Korea, Republic of 36
+      - 🇰🇷 Korea, Republic of 37
+      - 🇰🇷 Korea, Republic of 38
+      - 🇰🇷 Korea, Republic of 39
+      - 🇰🇷 Korea, Republic of 40
+      - 🇰🇷 Korea, Republic of 41
+      - 🇰🇷 Korea, Republic of 42
+      - 🇰🇷 Korea, Republic of 43
+      - 🇰🇷 Korea, Republic of 44
+      - 🇰🇷 Korea, Republic of 45
+      - 🇰🇷 Korea, Republic of 46
+      - 🇰🇷 Korea, Republic of 47
+      - 🇰🇷 Korea, Republic of 48
+      - 🇰🇷 Korea, Republic of 49
+      - 🇰🇷 Korea, Republic of 50
+      - 🇰🇷 Korea, Republic of 51
+      - 🇰🇷 Korea, Republic of 52
+      - 🇰🇷 Korea, Republic of 53
+      - 🇰🇷 Korea, Republic of 54
+      - 🇰🇷 Korea, Republic of 55
+      - 🇰🇷 Korea, Republic of 56
+      - 🇰🇷 Korea, Republic of 57
+      - 🇰🇷 Korea, Republic of 58
+      - 🇰🇷 Korea, Republic of 59
+      - 🇰🇷 Korea, Republic of 60
+      - 🇰🇷 Korea, Republic of 61
+      - 🇰🇷 Korea, Republic of 62
+      - 🇰🇷 Korea, Republic of 63
+      - 🇰🇷 Korea, Republic of 64
+      - 🇰🇷 Korea, Republic of 65
+      - 🇰🇷 Korea, Republic of 66
+      - 🇰🇷 Korea, Republic of 67
+      - 🇰🇷 Korea, Republic of 68
+      - 🇰🇷 Korea, Republic of 69
+      - 🇰🇷 Korea, Republic of 70
+      - 🇮🇹 Italy
+      - 🇮🇹 Italy 2
+      - 🇮🇹 Italy 3
+      - 🇮🇹 Italy 4
+      - 🇮🇹 Italy 5
+      - 🇮🇹 Italy 6
+      - 🇮🇹 Italy 7
+      - 🇫🇷 France
+      - 🇫🇷 France 2
+      - 🇫🇷 France 3
+      - 🇫🇷 France 4
+      - 🇫🇷 France 5
+      - 🇫🇷 France 6
+      - 🇫🇷 France 7
+      - 🇫🇷 France 8
+      - 🇫🇷 France 9
+      - 🇫🇷 France 10
+      - 🇦🇺 Australia
+      - 🇦🇺 Australia 2
+      - 🇦🇺 Australia 3
+      - 🇦🇺 Australia 4
+      - 🇦🇺 Australia 5
+      - 🇦🇺 Australia 6
+      - 🇦🇺 Australia 7
+      - 🇦🇺 Australia 8
+      - 🇦🇺 Australia 9
+      - 🇦🇺 Australia 10
+      - 🇦🇺 Australia 11
+      - 🇸🇬 Singapore
+      - 🇸🇬 Singapore 2
+      - 🇸🇬 Singapore 3
+      - 🇸🇬 Singapore 4
+      - 🇸🇬 Singapore 5
+      - 🇸🇬 Singapore 6
+      - 🇬🇧 United Kingdom
+      - 🇬🇧 United Kingdom 2
+      - 🇬🇧 United Kingdom 3
+      - 🇬🇧 United Kingdom 4
+      - 🇬🇧 United Kingdom 5
+      - 🇬🇧 United Kingdom 6
+      - 🇬🇧 United Kingdom 7
+      - 🇬🇧 United Kingdom 8
+      - 🇬🇧 United Kingdom 9
+      - 🇬🇧 United Kingdom 10
+      - 🇬🇧 United Kingdom 11
+      - 🇬🇧 United Kingdom 12
+      - 🇬🇧 United Kingdom 13
+      - 🇬🇧 United Kingdom 14
+      - 🇬🇧 United Kingdom 15
+      - 🇬🇧 United Kingdom 16
+      - 🇬🇧 United Kingdom 17
+      - 🇬🇧 United Kingdom 18
+      - 🇬🇧 United Kingdom 19
+      - 🇬🇧 United Kingdom 20
+      - 🇬🇧 United Kingdom 21
+      - 🇬🇧 United Kingdom 22
+      - 🇬🇧 United Kingdom 23
+      - 🇬🇧 United Kingdom 24
+      - 🇬🇧 United Kingdom 25
+      - 🇬🇧 United Kingdom 26
+      - 🇬🇧 United Kingdom 27
+      - 🇬🇧 United Kingdom 28
+      - 🇬🇧 United Kingdom 29
+      - 🇬🇧 United Kingdom 30
+      - 🇬🇧 United Kingdom 31
+      - 🇬🇧 United Kingdom 32
+      - 🇬🇧 United Kingdom 33
+      - 🇬🇧 United Kingdom 34
+      - 🇬🇧 United Kingdom 35
+      - 🇬🇧 United Kingdom 36
+      - 🇬🇧 United Kingdom 37
+      - 🇬🇧 United Kingdom 38
+      - 🇬🇧 United Kingdom 39
+      - 🇬🇧 United Kingdom 40
+      - 🇬🇧 United Kingdom 41
+      - 🇬🇧 United Kingdom 42
+      - 🇬🇧 United Kingdom 43
+      - 🇬🇧 United Kingdom 44
+      - 🇬🇧 United Kingdom 45
+      - 🇬🇧 United Kingdom 46
+      - 🇬🇧 United Kingdom 47
+      - 🇬🇧 United Kingdom 48
+      - 🇬🇧 United Kingdom 49
+      - 🇬🇧 United Kingdom 50
+      - 🇬🇧 United Kingdom 51
+      - 🇬🇧 United Kingdom 52
+      - Poland
+      - Poland 2
+      - Poland 3
+      - Poland 4
+      - Poland 5
+      - Poland 6
+      - 🇺🇸 United States
+      - 🇺🇸 United States 2
+      - 🇺🇸 United States 3
+      - 🇺🇸 United States 4
+      - 🇺🇸 United States 5
+      - 🇺🇸 United States 6
+      - 🇺🇸 United States 7
+      - 🇺🇸 United States 8
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 10
+      - 🇺🇸 United States 11
+      - 🇺🇸 United States 12
+      - 🇺🇸 United States 13
+      - 🇺🇸 United States 14
+      - 🇺🇸 United States 15
+      - 🇺🇸 United States 16
+      - 🇺🇸 United States 17
+      - 🇺🇸 United States 18
+      - 🇺🇸 United States 19
+      - 🇺🇸 United States 20
+      - 🇺🇸 United States 21
+      - 🇺🇸 United States 22
+      - 🇺🇸 United States 23
+      - 🇺🇸 United States 24
+      - 🇺🇸 United States 25
+      - 🇺🇸 United States 26
+      - 🇺🇸 United States 27
+      - 🇺🇸 United States 28
+      - 🇺🇸 United States 29
+      - 🇺🇸 United States 30
+      - 🇺🇸 United States 31
+      - 🇺🇸 United States 32
+      - 🇺🇸 United States 33
+      - 🇺🇸 United States 34
+      - 🇺🇸 United States 35
+      - 🇺🇸 United States 36
+      - 🇺🇸 United States 37
+      - 🇺🇸 United States 38
+      - 🇺🇸 United States 39
+      - 🇺🇸 United States 40
+      - 🇺🇸 United States 41
+      - 🇺🇸 United States 42
+      - 🇺🇸 United States 43
+      - 🇺🇸 United States 44
+      - 🇺🇸 United States 45
+      - 🇺🇸 United States 46
+      - 🇺🇸 United States 47
+      - 🇺🇸 United States 48
+      - 🇺🇸 United States 49
+      - 🇺🇸 United States 50
+      - 🇺🇸 United States 51
+      - 🇺🇸 United States 52
+      - 🇺🇸 United States 53
+      - 🇺🇸 United States 54
+      - 🇺🇸 United States 55
+      - 🇺🇸 United States 56
+      - 🇺🇸 United States 57
+      - 🇺🇸 United States 58
+      - 🇺🇸 United States 59
+      - 🇺🇸 United States 60
+      - 🇺🇸 United States 61
+      - 🇺🇸 United States 62
+      - 🇺🇸 United States 63
+      - 🇺🇸 United States 64
+      - 🇺🇸 United States 65
+      - 🇺🇸 United States 66
+      - 🇺🇸 United States 67
+      - 🇺🇸 United States 68
+      - 🇺🇸 United States 69
+      - 🇨🇦 Canada
+      - 🇨🇦 Canada 2
+      - 🇨🇦 Canada 3
+      - 🇨🇦 Canada 4
+      - 🇨🇦 Canada 5
+      - 🇨🇦 Canada 6
+      - 🇨🇦 Canada 7
+      - 🇨🇦 Canada 8
+      - 🇨🇦 Canada 9
+      - 🇨🇦 Canada 10
+      - 🇨🇦 Canada 11
+      - 🇨🇦 Canada 12
+      - 🇨🇦 Canada 13
+      - 🇨🇦 Canada 14
+      - 🇨🇦 Canada 15
+      - 🇨🇦 Canada 16
+      - 🇨🇦 Canada 17
+      - 🇨🇦 Canada 18
+      - 🇨🇦 Canada 19
+      - 🇨🇦 Canada 20
+      - 🇨🇦 Canada 21
+      - 🇨🇦 Canada 22
+      - 🇨🇦 Canada 23
+      - 🇨🇦 Canada 24
+      - 🇨🇦 Canada 25
+      - 🇨🇦 Canada 26
+      - 🇨🇦 Canada 27
+      - 🇨🇦 Canada 28
+      - 🇨🇦 Canada 29
+      - 🇨🇦 Canada 30
+      - 🇨🇦 Canada 31
+      - 🇨🇦 Canada 32
+      - 🇨🇦 Canada 33
+      - 🇨🇦 Canada 34
+      - 🇨🇦 Canada 35
+      - 🇨🇦 Canada 36
+      - 🇨🇦 Canada 37
+      - 🇨🇦 Canada 38
+      - 🇨🇦 Canada 39
+      - 🇨🇦 Canada 40
+      - 🇨🇦 Canada 41
+      - 🇨🇦 Canada 42
+      - 🇨🇦 Canada 43
+      - 🇨🇦 Canada 44
+      - 🇨🇦 Canada 45
+      - 🇨🇦 Canada 46
+      - 🇨🇦 Canada 47
+      - 🇨🇦 Canada 48
+      - 🇨🇦 Canada 49
+      - 🇨🇦 Canada 50
+      - 🇨🇦 Canada 51
+      - 🇨🇦 Canada 52
+      - 🇨🇦 Canada 53
+      - 🇨🇦 Canada 54
+      - 🇨🇦 Canada 55
+      - 🇨🇦 Canada 56
+      - 🇨🇦 Canada 57
+      - 🇨🇦 Canada 58
+      - 🇨🇦 Canada 59
+      - 🇨🇦 Canada 60
+      - 🇨🇦 Canada 61
+      - 🇨🇦 Canada 62
+      - 🇨🇦 Canada 63
+      - 🇨🇦 Canada 64
+      - 🇨🇦 Canada 65
+      - 🇨🇦 Canada 66
+      - 🇨🇦 Canada 67
+      - 🇨🇦 Canada 68
+      - 🇨🇦 Canada 69
+      - 🇨🇦 Canada 70
+      - 🇨🇦 Canada 71
+      - 🇨🇦 Canada 72
+      - 🇨🇦 Canada 73
+      - 🇨🇦 Canada 74
+      - 🇨🇦 Canada 75
+      - 🇨🇦 Canada 76
+      - 🇨🇦 Canada 77
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
