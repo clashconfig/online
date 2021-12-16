@@ -91,6 +91,7 @@ proxy-groups:
   - name: 🔆 LIST
     type: select
     proxies:
+      - AUTO All ♻️
       - AUTO AMERICAS ♻️
       - AUTO EUROPE ♻️
       - AUTO ASIA PACIFIC ♻️
@@ -170,6 +171,81 @@ proxy-groups:
       - IL 🇮🇱 Tel Aviv
     
   
+  - name: AUTO All ♻️
+    type: url-test
+    proxies:
+      - US 🇺🇸 Atlanta
+      - US 🇺🇸 Chicago
+      - US 🇺🇸 Dallas
+      - US 🇺🇸 Denver
+      - US 🇺🇸 Los Angeles
+      - US 🇺🇸 Los Angeles-PF
+      - US 🇺🇸 Miami
+      - US 🇺🇸 New Jersey
+      - US 🇺🇸 New York
+      - US 🇺🇸 New York-PF
+      - US 🇺🇸 Phoenix
+      - US 🇺🇸 Salt Lake City
+      - US 🇺🇸 San Jose
+      - US 🇺🇸 Seattle
+      - US 🇺🇸 Washington DC
+      - AR 🇦🇷 Buenos Aires
+      - MX 🇲🇽 Mexico City
+      - BR 🇧🇷 Sao Paulo
+      - CA 🇨🇦 Montreal
+      - CA 🇨🇦 Toronto
+      - CA 🇨🇦 Vancouver
+      - NL 🇳🇱 Amsterdam
+      - GR 🇬🇷 Athens
+      - RS 🇷🇸 Belgrade
+      - BE 🇧🇪 Brussels
+      - RO 🇷🇴 Bucharest
+      - HU 🇭🇺 Budapest
+      - DK 🇩🇰 Copenhagen
+      - IE 🇮🇪 Dublin
+      - DE 🇩🇪 Frankfurt
+      - FI 🇫🇮 Helsinki
+      - FI 🇫🇮 Oulu
+      - UA 🇺🇦 Kyiv
+      - PT 🇵🇹 Lisbon
+      - GB 🇬🇧 London
+      - GB 🇬🇧 London-PF
+      - GB 🇬🇧 Manchester
+      - LU 🇱🇺 Luxembourg
+      - ES 🇪🇸 Madrid
+      - IT 🇮🇹 Milan
+      - NO 🇳🇴 Oslo
+      - FR 🇫🇷 Paris
+      - CZ 🇨🇿 Prague
+      - BG 🇧🇬 Sofia
+      - SE 🇸🇪 Stockholm
+      - AT 🇦🇹 Vienna
+      - PL 🇵🇱 Warsaw
+      - CH 🇨🇭 Zurich
+      - NZ 🇳🇿 Auckland
+      - VN 🇻🇳 Hanoi
+      - HK 🇭🇰 Hong Kong
+      - ID 🇮🇩 Jakarta
+      - PH 🇵🇭 Manila
+      - AU 🇦🇺 Melbourne
+      - AU 🇦🇺 Sydney
+      - RU 🇷🇺 Moscow
+      - RU 🇷🇺 St Petersburg
+      - KR 🇰🇷 Seoul
+      - My 🇲🇾 Sibu
+      - SG 🇸🇬 Singapore
+      - TW 🇹🇼 Taipei
+      - JP 🇯🇵 Tokyo
+      - EG 🇪🇬 Cairo
+      - IN 🇮🇳 Chennai
+      - TR 🇹🇷 Denizli
+      - AE 🇦🇪 Dubai
+      - ZA 🇿🇦 Johannesburg
+      - NG 🇳🇬 Lagos
+      - IL 🇮🇱 Tel Aviv
+    
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
   - name: AUTO AMERICAS ♻️
     type: url-test
     proxies:
