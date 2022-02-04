@@ -9,13 +9,15 @@ dns:
   listen: 0.0.0.0:53
   enhanced-mode: redir-host
   nameserver:
-    - https://1.1.1.1/dns-query
+    - https://1.1.1.2/dns-query
     - https://8.8.8.8/dns-query
   fallback:
-    - https://1.0.0.1/dns-query
+    - https://1.0.0.2/dns-query
     - https://8.8.4.4/dns-query
-    - 1.1.1.1
+    - 1.1.1.2
     - 8.8.8.8
+  fallback-filter:
+    geoip: true
 proxies:
   - {name: US 🇺🇸 Atlanta, server: 104.223.91.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QKyLzp5JUG6XEGy2wbEE}
   - {name: US 🇺🇸 Chicago, server: 69.39.239.57, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
@@ -415,12 +417,5 @@ rules:
   - DOMAIN-SUFFIX,ad.com,REJECT
   - GEOIP,IR,DIRECT
   - MATCH,🔆 LIST
-  - IP-CIDR,8.8.8.8/32,🔆 LIST
-  - IP-CIDR,8.8.4.4/32,🔆 LIST
-  - IP-CIDR,1.1.1.1/32,🔆 LIST
-  - IP-CIDR,1.0.0.1/32,🔆 LIST
   - SRC-IP-CIDR,192.168.1.201/32,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
