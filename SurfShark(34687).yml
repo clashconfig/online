@@ -1,0 +1,91 @@
+mixed-port: 7890
+allow-lan: false
+mode: Global
+log-level: silent
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+    - https://1.1.1.2/dns-query
+    - https://8.8.8.8/dns-query
+  fallback:
+    - https://1.0.0.2/dns-query
+    - https://8.8.4.4/dns-query
+    - 1.1.1.2
+    - 8.8.8.8
+  fallback-filter:
+    geoip: true
+proxies:
+  - {name: 01 🇳🇱 UFO Amsterdam, server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇮🇹 UFO Milan, server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 03 🇬🇧 UFO London, server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 04 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 05 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 06 🇫🇷 UFO Paris, server: 163.172.110.53, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 07 🇫🇷 UFO Paris, server: 51.159.30.61, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 08 🇫🇷 UFO Paris, server: 51.159.30.61, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 09 🇬🇧 UFO Manchester, server: 195.12.49.82, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 10 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 11 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 12 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 13 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+ 
+proxy-groups:
+  - name: 🔆 LIST
+    type: select
+    proxies:
+      - AUTO All ♻️
+      - 🔰 Select
+      
+  - name: 🔰 Select
+    type: select
+    proxies:
+      - 01 🇳🇱 UFO Amsterdam
+      - 02 🇮🇹 UFO Milan
+      - 03 🇬🇧 UFO London
+      - 04 🇧🇪 UFO Brussels
+      - 05 🇧🇪 UFO Brussels
+      - 06 🇫🇷 UFO Paris
+      - 07 🇫🇷 UFO Paris
+      - 08 🇫🇷 UFO Paris
+      - 09 🇬🇧 UFO Manchester
+      - 10 🇹🇷 UFO Istanbul
+      - 11 🇳🇴 UFO Oslo
+      - 12 🇳🇴 UFO Oslo
+      - 13 🇳🇴 UFO Oslo
+      
+  - name: AUTO All ♻️
+    type: url-test
+    proxies:
+      - 01 🇳🇱 UFO Amsterdam
+      - 02 🇮🇹 UFO Milan
+      - 03 🇬🇧 UFO London
+      - 04 🇧🇪 UFO Brussels
+      - 05 🇧🇪 UFO Brussels
+      - 06 🇫🇷 UFO Paris
+      - 07 🇫🇷 UFO Paris
+      - 08 🇫🇷 UFO Paris
+      - 09 🇬🇧 UFO Manchester
+      - 10 🇹🇷 UFO Istanbul
+      - 11 🇳🇴 UFO Oslo
+      - 12 🇳🇴 UFO Oslo
+      - 13 🇳🇴 UFO Oslo
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+rules:
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - GEOIP,IR,DIRECT
+  - MATCH,🔆 LIST
+  - IP-CIDR,8.8.8.8/32,🔆 LIST
+  - IP-CIDR,8.8.4.4/32,🔆 LIST
+  - IP-CIDR,1.1.1.1/32,🔆 LIST
+  - IP-CIDR,1.0.0.1/32,🔆 LIST
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
