@@ -44,6 +44,9 @@ proxies:
   - {name: 23 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 24 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 25 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 26 🇩🇪 UFO Hesse, server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 27 🇮🇹 UFO Milan, server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 28 🇦🇪 UFO Sharjah, server: 109.169.72.249, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
  
 proxy-groups:
   - name: 🔆 LIST
@@ -80,6 +83,9 @@ proxy-groups:
       - 23 🇳🇴 UFO Oslo
       - 24 🇳🇴 UFO Oslo
       - 25 🇳🇴 UFO Oslo
+      - 26 🇩🇪 UFO Hesse
+      - 27 🇮🇹 UFO Milan
+      - 28 🇦🇪 UFO Sharjah
       
   - name: AUTO All ♻️
     type: url-test
@@ -109,6 +115,9 @@ proxy-groups:
       - 23 🇳🇴 UFO Oslo
       - 24 🇳🇴 UFO Oslo
       - 25 🇳🇴 UFO Oslo
+      - 26 🇩🇪 UFO Hesse
+      - 27 🇮🇹 UFO Milan
+      - 28 🇦🇪 UFO Sharjah
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
