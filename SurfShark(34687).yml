@@ -22,8 +22,8 @@ proxies:
   - {name: 01 🇳🇱 UFO Amsterdam, server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 02 🇮🇹 UFO Milan, server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 03 🇬🇧 UFO London, server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 04 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 05 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 04 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 05 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 06 🇫🇷 UFO Paris, server: 163.172.110.53, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 07 🇫🇷 UFO Paris, server: 51.159.30.61, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 08 🇫🇷 UFO Paris, server: 51.159.30.61, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -47,6 +47,10 @@ proxies:
   - {name: 26 🇩🇪 UFO Hesse, server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 27 🇮🇹 UFO Milan, server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 28 🇦🇪 UFO Sharjah, server: 109.169.72.249, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 29 🇨🇦 UFO Quebec, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 30 🇩🇪 UFO Dusseldorf, server: 93.186.201.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 31 🇩🇪 UFO Dusseldorf, server: 85.114.138.92, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 32 🇬🇧 UFO Maidenhead, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
  
 proxy-groups:
   - name: 🔆 LIST
@@ -86,6 +90,10 @@ proxy-groups:
       - 26 🇩🇪 UFO Hesse
       - 27 🇮🇹 UFO Milan
       - 28 🇦🇪 UFO Sharjah
+      - 29 🇨🇦 UFO Quebec
+      - 30 🇩🇪 UFO Dusseldorf
+      - 31 🇩🇪 UFO Dusseldorf
+      - 32 🇬🇧 UFO Maidenhead
       
   - name: AUTO All ♻️
     type: url-test
@@ -118,6 +126,10 @@ proxy-groups:
       - 26 🇩🇪 UFO Hesse
       - 27 🇮🇹 UFO Milan
       - 28 🇦🇪 UFO Sharjah
+      - 29 🇨🇦 UFO Quebec
+      - 30 🇩🇪 UFO Dusseldorf
+      - 31 🇩🇪 UFO Dusseldorf
+      - 32 🇬🇧 UFO Maidenhead
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
