@@ -20,37 +20,27 @@ dns:
     geoip: true
 proxies:
   - {name: 01 🇳🇱 UFO Amsterdam, server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇳🇱 UFO Amsterdam, server: 37.120.192.158, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇮🇹 UFO Milan, server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 02 🇮🇹 UFO Milan, server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 03 🇬🇧 UFO London, server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 04 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 05 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 06 🇫🇷 UFO Paris, server: 163.172.110.53, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 07 🇫🇷 UFO Paris, server: 51.159.30.61, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 08 🇫🇷 UFO Paris, server: 51.159.30.61, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 09 🇬🇧 UFO Manchester, server: 195.12.49.82, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 10 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 11 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 12 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 13 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 14 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 15 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 16 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 17 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 18 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 19 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 20 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 21 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 22 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 23 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 24 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 25 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 26 🇩🇪 UFO Hesse, server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 27 🇮🇹 UFO Milan, server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 28 🇦🇪 UFO Sharjah, server: 109.169.72.249, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 29 🇨🇦 UFO Quebec, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 30 🇩🇪 UFO Dusseldorf, server: 93.186.201.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 31 🇩🇪 UFO Dusseldorf, server: 85.114.138.92, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 32 🇬🇧 UFO Maidenhead, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇬🇧 UFO London, server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇬🇧 UFO Manchester, server: 195.12.49.82, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 03 🇬🇧 UFO Maidenhead, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇫🇷 UFO Paris, server: 163.172.110.53, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇫🇷 UFO Paris, server: 51.159.30.61, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 03 🇫🇷 UFO Paris, server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 03 🇹🇷 UFO Istanbul, server: 185.17.113.234, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇳🇴 UFO Oslo, server: 91.189.183.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇩🇪 UFO Hesse, server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 02 🇩🇪 UFO Dusseldorf, server: 93.186.201.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 03 🇩🇪 UFO Dusseldorf, server: 85.114.138.92, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇦🇪 UFO Sharjah, server: 109.169.72.249, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 01 🇨🇦 UFO Quebec, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
  
 proxy-groups:
   - name: 🔆 LIST
@@ -63,73 +53,53 @@ proxy-groups:
     type: select
     proxies:
       - 01 🇳🇱 UFO Amsterdam
+      - 02 🇳🇱 UFO Amsterdam
+      - 01 🇮🇹 UFO Milan
       - 02 🇮🇹 UFO Milan
-      - 03 🇬🇧 UFO London
-      - 04 🇧🇪 UFO Brussels
-      - 05 🇧🇪 UFO Brussels
-      - 06 🇫🇷 UFO Paris
-      - 07 🇫🇷 UFO Paris
-      - 08 🇫🇷 UFO Paris
-      - 09 🇬🇧 UFO Manchester
-      - 10 🇹🇷 UFO Istanbul
-      - 11 🇹🇷 UFO Istanbul
-      - 12 🇹🇷 UFO Istanbul
-      - 13 🇹🇷 UFO Istanbul
-      - 14 🇹🇷 UFO Istanbul
-      - 15 🇹🇷 UFO Istanbul
-      - 16 🇹🇷 UFO Istanbul
-      - 17 🇹🇷 UFO Istanbul
-      - 18 🇹🇷 UFO Istanbul
-      - 19 🇹🇷 UFO Istanbul
-      - 20 🇹🇷 UFO Istanbul
-      - 21 🇹🇷 UFO Istanbul
-      - 22 🇹🇷 UFO Istanbul
-      - 23 🇳🇴 UFO Oslo
-      - 24 🇳🇴 UFO Oslo
-      - 25 🇳🇴 UFO Oslo
-      - 26 🇩🇪 UFO Hesse
-      - 27 🇮🇹 UFO Milan
-      - 28 🇦🇪 UFO Sharjah
-      - 29 🇨🇦 UFO Quebec
-      - 30 🇩🇪 UFO Dusseldorf
-      - 31 🇩🇪 UFO Dusseldorf
-      - 32 🇬🇧 UFO Maidenhead
+      - 01 🇬🇧 UFO London
+      - 02 🇬🇧 UFO Manchester
+      - 03 🇬🇧 UFO Maidenhead
+      - 01 🇧🇪 UFO Brussels
+      - 02 🇧🇪 UFO Brussels
+      - 01 🇫🇷 UFO Paris
+      - 02 🇫🇷 UFO Paris
+      - 03 🇫🇷 UFO Paris
+      - 01 🇹🇷 UFO Istanbul
+      - 02 🇹🇷 UFO Istanbul
+      - 03 🇹🇷 UFO Istanbul
+      - 01 🇳🇴 UFO Oslo
+      - 02 🇳🇴 UFO Oslo
+      - 01 🇩🇪 UFO Hesse
+      - 02 🇩🇪 UFO Dusseldorf
+      - 03 🇩🇪 UFO Dusseldorf
+      - 01 🇦🇪 UFO Sharjah
+      - 01 🇨🇦 UFO Quebec
       
   - name: AUTO All ♻️
     type: url-test
     proxies:
       - 01 🇳🇱 UFO Amsterdam
+      - 02 🇳🇱 UFO Amsterdam
+      - 01 🇮🇹 UFO Milan
       - 02 🇮🇹 UFO Milan
-      - 03 🇬🇧 UFO London
-      - 04 🇧🇪 UFO Brussels
-      - 05 🇧🇪 UFO Brussels
-      - 06 🇫🇷 UFO Paris
-      - 07 🇫🇷 UFO Paris
-      - 08 🇫🇷 UFO Paris
-      - 09 🇬🇧 UFO Manchester
-      - 10 🇹🇷 UFO Istanbul
-      - 11 🇹🇷 UFO Istanbul
-      - 12 🇹🇷 UFO Istanbul
-      - 13 🇹🇷 UFO Istanbul
-      - 14 🇹🇷 UFO Istanbul
-      - 15 🇹🇷 UFO Istanbul
-      - 16 🇹🇷 UFO Istanbul
-      - 17 🇹🇷 UFO Istanbul
-      - 18 🇹🇷 UFO Istanbul
-      - 19 🇹🇷 UFO Istanbul
-      - 20 🇹🇷 UFO Istanbul
-      - 21 🇹🇷 UFO Istanbul
-      - 22 🇹🇷 UFO Istanbul
-      - 23 🇳🇴 UFO Oslo
-      - 24 🇳🇴 UFO Oslo
-      - 25 🇳🇴 UFO Oslo
-      - 26 🇩🇪 UFO Hesse
-      - 27 🇮🇹 UFO Milan
-      - 28 🇦🇪 UFO Sharjah
-      - 29 🇨🇦 UFO Quebec
-      - 30 🇩🇪 UFO Dusseldorf
-      - 31 🇩🇪 UFO Dusseldorf
-      - 32 🇬🇧 UFO Maidenhead
+      - 01 🇬🇧 UFO London
+      - 02 🇬🇧 UFO Manchester
+      - 03 🇬🇧 UFO Maidenhead
+      - 01 🇧🇪 UFO Brussels
+      - 02 🇧🇪 UFO Brussels
+      - 01 🇫🇷 UFO Paris
+      - 02 🇫🇷 UFO Paris
+      - 03 🇫🇷 UFO Paris
+      - 01 🇹🇷 UFO Istanbul
+      - 02 🇹🇷 UFO Istanbul
+      - 03 🇹🇷 UFO Istanbul
+      - 01 🇳🇴 UFO Oslo
+      - 02 🇳🇴 UFO Oslo
+      - 01 🇩🇪 UFO Hesse
+      - 02 🇩🇪 UFO Dusseldorf
+      - 03 🇩🇪 UFO Dusseldorf
+      - 01 🇦🇪 UFO Sharjah
+      - 01 🇨🇦 UFO Quebec
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
