@@ -51,6 +51,8 @@ proxies:
   - {name: 06 🇩🇪 UFO Dusseldorf, server: 85.114.138.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 01 🇦🇪 UFO Sharjah, server: 109.169.72.249, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 02 🇦🇪 UFO Sharjah, server: 109.169.72.249, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 03 🇦🇪 UFO Dubai, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 04 🇦🇪 UFO Dubai, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 01 🇨🇦 UFO Quebec, server: 51.161.118.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 02 🇨🇦 UFO Quebec, server: 51.161.118.38, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
  
@@ -96,6 +98,8 @@ proxy-groups:
       - 06 🇩🇪 UFO Dusseldorf
       - 01 🇦🇪 UFO Sharjah
       - 02 🇦🇪 UFO Sharjah
+      - 03 🇦🇪 UFO Dubai
+      - 04 🇦🇪 UFO Dubai
       - 01 🇨🇦 UFO Quebec
       - 02 🇨🇦 UFO Quebec
       
@@ -134,6 +138,8 @@ proxy-groups:
       - 06 🇩🇪 UFO Dusseldorf
       - 01 🇦🇪 UFO Sharjah
       - 02 🇦🇪 UFO Sharjah
+      - 03 🇦🇪 UFO Dubai
+      - 04 🇦🇪 UFO Dubai
       - 01 🇨🇦 UFO Quebec
       - 02 🇨🇦 UFO Quebec
     url: 'http://www.gstatic.com/generate_204'
