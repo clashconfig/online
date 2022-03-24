@@ -28,7 +28,7 @@ proxies:
   - {name: 01 🇩🇪 UFO Dusseldorf, server: 93.186.201.124, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 02 🇩🇪 UFO Dusseldorf, server: 93.186.201.124, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 03 🇩🇪 UFO Hessen, server: 185.104.184.78, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 04 🇩🇪 UFO Hessen, server: 185.104.184.78, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 04 🇩🇪 UFO Hessen, server: 185.104.184.78, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 01 🇳🇴 UFO Oslo, server: 185.101.35.172, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 02 🇳🇴 UFO Oslo, server: 185.101.35.172, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 01 🇷🇺 UFO Moscow, server: 92.38.139.136, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
