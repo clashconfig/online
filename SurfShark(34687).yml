@@ -19,30 +19,28 @@ dns:
   fallback-filter:
     geoip: true
 proxies:
-  - {name: 01 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
-  - {name: 02 🇧🇪 UFO Brussels, server: 193.9.114.34, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
+  - {name: 01 🇮🇹 UFO Codogno, server: 158.58.173.240, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
+  - {name: 02 🇮🇹 UFO Codogno, server: 158.58.173.240, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
   - {name: 01 🇸🇪 UFO Stockholm, server: 196.196.156.122, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
   - {name: 02 🇸🇪 UFO Stockholm, server: 196.196.156.122, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
-  - {name: 01 🇫🇷 UFO Paris, server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
+  - {name: 01 🇫🇷 UFO Paris, server: 163.172.110.153, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
   - {name: 02 🇫🇷 UFO Paris, server: 163.172.110.153, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
-  - {name: 03 🇫🇷 UFO Paris, server: 188.241.83.130, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
-  - {name: 04 🇫🇷 UFO Paris, server: 188.241.83.130, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
-  - {name: 01 🇳🇱 UFO Amsterdam, server: 37.120.192.158, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
-  - {name: 02 🇳🇱 UFO Amsterdam, server: 37.120.192.158, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp:true}
   - {name: 01 🇩🇪 UFO Dusseldorf, server: 85.114.138.92, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 02 🇩🇪 UFO Dusseldorf, server: 85.114.138.92, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 03 🇩🇪 UFO Dusseldorf, server: 93.186.201.124, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 04 🇩🇪 UFO Dusseldorf, server: 93.186.201.124, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 04 🇩🇪 UFO Dusseldorf, server: 93.186.201.124, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 05 🇩🇪 UFO Dusseldorf, server: 93.186.201.158, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 06 🇩🇪 UFO Dusseldorf, server: 93.186.201.158, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 07 🇩🇪 UFO Hessen, server: 185.104.184.78, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 08 🇩🇪 UFO Hessen, server: 185.104.184.78, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 07 🇩🇪 UFO Frankfurt am Main, server: 185.104.184.78, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 08 🇩🇪 UFO Frankfurt am Main, server: 185.104.184.78, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 01 🇷🇺 UFO Moscow, server: 92.38.139.136, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 02 🇷🇺 UFO Moscow, server: 92.38.139.136, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 01 🇦🇪 UFO Dubai, server: 109.169.72.249, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 02 🇦🇪 UFO Dubai, server: 109.169.72.249, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 01 🇺🇸 UFO Chicago, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 02 🇺🇸 UFO Chicago, server: 162.251.61.221, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 03 🇺🇸 UFO Chicago, server: 162.251.61.47, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 04 🇺🇸 UFO Chicago, server: 162.251.61.47, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 05 🇺🇸 UFO Miami, server: 193.37.252.210, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 06 🇺🇸 UFO Miami, server: 193.37.252.210, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 01 🇨🇦 UFO Quebec, server: 51.161.118.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 02 🇨🇦 UFO Quebec, server: 51.161.118.38, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 03 🇨🇦 UFO Toronto, server: 196.247.59.156, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -63,24 +61,113 @@ proxies:
   - {name: 08 🇷🇺 Moscow, server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3, udp: true}
   - {name: 09 🇺🇸 Wilmington, server: 104.237.224.144, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3, udp: true}
   - {name: 10 🇹🇷 Eyuepsultan, server: 212.68.55.11, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3, udp: true}
-  - {name: 01 🇩🇪 Frankfurt am Main, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 01 🇫🇷 Paris, server: 5.39.70.138, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 02 🇫🇷 Paris, server: 5.39.70.138, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 03 🇫🇷 Paris, server: 5.39.70.138, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 04 🇫🇷 Paris, server: 54.38.72.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 05 🇫🇷 Paris, server: 54.38.72.170, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 06 🇫🇷 Paris, server: 54.38.72.170, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 07 🇫🇷 Paris, server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 001 🇬🇧 London, server: 149.7.16.10, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 002 🇬🇧 London, server: 149.7.16.10, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 003 🇬🇧 London, server: 149.7.16.10, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 004 🇬🇧 London, server: 149.7.16.10, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 005 🇬🇧 London, server: 149.7.16.10, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 006 🇬🇧 London, server: 149.7.16.10, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 007 🇬🇧 London, server: 149.7.16.10, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 008 🇬🇧 London, server: 54.38.72.170, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 009 🇬🇧 London, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 010 🇬🇧 London, server: 172.99.190.167, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 01 🇷🇺 St Petersburg, server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst, udp: true}
+  - {name: 01 🇺🇦 Kyiv, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho, udp: true}
+  - {name: 01 🇳🇱 Amsterdam, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 02 🇳🇱 Amsterdam, server: 172.99.188.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 03 🇳🇱 Amsterdam, server: 172.99.188.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 04 🇳🇱 Amsterdam, server: 172.99.188.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 05 🇳🇱 Amsterdam, server: 172.99.188.99, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 06 🇳🇱 Amsterdam, server: 172.99.188.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 07 🇳🇱 Amsterdam, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 08 🇳🇱 Amsterdam, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 09 🇳🇱 Amsterdam, server: 172.99.188.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 10 🇳🇱 Amsterdam, server: 172.99.188.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 11 🇳🇱 Amsterdam, server: 172.99.188.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 12 🇳🇱 Amsterdam, server: 172.99.188.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 13 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 14 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 15 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 16 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 17 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 18 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 19 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 20 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 21 🇳🇱 Amsterdam, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 01 🇫🇷 Paris, server: 5.39.70.138, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 02 🇫🇷 Paris, server: 5.39.70.138, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 03 🇫🇷 Paris, server: 5.39.70.138, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 04 🇫🇷 Paris, server: 5.39.70.138, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 05 🇫🇷 Paris, server: 5.39.70.138, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 06 🇫🇷 Paris, server: 5.39.70.138, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 07 🇫🇷 Paris, server: 5.39.70.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 08 🇫🇷 Paris, server: 5.39.70.138, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 09 🇫🇷 Paris, server: 5.39.70.138, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 10 🇫🇷 Paris, server: 5.39.70.138, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 11 🇫🇷 Paris, server: 5.39.70.138, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 12 🇫🇷 Paris, server: 5.39.70.138, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 13 🇫🇷 Paris, server: 5.39.70.138, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 14 🇫🇷 Paris, server: 5.39.70.138, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 15 🇫🇷 Paris, server: 5.39.70.138, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 16 🇫🇷 Paris, server: 5.39.70.138, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 17 🇫🇷 Paris, server: 5.39.70.138, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 18 🇫🇷 Paris, server: 5.39.70.138, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 19 🇫🇷 Paris, server: 5.39.70.138, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 20 🇫🇷 Paris, server: 5.39.70.138, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 21 🇫🇷 Paris, server: 5.39.70.138, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 01 🇬🇧 Glasgow, server: 212.38.189.174, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 02 🇬🇧 Glasgow, server: 212.38.189.174, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 03 🇬🇧 Glasgow, server: 212.38.189.174, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 04 🇬🇧 Glasgow, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 05 🇬🇧 Glasgow, server: 212.38.189.174, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 06 🇬🇧 Glasgow, server: 212.38.189.174, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 07 🇬🇧 Glasgow, server: 212.38.189.174, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 08 🇬🇧 Glasgow, server: 212.38.189.174, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 09 🇬🇧 Glasgow, server: 212.38.189.174, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 10 🇬🇧 Glasgow, server: 212.38.189.174, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 11 🇬🇧 Glasgow, server: 212.38.189.174, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 12 🇬🇧 Glasgow, server: 212.38.189.174, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 13 🇬🇧 Glasgow, server: 212.38.189.174, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 14 🇬🇧 Glasgow, server: 212.38.189.174, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 15 🇬🇧 Glasgow, server: 212.38.189.174, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 16 🇬🇧 Glasgow, server: 212.38.189.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 17 🇬🇧 Glasgow, server: 212.38.189.174, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 18 🇬🇧 Glasgow, server: 212.38.189.174, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 19 🇬🇧 Glasgow, server: 212.38.189.174, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 20 🇬🇧 Glasgow, server: 212.38.189.174, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 21 🇬🇧 Glasgow, server: 212.38.189.174, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 22 🇬🇧 London, server: 54.38.72.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 23 🇬🇧 London, server: 54.38.72.170, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 24 🇬🇧 London, server: 54.38.72.170, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 25 🇬🇧 London, server: 54.38.72.170, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 26 🇬🇧 London, server: 54.38.72.170, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 27 🇬🇧 London, server: 54.38.72.170, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 28 🇬🇧 London, server: 54.38.72.170, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 29 🇬🇧 London, server: 54.38.72.170, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 30 🇬🇧 London, server: 54.38.72.170, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 31 🇬🇧 London, server: 54.38.72.170, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 32 🇬🇧 London, server: 54.38.72.170, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 33 🇬🇧 London, server: 54.38.72.170, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 34 🇬🇧 London, server: 54.38.72.170, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 35 🇬🇧 London, server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 36 🇬🇧 London, server: 54.38.72.170, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 37 🇬🇧 London, server: 54.38.72.170, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 38 🇬🇧 London, server: 54.38.72.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 39 🇬🇧 London, server: 54.38.72.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 40 🇬🇧 London, server: 54.38.72.170, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 41 🇬🇧 London, server: 54.38.72.170, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 42 🇬🇧 London, server: 54.38.72.170, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 43 🇬🇧 London, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 44 🇬🇧 London, server: 172.99.190.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 45 🇬🇧 London, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 46 🇬🇧 London, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 47 🇬🇧 London, server: 172.99.190.149, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 48 🇬🇧 London, server: 172.99.190.149, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 49 🇬🇧 London, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50 🇬🇧 London, server: 172.99.190.149, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 51 🇬🇧 London, server: 172.99.190.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 52 🇬🇧 London, server: 172.99.190.149, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 53 🇬🇧 London, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 54 🇬🇧 London, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 55 🇬🇧 London, server: 172.99.190.149, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 56 🇬🇧 London, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 57 🇬🇧 London, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 58 🇬🇧 London, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 59 🇬🇧 London, server: 172.99.190.149, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 60 🇬🇧 London, server: 172.99.190.149, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 61 🇬🇧 London, server: 172.99.190.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 62 🇬🇧 London, server: 172.99.190.149, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 63 🇬🇧 London, server: 172.99.190.149, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 01 🇧🇦 Sarajevo, server: 185.212.111.59, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: 02 🇧🇦 Sarajevo, server: 185.212.111.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
   - {name: 03 🇧🇦 Sarajevo, server: 185.212.111.59, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
@@ -95,30 +182,28 @@ proxy-groups:
   - name: 🔰 Select
     type: select
     proxies:
-      - 01 🇧🇪 UFO Brussels
-      - 02 🇧🇪 UFO Brussels
+      - 01 🇮🇹 UFO Codogno
+      - 02 🇮🇹 UFO Codogno
       - 01 🇸🇪 UFO Stockholm
       - 02 🇸🇪 UFO Stockholm
       - 01 🇫🇷 UFO Paris
       - 02 🇫🇷 UFO Paris
-      - 03 🇫🇷 UFO Paris
-      - 04 🇫🇷 UFO Paris
-      - 01 🇳🇱 UFO Amsterdam
-      - 02 🇳🇱 UFO Amsterdam
       - 01 🇩🇪 UFO Dusseldorf
       - 02 🇩🇪 UFO Dusseldorf
       - 03 🇩🇪 UFO Dusseldorf
       - 04 🇩🇪 UFO Dusseldorf
       - 05 🇩🇪 UFO Dusseldorf
       - 06 🇩🇪 UFO Dusseldorf
-      - 07 🇩🇪 UFO Hessen
-      - 08 🇩🇪 UFO Hessen
+      - 07 🇩🇪 UFO Frankfurt am Main
+      - 08 🇩🇪 UFO Frankfurt am Main
       - 01 🇷🇺 UFO Moscow
       - 02 🇷🇺 UFO Moscow
-      - 01 🇦🇪 UFO Dubai
-      - 02 🇦🇪 UFO Dubai
       - 01 🇺🇸 UFO Chicago
       - 02 🇺🇸 UFO Chicago
+      - 03 🇺🇸 UFO Chicago
+      - 04 🇺🇸 UFO Chicago
+      - 05 🇺🇸 UFO Miami
+      - 06 🇺🇸 UFO Miami
       - 01 🇨🇦 UFO Quebec
       - 02 🇨🇦 UFO Quebec
       - 03 🇨🇦 UFO Toronto
@@ -139,7 +224,29 @@ proxy-groups:
       - 08 🇷🇺 Moscow
       - 09 🇺🇸 Wilmington
       - 10 🇹🇷 Eyuepsultan
-      - 01 🇩🇪 Frankfurt am Main
+      - 01 🇷🇺 St Petersburg
+      - 01 🇺🇦 Kyiv  
+      - 01 🇳🇱 Amsterdam
+      - 02 🇳🇱 Amsterdam
+      - 03 🇳🇱 Amsterdam
+      - 04 🇳🇱 Amsterdam
+      - 05 🇳🇱 Amsterdam
+      - 06 🇳🇱 Amsterdam
+      - 07 🇳🇱 Amsterdam
+      - 08 🇳🇱 Amsterdam
+      - 09 🇳🇱 Amsterdam
+      - 10 🇳🇱 Amsterdam
+      - 11 🇳🇱 Amsterdam
+      - 12 🇳🇱 Amsterdam
+      - 13 🇳🇱 Amsterdam
+      - 14 🇳🇱 Amsterdam
+      - 15 🇳🇱 Amsterdam
+      - 16 🇳🇱 Amsterdam
+      - 17 🇳🇱 Amsterdam
+      - 18 🇳🇱 Amsterdam
+      - 19 🇳🇱 Amsterdam
+      - 20 🇳🇱 Amsterdam
+      - 21 🇳🇱 Amsterdam
       - 01 🇫🇷 Paris
       - 02 🇫🇷 Paris
       - 03 🇫🇷 Paris
@@ -147,16 +254,83 @@ proxy-groups:
       - 05 🇫🇷 Paris
       - 06 🇫🇷 Paris
       - 07 🇫🇷 Paris
-      - 001 🇬🇧 London
-      - 002 🇬🇧 London
-      - 003 🇬🇧 London
-      - 004 🇬🇧 London
-      - 005 🇬🇧 London
-      - 006 🇬🇧 London
-      - 007 🇬🇧 London
-      - 008 🇬🇧 London
-      - 009 🇬🇧 London
-      - 010 🇬🇧 London
+      - 08 🇫🇷 Paris
+      - 09 🇫🇷 Paris
+      - 10 🇫🇷 Paris
+      - 11 🇫🇷 Paris
+      - 12 🇫🇷 Paris
+      - 13 🇫🇷 Paris
+      - 14 🇫🇷 Paris
+      - 15 🇫🇷 Paris
+      - 16 🇫🇷 Paris
+      - 17 🇫🇷 Paris
+      - 18 🇫🇷 Paris
+      - 19 🇫🇷 Paris
+      - 20 🇫🇷 Paris
+      - 21 🇫🇷 Paris
+      - 01 🇬🇧 Glasgow
+      - 02 🇬🇧 Glasgow
+      - 03 🇬🇧 Glasgow
+      - 04 🇬🇧 Glasgow
+      - 05 🇬🇧 Glasgow
+      - 06 🇬🇧 Glasgow
+      - 07 🇬🇧 Glasgow
+      - 08 🇬🇧 Glasgow
+      - 09 🇬🇧 Glasgow
+      - 10 🇬🇧 Glasgow
+      - 11 🇬🇧 Glasgow
+      - 12 🇬🇧 Glasgow
+      - 13 🇬🇧 Glasgow
+      - 14 🇬🇧 Glasgow
+      - 15 🇬🇧 Glasgow
+      - 16 🇬🇧 Glasgow
+      - 17 🇬🇧 Glasgow
+      - 18 🇬🇧 Glasgow
+      - 19 🇬🇧 Glasgow
+      - 20 🇬🇧 Glasgow
+      - 21 🇬🇧 Glasgow
+      - 22 🇬🇧 London
+      - 23 🇬🇧 London
+      - 24 🇬🇧 London
+      - 25 🇬🇧 London
+      - 26 🇬🇧 London
+      - 27 🇬🇧 London
+      - 28 🇬🇧 London
+      - 29 🇬🇧 London
+      - 30 🇬🇧 London
+      - 31 🇬🇧 London
+      - 32 🇬🇧 London
+      - 33 🇬🇧 London
+      - 34 🇬🇧 London
+      - 35 🇬🇧 London
+      - 36 🇬🇧 London
+      - 37 🇬🇧 London
+      - 38 🇬🇧 London
+      - 39 🇬🇧 London
+      - 40 🇬🇧 London
+      - 41 🇬🇧 London
+      - 42 🇬🇧 London
+      - 43 🇬🇧 London
+      - 44 🇬🇧 London
+      - 45 🇬🇧 London
+      - 46 🇬🇧 London
+      - 47 🇬🇧 London
+      - 48 🇬🇧 London
+      - 49 🇬🇧 London
+      - 50 🇬🇧 London
+      - 51 🇬🇧 London
+      - 52 🇬🇧 London
+      - 53 🇬🇧 London
+      - 54 🇬🇧 London
+      - 55 🇬🇧 London
+      - 56 🇬🇧 London
+      - 57 🇬🇧 London
+      - 58 🇬🇧 London
+      - 59 🇬🇧 London
+      - 60 🇬🇧 London
+      - 61 🇬🇧 London
+      - 62 🇬🇧 London
+      - 63 🇬🇧 London
       - 01 🇧🇦 Sarajevo
       - 02 🇧🇦 Sarajevo
       - 03 🇧🇦 Sarajevo
@@ -164,30 +338,28 @@ proxy-groups:
   - name: AUTO All ♻️
     type: url-test
     proxies:
-      - 01 🇧🇪 UFO Brussels
-      - 02 🇧🇪 UFO Brussels
+      - 01 🇮🇹 UFO Codogno
+      - 02 🇮🇹 UFO Codogno
       - 01 🇸🇪 UFO Stockholm
       - 02 🇸🇪 UFO Stockholm
       - 01 🇫🇷 UFO Paris
       - 02 🇫🇷 UFO Paris
-      - 03 🇫🇷 UFO Paris
-      - 04 🇫🇷 UFO Paris
-      - 01 🇳🇱 UFO Amsterdam
-      - 02 🇳🇱 UFO Amsterdam
       - 01 🇩🇪 UFO Dusseldorf
       - 02 🇩🇪 UFO Dusseldorf
       - 03 🇩🇪 UFO Dusseldorf
       - 04 🇩🇪 UFO Dusseldorf
       - 05 🇩🇪 UFO Dusseldorf
       - 06 🇩🇪 UFO Dusseldorf
-      - 07 🇩🇪 UFO Hessen
-      - 08 🇩🇪 UFO Hessen
+      - 07 🇩🇪 UFO Frankfurt am Main
+      - 08 🇩🇪 UFO Frankfurt am Main
       - 01 🇷🇺 UFO Moscow
       - 02 🇷🇺 UFO Moscow
-      - 01 🇦🇪 UFO Dubai
-      - 02 🇦🇪 UFO Dubai
       - 01 🇺🇸 UFO Chicago
       - 02 🇺🇸 UFO Chicago
+      - 03 🇺🇸 UFO Chicago
+      - 04 🇺🇸 UFO Chicago
+      - 05 🇺🇸 UFO Miami
+      - 06 🇺🇸 UFO Miami
       - 01 🇨🇦 UFO Quebec
       - 02 🇨🇦 UFO Quebec
       - 03 🇨🇦 UFO Toronto
@@ -208,7 +380,29 @@ proxy-groups:
       - 08 🇷🇺 Moscow
       - 09 🇺🇸 Wilmington
       - 10 🇹🇷 Eyuepsultan
-      - 01 🇩🇪 Frankfurt am Main
+      - 01 🇷🇺 St Petersburg
+      - 01 🇺🇦 Kyiv  
+      - 01 🇳🇱 Amsterdam
+      - 02 🇳🇱 Amsterdam
+      - 03 🇳🇱 Amsterdam
+      - 04 🇳🇱 Amsterdam
+      - 05 🇳🇱 Amsterdam
+      - 06 🇳🇱 Amsterdam
+      - 07 🇳🇱 Amsterdam
+      - 08 🇳🇱 Amsterdam
+      - 09 🇳🇱 Amsterdam
+      - 10 🇳🇱 Amsterdam
+      - 11 🇳🇱 Amsterdam
+      - 12 🇳🇱 Amsterdam
+      - 13 🇳🇱 Amsterdam
+      - 14 🇳🇱 Amsterdam
+      - 15 🇳🇱 Amsterdam
+      - 16 🇳🇱 Amsterdam
+      - 17 🇳🇱 Amsterdam
+      - 18 🇳🇱 Amsterdam
+      - 19 🇳🇱 Amsterdam
+      - 20 🇳🇱 Amsterdam
+      - 21 🇳🇱 Amsterdam
       - 01 🇫🇷 Paris
       - 02 🇫🇷 Paris
       - 03 🇫🇷 Paris
@@ -216,16 +410,83 @@ proxy-groups:
       - 05 🇫🇷 Paris
       - 06 🇫🇷 Paris
       - 07 🇫🇷 Paris
-      - 001 🇬🇧 London
-      - 002 🇬🇧 London
-      - 003 🇬🇧 London
-      - 004 🇬🇧 London
-      - 005 🇬🇧 London
-      - 006 🇬🇧 London
-      - 007 🇬🇧 London
-      - 008 🇬🇧 London
-      - 009 🇬🇧 London
-      - 010 🇬🇧 London
+      - 08 🇫🇷 Paris
+      - 09 🇫🇷 Paris
+      - 10 🇫🇷 Paris
+      - 11 🇫🇷 Paris
+      - 12 🇫🇷 Paris
+      - 13 🇫🇷 Paris
+      - 14 🇫🇷 Paris
+      - 15 🇫🇷 Paris
+      - 16 🇫🇷 Paris
+      - 17 🇫🇷 Paris
+      - 18 🇫🇷 Paris
+      - 19 🇫🇷 Paris
+      - 20 🇫🇷 Paris
+      - 21 🇫🇷 Paris
+      - 01 🇬🇧 Glasgow
+      - 02 🇬🇧 Glasgow
+      - 03 🇬🇧 Glasgow
+      - 04 🇬🇧 Glasgow
+      - 05 🇬🇧 Glasgow
+      - 06 🇬🇧 Glasgow
+      - 07 🇬🇧 Glasgow
+      - 08 🇬🇧 Glasgow
+      - 09 🇬🇧 Glasgow
+      - 10 🇬🇧 Glasgow
+      - 11 🇬🇧 Glasgow
+      - 12 🇬🇧 Glasgow
+      - 13 🇬🇧 Glasgow
+      - 14 🇬🇧 Glasgow
+      - 15 🇬🇧 Glasgow
+      - 16 🇬🇧 Glasgow
+      - 17 🇬🇧 Glasgow
+      - 18 🇬🇧 Glasgow
+      - 19 🇬🇧 Glasgow
+      - 20 🇬🇧 Glasgow
+      - 21 🇬🇧 Glasgow
+      - 22 🇬🇧 London
+      - 23 🇬🇧 London
+      - 24 🇬🇧 London
+      - 25 🇬🇧 London
+      - 26 🇬🇧 London
+      - 27 🇬🇧 London
+      - 28 🇬🇧 London
+      - 29 🇬🇧 London
+      - 30 🇬🇧 London
+      - 31 🇬🇧 London
+      - 32 🇬🇧 London
+      - 33 🇬🇧 London
+      - 34 🇬🇧 London
+      - 35 🇬🇧 London
+      - 36 🇬🇧 London
+      - 37 🇬🇧 London
+      - 38 🇬🇧 London
+      - 39 🇬🇧 London
+      - 40 🇬🇧 London
+      - 41 🇬🇧 London
+      - 42 🇬🇧 London
+      - 43 🇬🇧 London
+      - 44 🇬🇧 London
+      - 45 🇬🇧 London
+      - 46 🇬🇧 London
+      - 47 🇬🇧 London
+      - 48 🇬🇧 London
+      - 49 🇬🇧 London
+      - 50 🇬🇧 London
+      - 51 🇬🇧 London
+      - 52 🇬🇧 London
+      - 53 🇬🇧 London
+      - 54 🇬🇧 London
+      - 55 🇬🇧 London
+      - 56 🇬🇧 London
+      - 57 🇬🇧 London
+      - 58 🇬🇧 London
+      - 59 🇬🇧 London
+      - 60 🇬🇧 London
+      - 61 🇬🇧 London
+      - 62 🇬🇧 London
+      - 63 🇬🇧 London
       - 01 🇧🇦 Sarajevo
       - 02 🇧🇦 Sarajevo
       - 03 🇧🇦 Sarajevo
